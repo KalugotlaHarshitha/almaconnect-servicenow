@@ -1,7 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="f283322583763210979271d6feaad329" label="Student" max_length="40" name="x_1909965_almaconn_student" type="collection">
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Name" max_length="40" name="name" type="string"/>
+        <element label="Email" max_length="50" name="email" type="string"/>
+        <element choice="1" label="Year" max_length="10" name="year" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="II" value="II"/>
+                <element inactive_on_update="false" label="III" value="III"/>
+                <element inactive_on_update="false" label="I" value="I"/>
+                <element inactive_on_update="false" label="IV" value="IV"/>
+            </choice>
+        </element>
+        <element choice="3" default="Choose dept" label="Department" max_length="50" name="department" reference_qual="null" reference_qual_condition="null" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="AI" value="AI"/>
+                <element inactive_on_update="false" label="CSE" value="CSE"/>
+                <element inactive_on_update="false" label="IOT" value="IOT"/>
+                <element inactive_on_update="false" label="DS" value="DS"/>
+                <element inactive_on_update="false" label="ECE" value="ECE"/>
+                <element inactive_on_update="false" label="ML" value="ML"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Status" max_length="40" name="status" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Active" sequence="0" value="active"/>
+                <element inactive_on_update="false" label="Inactive" sequence="1" value="inactive"/>
+                <element inactive_on_update="false" label="Blocked" sequence="2" value="blocked"/>
+            </choice>
+        </element>
+        <element label="Phone Number" max_length="10" name="phone_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Student Name" max_length="40" name="name" type="string"/>
         <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
         <index name="index">
             <element name="sys_class_name"/>
