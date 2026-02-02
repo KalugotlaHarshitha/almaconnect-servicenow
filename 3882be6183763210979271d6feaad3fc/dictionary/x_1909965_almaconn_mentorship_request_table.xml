@@ -1,3 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="ce841fe983f63210979271d6feaad3ac" label="Mentorship Request Table" max_length="40" name="x_1909965_almaconn_mentorship_request_table" type="collection"/>
+    <element db_object_id="ce841fe983f63210979271d6feaad3ac" label="Mentorship Request Table" max_length="40" name="x_1909965_almaconn_mentorship_request_table" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="MentorID" max_length="40" name="number" type="string"/>
+        <element label="Student Name" max_length="32" name="student_name" reference="x_1909965_almaconn_student" type="reference"/>
+        <element label="Alumni Name" max_length="32" name="alumni_name" reference="x_1909965_almaconn_alumni" type="reference"/>
+        <index name="index">
+            <element name="alumni_name"/>
+        </index>
+        <index name="index2">
+            <element name="student_name"/>
+        </index>
+    </element>
 </database>

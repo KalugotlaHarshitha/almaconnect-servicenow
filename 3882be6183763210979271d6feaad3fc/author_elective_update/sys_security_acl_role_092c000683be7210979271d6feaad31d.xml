@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-02 15:54:42</sys_created_on>
+        <sys_id>092c000683be7210979271d6feaad31d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1909965_almaconn__empty_.x_1909965_almaconn.alumni_user</sys_name>
+        <sys_package display_value="AlmaConnect" source="x_1909965_almaconn">3882be6183763210979271d6feaad3fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AlmaConnect">3882be6183763210979271d6feaad3fc</sys_scope>
+        <sys_security_acl display_value="x_1909965_almaconn__empty_">012c000683be7210979271d6feaad31a</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_092c000683be7210979271d6feaad31d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-02 15:54:42</sys_updated_on>
+        <sys_user_role display_value="x_1909965_almaconn.alumni_user" name="x_1909965_almaconn.alumni_user">2a345f2983f63210979271d6feaad3e0</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AlmaConnect">3882be6183763210979271d6feaad3fc</application>
+        <file_path/>
+        <instance_id>196a47e22b8f9ad4e2e6fcd2ce91bf51</instance_id>
+        <instance_name>dev292608</instance_name>
+        <name>sys_security_acl_role_092c000683be7210979271d6feaad31d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-02 15:54:42</sys_created_on><sys_id>092c000683be7210979271d6feaad31d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1909965_almaconn__empty_.x_1909965_almaconn.alumni_user</sys_name><sys_package display_value="AlmaConnect" source="x_1909965_almaconn">3882be6183763210979271d6feaad3fc</sys_package><sys_policy/><sys_scope display_value="AlmaConnect">3882be6183763210979271d6feaad3fc</sys_scope><sys_security_acl display_value="x_1909965_almaconn__empty_">012c000683be7210979271d6feaad31a</sys_security_acl><sys_update_name>sys_security_acl_role_092c000683be7210979271d6feaad31d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-02 15:54:42</sys_updated_on><sys_user_role display_value="x_1909965_almaconn.alumni_user" name="x_1909965_almaconn.alumni_user">2a345f2983f63210979271d6feaad3e0</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>1089154215</payload_hash>
+        <record_name>x_1909965_almaconn__empty_.x_1909965_almaconn.alumni_user</record_name>
+        <reverted_from/>
+        <source>0a3d7aed83763210979271d6feaad316</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-02 15:54:42</sys_created_on>
+        <sys_id>492c000683be7210979271d6feaad320</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19c1f1037ef0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-02 15:54:42</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>4d2c00064fbe7210018aba33a81c9b1f</update_guid>
+        <update_guid_history>4d2c00064fbe7210018aba33a81c9b1f:1089154215</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_1909965_almaconn__empty_.x_1909965_almaconn.alumni_user">90ddd04a83fe7210979271d6feaad3c9</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-02 17:11:56</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>3c7b745a36d946e994f1433ba4364a11</sys_id>
+        <sys_metadata>092c000683be7210979271d6feaad31d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1909965_almaconn__empty_.x_1909965_almaconn.alumni_user</sys_name>
+        <sys_package display_value="AlmaConnect" source="x_1909965_almaconn">3882be6183763210979271d6feaad3fc</sys_package>
+        <sys_parent display_value="">012c000683be7210979271d6feaad31a</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="AlmaConnect">3882be6183763210979271d6feaad3fc</sys_scope>
+        <sys_scope_delete display_value="">17c1063288fd4f2089beaa6318683ee4</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_092c000683be7210979271d6feaad31d</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_092c000683be7210979271d6feaad31d">492c000683be7210979271d6feaad320</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-02 17:11:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="" label="Alumni" language="en" table="x_1909965_almaconn_alumni">
+    <sys_documentation element="job_title" label="Job Title" language="en" table="x_1909965_almaconn_alumni">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element/>
+            <element>job_title</element>
             <help/>
             <hint/>
-            <label>Alumni</label>
+            <label>Job Title</label>
             <language>en</language>
             <name>x_1909965_almaconn_alumni</name>
-            <plural>Alumnis</plural>
+            <plural>Job Titles</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-02-02 15:49:20</sys_created_on>
+            <sys_created_on>2026-02-02 17:46:52</sys_created_on>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>Alumni</sys_name>
+            <sys_name>Job Title</sys_name>
             <sys_package display_value="AlmaConnect" source="x_1909965_almaconn">3882be6183763210979271d6feaad3fc</sys_package>
             <sys_policy/>
             <sys_scope display_value="AlmaConnect">3882be6183763210979271d6feaad3fc</sys_scope>
-            <sys_update_name>sys_documentation_x_1909965_almaconn_alumni__en</sys_update_name>
+            <sys_update_name>sys_documentation_x_1909965_almaconn_alumni_job_title_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-02-02 15:49:20</sys_updated_on>
+            <sys_updated_on>2026-02-02 17:46:52</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

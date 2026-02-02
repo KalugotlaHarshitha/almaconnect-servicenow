@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="DELETE">
+        <active>true</active>
+        <application display_value="Alumni">e63457e983f63210979271d6feaad369</application>
+        <filter/>
+        <name>Alumnis</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_1909965_almaconn.alumni_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-01 17:11:56</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>623457e983f63210979271d6feaad36d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Alumnis</sys_name>
+        <sys_package display_value="AlmaConnect" source="x_1909965_almaconn">3882be6183763210979271d6feaad3fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AlmaConnect">3882be6183763210979271d6feaad3fc</sys_scope>
+        <sys_update_name>sys_ui_module_623457e983f63210979271d6feaad36d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-01 17:11:56</sys_updated_on>
+        <table>x_1909965_almaconn_alumni</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AlmaConnect">3882be6183763210979271d6feaad3fc</application>
+        <file_path/>
+        <instance_id>196a47e22b8f9ad4e2e6fcd2ce91bf51</instance_id>
+        <instance_name>dev292608</instance_name>
+        <name>sys_ui_module_623457e983f63210979271d6feaad36d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Alumni">e63457e983f63210979271d6feaad369</application><filter/><name>Alumnis</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>x_1909965_almaconn.alumni_user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-01 17:11:56</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>623457e983f63210979271d6feaad36d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Alumnis</sys_name><sys_package display_value="AlmaConnect" source="x_1909965_almaconn">3882be6183763210979271d6feaad3fc</sys_package><sys_policy/><sys_scope display_value="AlmaConnect">3882be6183763210979271d6feaad3fc</sys_scope><sys_update_name>sys_ui_module_623457e983f63210979271d6feaad36d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-01 17:11:56</sys_updated_on><table>x_1909965_almaconn_alumni</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+        <payload_hash>233338747</payload_hash>
+        <record_name>Alumnis</record_name>
+        <reverted_from/>
+        <source>0a3d7aed83763210979271d6feaad316</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-01 17:11:56</sys_created_on>
+        <sys_id>6a3457e983f63210979271d6feaad370</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19c1a3092c90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-01 17:11:56</sys_updated_on>
+        <type>Module</type>
+        <update_guid>2e3457e9bbf63210517f8c746648c66f</update_guid>
+        <update_guid_history>2e3457e9bbf63210517f8c746648c66f:233338747</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-02 15:47:08</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_module">sys_ui_module</sys_db_object>
+        <sys_id>cbc04d98379b4bf4ab40f0968c6beba4</sys_id>
+        <sys_metadata>623457e983f63210979271d6feaad36d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Alumnis</sys_name>
+        <sys_package display_value="AlmaConnect" source="x_1909965_almaconn">3882be6183763210979271d6feaad3fc</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="AlmaConnect">3882be6183763210979271d6feaad3fc</sys_scope>
+        <sys_scope_delete display_value="">17c1063288fd4f2089beaa6318683ee4</sys_scope_delete>
+        <sys_update_name>sys_ui_module_623457e983f63210979271d6feaad36d</sys_update_name>
+        <sys_update_version display_value="sys_ui_module_623457e983f63210979271d6feaad36d">6a3457e983f63210979271d6feaad370</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-02 15:47:08</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

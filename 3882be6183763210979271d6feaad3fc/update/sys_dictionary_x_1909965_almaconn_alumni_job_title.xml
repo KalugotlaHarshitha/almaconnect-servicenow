@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="" table="x_1909965_almaconn_alumni">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="job_title" table="x_1909965_almaconn_alumni">
         <active>true</active>
         <array>false</array>
         <attributes/>
@@ -13,7 +13,7 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label/>
+        <column_label>Job Title</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -26,15 +26,15 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element/>
+        <element>job_title</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="Collection">collection</internal_type>
+        <internal_type display_value="String">string</internal_type>
         <mandatory>false</mandatory>
-        <max_length>40</max_length>
+        <max_length>20</max_length>
         <name>x_1909965_almaconn_alumni</name>
         <next_element/>
         <primary>false</primary>
@@ -51,14 +51,14 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-02-02 15:49:20</sys_created_on>
-        <sys_name>x_1909965_almaconn_alumni</sys_name>
+        <sys_created_on>2026-02-02 17:46:52</sys_created_on>
+        <sys_name>Job Title</sys_name>
         <sys_package display_value="AlmaConnect" source="x_1909965_almaconn">3882be6183763210979271d6feaad3fc</sys_package>
         <sys_policy/>
         <sys_scope display_value="AlmaConnect">3882be6183763210979271d6feaad3fc</sys_scope>
-        <sys_update_name>sys_dictionary_x_1909965_almaconn_alumni_null</sys_update_name>
+        <sys_update_name>sys_dictionary_x_1909965_almaconn_alumni_job_title</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-02-02 15:49:20</sys_updated_on>
+        <sys_updated_on>2026-02-02 18:14:23</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
