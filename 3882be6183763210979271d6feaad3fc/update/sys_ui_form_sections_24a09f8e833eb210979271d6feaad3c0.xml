@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="24a09f8e833eb210979271d6feaad3c0" sys_domain="global" table="x_1909965_almaconn_mentorship_request_table" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-02-03 06:13:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>60a09f8e833eb210979271d6feaad3c4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1909965_almaconn_mentorship_request_table" name="x_1909965_almaconn_mentorship_request_table" sys_domain="global" view="Default view">24a09f8e833eb210979271d6feaad3c0</sys_ui_form>
+            <sys_ui_section caption="Mentorship Details" display_value="Mentorship Details" name="x_1909965_almaconn_mentorship_request_table" sys_domain="global" view="Default view">1379600a8332b210979271d6feaad35e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-02-03 06:13:12</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-02-03 06:13:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6ca09f8e833eb210979271d6feaad3c4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1909965_almaconn_mentorship_request_table" name="x_1909965_almaconn_mentorship_request_table" sys_domain="global" view="Default view">24a09f8e833eb210979271d6feaad3c0</sys_ui_form>
+            <sys_ui_section caption="Participants Information" display_value="Participants Information" name="x_1909965_almaconn_mentorship_request_table" sys_domain="global" view="Default view">a8a09f8e833eb210979271d6feaad3af</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-02-03 06:13:12</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-02-03 06:13:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>24a09f8e833eb210979271d6feaad3c8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1909965_almaconn_mentorship_request_table" name="x_1909965_almaconn_mentorship_request_table" sys_domain="global" view="Default view">24a09f8e833eb210979271d6feaad3c0</sys_ui_form>
+            <sys_ui_section caption="Request Information" display_value="Request Information" name="x_1909965_almaconn_mentorship_request_table" sys_domain="global" view="Default view">a4a09f8e833eb210979271d6feaad3b1</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-02-03 06:13:12</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-02-03 06:13:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>28a0df8e833eb210979271d6feaad316</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1909965_almaconn_mentorship_request_table" name="x_1909965_almaconn_mentorship_request_table" sys_domain="global" view="Default view">24a09f8e833eb210979271d6feaad3c0</sys_ui_form>
+            <sys_ui_section caption="Preferences" display_value="Preferences" name="x_1909965_almaconn_mentorship_request_table" sys_domain="global" view="Default view">aca09f8e833eb210979271d6feaad3be</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-02-03 06:13:12</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_1909965_almaconn_mentorship_request_table</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-02-03 06:13:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>24a09f8e833eb210979271d6feaad3c0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1909965_almaconn_mentorship_request_table</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="AlmaConnect" source="x_1909965_almaconn">3882be6183763210979271d6feaad3fc</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="AlmaConnect">3882be6183763210979271d6feaad3fc</sys_scope>
+            <sys_update_name>sys_ui_form_sections_24a09f8e833eb210979271d6feaad3c0</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-02-03 06:13:11</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

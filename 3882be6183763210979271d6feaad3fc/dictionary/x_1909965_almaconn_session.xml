@@ -1,3 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="83a5d36d83f63210979271d6feaad38e" label="Session" max_length="40" name="x_1909965_almaconn_session" type="collection"/>
+    <element db_object_id="83a5d36d83f63210979271d6feaad38e" label="Session" max_length="40" name="x_1909965_almaconn_session" type="collection">
+        <element label="Completed On" max_length="40" name="completed_on" read_only="true" type="glide_date_time"/>
+        <element label="Meeting Link" max_length="1024" name="meeting_link" type="url"/>
+        <element label="Session Date" max_length="40" name="session_date" type="glide_date"/>
+        <element label="Student Name" max_length="32" name="student_name" read_only="true" reference="x_1909965_almaconn_student" type="reference"/>
+        <element label="Session Time" max_length="40" name="session_time" type="glide_time"/>
+        <element choice="1" label="Session Status" max_length="40" name="session_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Cancelled" value="cancelled"/>
+                <element inactive_on_update="false" label="Scheduled" value="scheduled"/>
+                <element inactive_on_update="false" label="Completed" value="completed"/>
+            </choice>
+        </element>
+        <element label="Location" max_length="40" name="location" type="string"/>
+        <element choice="1" label="Session_Mode" max_length="40" name="session_mode" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Online" value="online"/>
+                <element inactive_on_update="false" label="Offline" value="offline"/>
+            </choice>
+        </element>
+        <element label="Mentorship" max_length="32" name="mentorship" read_only="true" reference="x_1909965_almaconn_mentorship_request_table" type="reference"/>
+        <element label="Alumni Name" max_length="32" name="alumni_name" read_only="true" reference="x_1909965_almaconn_alumni" type="reference"/>
+        <element label="Scheduled On" max_length="40" name="scheduled_on" read_only="true" type="glide_date_time"/>
+        <element label="Duration" max_length="40" name="duration" type="integer"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Session ID" max_length="40" name="number" read_only="true" type="string"/>
+        <index name="index">
+            <element name="alumni_name"/>
+        </index>
+        <index name="index2">
+            <element name="mentorship"/>
+        </index>
+        <index name="index3">
+            <element name="student_name"/>
+        </index>
+    </element>
 </database>
