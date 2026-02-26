@@ -7,9 +7,10 @@
         <element label="Session Time" max_length="40" name="session_time" type="glide_time"/>
         <element choice="1" label="Session Status" max_length="40" name="session_status" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Cancelled" value="cancelled"/>
-                <element inactive_on_update="false" label="Scheduled" value="scheduled"/>
-                <element inactive_on_update="false" label="Completed" value="completed"/>
+                <element inactive_on_update="false" label="Requested" sequence="3" value="requested"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="0" value="cancelled"/>
+                <element inactive_on_update="false" label="Scheduled" sequence="2" value="scheduled"/>
+                <element inactive_on_update="false" label="Completed" sequence="1" value="completed"/>
             </choice>
         </element>
         <element label="Location" max_length="40" name="location" type="string"/>

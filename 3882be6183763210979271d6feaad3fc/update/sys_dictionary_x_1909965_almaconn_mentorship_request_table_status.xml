@@ -10,13 +10,13 @@
 	return '';  // return the calculated value
 
 })(current);]]></calculation>
-        <choice>1</choice>
+        <choice>3</choice>
         <choice_field/>
         <choice_table/>
         <column_label>Status</column_label>
         <comments/>
         <create_roles/>
-        <default_value>new</default_value>
+        <default_value>pending</default_value>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -58,7 +58,7 @@
         <sys_scope display_value="AlmaConnect">3882be6183763210979271d6feaad3fc</sys_scope>
         <sys_update_name>sys_dictionary_x_1909965_almaconn_mentorship_request_table_status</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-02-03 06:20:52</sys_updated_on>
+        <sys_updated_on>2026-02-26 04:28:56</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_action_config">
+    <sys_ux_action_config action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <name>Reject</name>
+        <sys_class_name>sys_ux_action_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-26 04:51:15</sys_created_on>
+        <sys_id>1b6a9d65839b7610979271d6feaad336</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Reject</sys_name>
+        <sys_package display_value="AlmaConnect" source="x_1909965_almaconn">3882be6183763210979271d6feaad3fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AlmaConnect">3882be6183763210979271d6feaad3fc</sys_scope>
+        <sys_update_name>sys_ux_action_config_1b6a9d65839b7610979271d6feaad336</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-26 04:51:15</sys_updated_on>
+    </sys_ux_action_config>
+</record_update>

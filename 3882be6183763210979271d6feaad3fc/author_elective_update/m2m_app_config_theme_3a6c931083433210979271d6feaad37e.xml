@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="m2m_app_config_theme">
+    <m2m_app_config_theme action="DELETE">
+        <applicability/>
+        <order>0</order>
+        <sys_class_name>m2m_app_config_theme</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-10 06:51:00</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3a6c931083433210979271d6feaad37e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="AlmaConnect" source="x_1909965_almaconn">3882be6183763210979271d6feaad3fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AlmaConnect">3882be6183763210979271d6feaad3fc</sys_scope>
+        <sys_update_name>m2m_app_config_theme_3a6c931083433210979271d6feaad37e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-10 06:51:00</sys_updated_on>
+        <theme/>
+        <ux_app_configuration display_value="AlmaConnect">97a2478683fab210979271d6feaad3f0</ux_app_configuration>
+    </m2m_app_config_theme>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AlmaConnect">3882be6183763210979271d6feaad3fc</application>
+        <file_path/>
+        <instance_id>196a47e22b8f9ad4e2e6fcd2ce91bf51</instance_id>
+        <instance_name>dev292608</instance_name>
+        <name>m2m_app_config_theme_3a6c931083433210979271d6feaad37e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="m2m_app_config_theme"><m2m_app_config_theme action="INSERT_OR_UPDATE"><applicability/><order>0</order><sys_class_name>m2m_app_config_theme</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-10 06:51:00</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>3a6c931083433210979271d6feaad37e</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="AlmaConnect" source="x_1909965_almaconn">3882be6183763210979271d6feaad3fc</sys_package><sys_policy/><sys_scope display_value="AlmaConnect">3882be6183763210979271d6feaad3fc</sys_scope><sys_update_name>m2m_app_config_theme_3a6c931083433210979271d6feaad37e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-10 06:51:00</sys_updated_on><theme/><ux_app_configuration display_value="AlmaConnect">97a2478683fab210979271d6feaad3f0</ux_app_configuration></m2m_app_config_theme></record_update>]]></payload>
+        <payload_hash>1795046208</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>0a3d7aed83763210979271d6feaad316</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-10 06:51:01</sys_created_on>
+        <sys_id>7a6c931083433210979271d6feaad381</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19c465154630000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-10 06:51:01</sys_updated_on>
+        <type>UX App Theme</type>
+        <update_guid>7e6c9310e243321081b856fa0fcf6780</update_guid>
+        <update_guid_history>7e6c9310e243321081b856fa0fcf6780:1795046208</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">aca5cd6d83833210979271d6feaad390</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-13 17:04:38</sys_created_on>
+        <sys_db_object display_value="" name="m2m_app_config_theme">m2m_app_config_theme</sys_db_object>
+        <sys_id>11ff29479a7e4b4e85a43ed396edd584</sys_id>
+        <sys_metadata>3a6c931083433210979271d6feaad37e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AlmaConnect" source="x_1909965_almaconn">3882be6183763210979271d6feaad3fc</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="AlmaConnect">3882be6183763210979271d6feaad3fc</sys_scope>
+        <sys_scope_delete display_value="">17c1063288fd4f2089beaa6318683ee4</sys_scope_delete>
+        <sys_update_name>m2m_app_config_theme_3a6c931083433210979271d6feaad37e</sys_update_name>
+        <sys_update_version display_value="m2m_app_config_theme_3a6c931083433210979271d6feaad37e">7a6c931083433210979271d6feaad381</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-13 17:04:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">4fd8c8a483073210979271d6feaad384</sp_column>
+        <sp_widget display_value="HTML">8679ef89cb21120000f8d856634c9c4f</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-10 10:29:27</sys_created_on>
+        <sys_id>3a6e84ac83073210979271d6feaad366</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AlmaConnect" source="x_1909965_almaconn">3882be6183763210979271d6feaad3fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AlmaConnect">3882be6183763210979271d6feaad3fc</sys_scope>
+        <sys_update_name>sp_instance_3a6e84ac83073210979271d6feaad366</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-10 11:06:16</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"html": {
+		"value": "<h1>Welcome, John</h1>\r\n<h2>Manage your mentorship journey from here</h2>",
+		"displayValue": "<h1>Welcome, John</h1>\n<h2>Manage your mentorship journey from here</h2>"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=3a6e84ac83073210979271d6feaad366"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AlmaConnect">3882be6183763210979271d6feaad3fc</application>
+        <file_path/>
+        <instance_id>196a47e22b8f9ad4e2e6fcd2ce91bf51</instance_id>
+        <instance_name>dev292608</instance_name>
+        <name>sp_instance_3a6e84ac83073210979271d6feaad366</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;4fd8c8a483073210979271d6feaad384&lt;/sp_column&gt;&lt;sp_widget display_value="HTML"&gt;8679ef89cb21120000f8d856634c9c4f&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-02-10 10:29:27&lt;/sys_created_on&gt;&lt;sys_id&gt;3a6e84ac83073210979271d6feaad366&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="AlmaConnect" source="x_1909965_almaconn"&gt;3882be6183763210979271d6feaad3fc&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="AlmaConnect"&gt;3882be6183763210979271d6feaad3fc&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_3a6e84ac83073210979271d6feaad366&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-02-10 11:06:16&lt;/sys_updated_on&gt;&lt;title/&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"html": {
+		"value": "&lt;h1&gt;Welcome, John&lt;/h1&gt;\r\n&lt;h2&gt;Manage your mentorship journey from here&lt;/h2&gt;",
+		"displayValue": "&lt;h1&gt;Welcome, John&lt;/h1&gt;\n&lt;h2&gt;Manage your mentorship journey from here&lt;/h2&gt;"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=3a6e84ac83073210979271d6feaad366"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1153579909</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>0a3d7aed83763210979271d6feaad316</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-10 11:06:16</sys_created_on>
+        <sys_id>4ed6982883473210979271d6feaad3d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19c473b06c40000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-10 11:06:16</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>c2d6982856473210ccd570d07ef431d6</update_guid>
+        <update_guid_history>c2d6982856473210ccd570d07ef431d6:-1153579909,9e205c2041473210592566b8e4562842:1342062938,d20098209b4732104d84f767b87b707d:-1722939930,7e6e84ac24073210b2529afd2a552167:1456421792</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">0fe6106883473210979271d6feaad37e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-10 11:06:37</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>08cb4afab4fb4d808d84b220dd9e6b99</sys_id>
+        <sys_metadata>3a6e84ac83073210979271d6feaad366</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AlmaConnect" source="x_1909965_almaconn">3882be6183763210979271d6feaad3fc</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="AlmaConnect">3882be6183763210979271d6feaad3fc</sys_scope>
+        <sys_scope_delete display_value="">17c1063288fd4f2089beaa6318683ee4</sys_scope_delete>
+        <sys_update_name>sp_instance_3a6e84ac83073210979271d6feaad366</sys_update_name>
+        <sys_update_version display_value="sp_instance_3a6e84ac83073210979271d6feaad366">4ed6982883473210979271d6feaad3d6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-10 11:06:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

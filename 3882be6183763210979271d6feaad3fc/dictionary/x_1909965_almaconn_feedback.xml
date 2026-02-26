@@ -1,3 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="e7b5976d83f63210979271d6feaad37e" label="Feedback" max_length="40" name="x_1909965_almaconn_feedback" type="collection"/>
+    <element db_object_id="e7b5976d83f63210979271d6feaad37e" label="Feedback" max_length="40" name="x_1909965_almaconn_feedback" type="collection">
+        <element attributes="encode_utf8=false" label="Alumni" max_length="32" name="alumni" reference="x_1909965_almaconn_alumni" type="reference"/>
+        <element attributes="encode_utf8=false" label="Session" max_length="32" name="session" reference="x_1909965_almaconn_session" type="reference"/>
+        <element label="Rating" max_length="40" name="rating" type="integer"/>
+        <element attributes="encode_utf8=false" label="Student" max_length="32" name="student" reference="x_1909965_almaconn_student" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Comment" max_length="4000" name="comment" type="journal"/>
+        <element attributes="edge_encryption_enabled=true" label="Comments" max_length="100" name="comments" type="string"/>
+        <index name="index">
+            <element name="alumni"/>
+        </index>
+        <index name="index2">
+            <element name="session"/>
+        </index>
+        <index name="index3">
+            <element name="student"/>
+        </index>
+    </element>
 </database>

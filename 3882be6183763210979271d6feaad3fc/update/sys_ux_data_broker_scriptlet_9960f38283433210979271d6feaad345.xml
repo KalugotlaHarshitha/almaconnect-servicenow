@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_data_broker_scriptlet">
+    <sys_ux_data_broker_scriptlet action="INSERT_OR_UPDATE">
+        <api_name>x_1909965_almaconn.Requests Sent Count</api_name>
+        <batch_exclude>false</batch_exclude>
+        <description/>
+        <mutates_server_data>false</mutates_server_data>
+        <name>Requests Sent Count</name>
+        <output_schema>{&#13;
+  "type": "object",&#13;
+  "properties": {&#13;
+    "count": {&#13;
+      "type": "number"&#13;
+    }&#13;
+  }&#13;
+}</output_schema>
+        <private>false</private>
+        <props/>
+        <required_translations>[ ]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <script><![CDATA[function handler() {
+
+    var count = 0;
+
+    var gr = new global.GlideRecord('x_1909965_almaconn_mentorship_request_table');
+    
+    gr.addQuery('student_name', gs.getUserID());  
+    
+    gr.query();
+
+    count = gr.getRowCount();
+
+    return {
+        count: count
+    };
+}]]></script>
+        <sys_class_name>sys_ux_data_broker_scriptlet</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-15 18:50:46</sys_created_on>
+        <sys_id>9960f38283433210979271d6feaad345</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Requests Sent Count</sys_name>
+        <sys_package display_value="AlmaConnect" source="x_1909965_almaconn">3882be6183763210979271d6feaad3fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AlmaConnect">3882be6183763210979271d6feaad3fc</sys_scope>
+        <sys_update_name>sys_ux_data_broker_scriptlet_9960f38283433210979271d6feaad345</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-15 18:59:20</sys_updated_on>
+    </sys_ux_data_broker_scriptlet>
+    <sys_translated_text action="delete_multiple" query="documentkey=9960f38283433210979271d6feaad345"/>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>9960f38283433210979271d6feaad345</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-15 18:50:46</sys_created_on>
+        <sys_id>fa117bce83033210979271d6feaad3c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-15 18:50:46</sys_updated_on>
+        <table>sys_ux_data_broker_scriptlet</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

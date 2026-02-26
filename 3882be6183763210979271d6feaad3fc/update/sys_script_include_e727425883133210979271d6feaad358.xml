@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1909965_almaconn.StudentLogin</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description>Student Login</description>
+        <mobile_callable>false</mobile_callable>
+        <name>StudentLogin</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var StudentLoginUtils = Class.create();
+StudentLoginUtils.prototype = Object.extendsObject(AbstractAjaxProcessor, {
+
+    validateUser: function() {
+
+        var username = this.getParameter('sysparm_username');  // Admin username
+        var password = this.getParameter('sysparm_password');  // Always check 1234
+        var role = this.getParameter('sysparm_role');          // student / alumni / admin
+        var rollno = this.getParameter('sysparm_rollno');      // roll number for student/alumni
+
+        // Password check first
+        if (password != '1234') {
+            return 'invalid';
+        }
+
+        // STUDENT LOGIN
+        if (role == 'student') {
+            var grStudent = new GlideRecord('student');       
+            grStudent.addQuery('number', rollno);           // username field stores roll number
+            grStudent.query();
+            if (grStudent.next()) {
+                return 'valid_student';
+            }
+        }
+
+        // ALUMNI LOGIN
+        if (role == 'alumni') {
+            var grAlumni = new GlideRecord('alumni');         // Replace with your actual alumni table name
+            grAlumni.addQuery('alumniid', rollno);           // alumniid field
+            grAlumni.query();
+            if (grAlumni.next()) {
+                return 'valid_alumni';
+            }
+        }
+
+        // ADMIN LOGIN
+        if (role == 'admin') {
+            if (username == 'admin') {
+                return 'valid_admin';
+            }
+        }
+
+        // If nothing matches
+        return 'invalid';
+    }
+
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-22 10:58:49</sys_created_on>
+        <sys_id>e727425883133210979271d6feaad358</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>StudentLogin</sys_name>
+        <sys_package display_value="AlmaConnect" source="x_1909965_almaconn">3882be6183763210979271d6feaad3fc</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="AlmaConnect">3882be6183763210979271d6feaad3fc</sys_scope>
+        <sys_update_name>sys_script_include_e727425883133210979271d6feaad358</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-22 12:03:20</sys_updated_on>
+    </sys_script_include>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>e727425883133210979271d6feaad358</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-22 10:58:48</sys_created_on>
+        <sys_id>ed38ce5883133210979271d6feaad3df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-22 10:58:48</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="f283322583763210979271d6feaad329" label="Student" max_length="40" name="x_1909965_almaconn_student" type="collection">
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="College" max_length="60" name="college" type="string"/>
+        <element label="Career" max_length="30" name="career" type="string"/>
+        <element label="Interested Domain" max_length="40" name="interested_domain" type="string"/>
+        <element label="Skills" max_length="50" name="skills" type="string"/>
         <element label="Email" max_length="50" name="email" type="string"/>
+        <element label="Area of Interest" max_length="40" name="area_of_interest" type="string"/>
         <element choice="1" label="Year" max_length="10" name="year" type="choice">
             <choice>
                 <element inactive_on_update="false" label="II" value="II"/>
@@ -10,6 +15,7 @@
                 <element inactive_on_update="false" label="IV" value="IV"/>
             </choice>
         </element>
+        <element label="Cgpa" max_length="20" name="cgpa" type="decimal"/>
         <element choice="3" default="Choose dept" label="Department" max_length="50" name="department" reference_qual="null" reference_qual_condition="null" type="choice">
             <choice>
                 <element inactive_on_update="false" label="AI" value="AI"/>

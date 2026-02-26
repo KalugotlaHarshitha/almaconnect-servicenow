@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="ce841fe983f63210979271d6feaad3ac" label="Mentorship Request Table" max_length="40" name="x_1909965_almaconn_mentorship_request_table" type="collection">
         <element label="Requested_On" max_length="40" name="requested_on" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Department" max_length="40" name="department" type="string"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="MentorshipID" max_length="40" name="number" type="string"/>
         <element label="Student Name" max_length="32" name="student_name" reference="x_1909965_almaconn_student" type="reference"/>
         <element choice="1" label="Preferred_Mode" max_length="40" name="preferred_mode" type="choice">
@@ -9,12 +10,12 @@
                 <element inactive_on_update="false" label="Offline" sequence="1" value="offline"/>
             </choice>
         </element>
-        <element choice="1" default="new" label="Status" max_length="40" name="status" type="choice">
+        <element choice="3" default="pending" label="Status" max_length="40" name="status" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Accepted" sequence="0" value="accepted"/>
-                <element inactive_on_update="false" label="New" sequence="1" value="new"/>
-                <element inactive_on_update="false" label="Rejected" sequence="3" value="rejected"/>
-                <element inactive_on_update="false" label="Pending" sequence="2" value="pending"/>
+                <element inactive="true" inactive_on_update="true" label="New" sequence="0" value="new"/>
+                <element inactive_on_update="false" label="Rejected" sequence="2" value="rejected"/>
+                <element inactive_on_update="false" label="Pending" sequence="1" value="pending"/>
             </choice>
         </element>
         <element attributes="hint=Briefly describe what guidance you are looking for (career advice, resume review, higher studies)&#13;&#10;" label="Request Description" max_length="40000" name="request_description" type="string_full_utf8"/>
