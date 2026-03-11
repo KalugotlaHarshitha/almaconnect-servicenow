@@ -12,7 +12,203 @@
         },
         "elementId": "tabs_1",
         "elementLabel": "Tabs 1",
-        "eventMappings": [],
+        "eventMappings": [
+            {
+                "eventMappingId": "cmmhhfljjbbgaaccsvddjiidbyobszgp",
+                "isConfiguration": false,
+                "offRowStorageId": null,
+                "sourceEventApiName": "now_uxf_tab_set.UXF_TAB_SET#TAB_SELECTED",
+                "sourceEventCorrelationId": null,
+                "sourceEventDefinition": {
+                    "apiName": "now_uxf_tab_set.UXF_TAB_SET#TAB_SELECTED",
+                    "id": null,
+                    "type": "UXEVENT"
+                },
+                "sourceEventSysId": null,
+                "targets": [
+                    {
+                        "broker": null,
+                        "clientScript": null,
+                        "conditional": {
+                            "operation": {
+                                "left": {
+                                    "binding": {
+                                        "address": [
+                                            "selectedTabLabel"
+                                        ]
+                                    },
+                                    "type": "EVENT_PAYLOAD_BINDING"
+                                },
+                                "operator": "EQUAL",
+                                "right": {
+                                    "type": "JSON_LITERAL",
+                                    "value": "My Profile"
+                                }
+                            },
+                            "type": "BINARY"
+                        },
+                        "declarativeAction": null,
+                        "event": {
+                            "apiName": "x_1909965_almaconn.NAV_ITEM_SELECTED_RELAY_75deeaec83577210979271d6feaad3e8",
+                            "payload": {
+                                "type": "JSON_LITERAL",
+                                "value": {
+                                    "external": null,
+                                    "fields": null,
+                                    "multiInstField": null,
+                                    "navigationOptions": null,
+                                    "params": null,
+                                    "passiveNavigation": null,
+                                    "redirect": null,
+                                    "route": "my-profile",
+                                    "targetRoute": null,
+                                    "title": null
+                                }
+                            },
+                            "sysId": "232151e683933210979271d6feaad39e"
+                        },
+                        "operation": null,
+                        "targetId": "cmmhhfljjbbgaaccswddjiidhccdjdfyjj",
+                        "type": "EVENT"
+                    },
+                    {
+                        "broker": null,
+                        "clientScript": null,
+                        "conditional": {
+                            "operation": {
+                                "left": {
+                                    "binding": {
+                                        "address": [
+                                            "selectedTabLabel"
+                                        ]
+                                    },
+                                    "type": "EVENT_PAYLOAD_BINDING"
+                                },
+                                "operator": "EQUAL",
+                                "right": {
+                                    "type": "JSON_LITERAL",
+                                    "value": "Mentorship Requests"
+                                }
+                            },
+                            "type": "BINARY"
+                        },
+                        "declarativeAction": null,
+                        "event": {
+                            "apiName": "x_1909965_almaconn.NAV_ITEM_SELECTED_RELAY_75deeaec83577210979271d6feaad3e8",
+                            "payload": {
+                                "type": "JSON_LITERAL",
+                                "value": {
+                                    "external": null,
+                                    "fields": null,
+                                    "multiInstField": null,
+                                    "navigationOptions": null,
+                                    "params": null,
+                                    "passiveNavigation": null,
+                                    "redirect": null,
+                                    "route": "mentorship-requests1",
+                                    "targetRoute": null,
+                                    "title": null
+                                }
+                            },
+                            "sysId": "232151e683933210979271d6feaad39e"
+                        },
+                        "operation": null,
+                        "targetId": "cmmhhfnukqaaccuaaddjiidxefctrjjhh",
+                        "type": "EVENT"
+                    },
+                    {
+                        "broker": null,
+                        "clientScript": null,
+                        "conditional": {
+                            "operation": {
+                                "left": {
+                                    "binding": {
+                                        "address": [
+                                            "selectedTabLabel"
+                                        ]
+                                    },
+                                    "type": "EVENT_PAYLOAD_BINDING"
+                                },
+                                "operator": "EQUAL",
+                                "right": {
+                                    "type": "JSON_LITERAL",
+                                    "value": "Sessions"
+                                }
+                            },
+                            "type": "BINARY"
+                        },
+                        "declarativeAction": null,
+                        "event": {
+                            "apiName": "x_1909965_almaconn.NAV_ITEM_SELECTED_RELAY_75deeaec83577210979271d6feaad3e8",
+                            "payload": {
+                                "type": "JSON_LITERAL",
+                                "value": {
+                                    "external": null,
+                                    "fields": null,
+                                    "multiInstField": null,
+                                    "navigationOptions": null,
+                                    "params": null,
+                                    "passiveNavigation": null,
+                                    "redirect": null,
+                                    "route": "sessions",
+                                    "targetRoute": null,
+                                    "title": null
+                                }
+                            },
+                            "sysId": "232151e683933210979271d6feaad39e"
+                        },
+                        "operation": null,
+                        "targetId": "cmmhhfpddlmaaccusddjiidggzuffeaaaj",
+                        "type": "EVENT"
+                    },
+                    {
+                        "broker": null,
+                        "clientScript": null,
+                        "conditional": {
+                            "operation": {
+                                "left": {
+                                    "binding": {
+                                        "address": [
+                                            "selectedTabLabel"
+                                        ]
+                                    },
+                                    "type": "EVENT_PAYLOAD_BINDING"
+                                },
+                                "operator": "EQUAL",
+                                "right": {
+                                    "type": "JSON_LITERAL",
+                                    "value": "Feedback"
+                                }
+                            },
+                            "type": "BINARY"
+                        },
+                        "declarativeAction": null,
+                        "event": {
+                            "apiName": "x_1909965_almaconn.NAV_ITEM_SELECTED_RELAY_75deeaec83577210979271d6feaad3e8",
+                            "payload": {
+                                "type": "JSON_LITERAL",
+                                "value": {
+                                    "external": null,
+                                    "fields": null,
+                                    "multiInstField": null,
+                                    "navigationOptions": null,
+                                    "params": null,
+                                    "passiveNavigation": null,
+                                    "redirect": null,
+                                    "route": "feedback",
+                                    "targetRoute": null,
+                                    "title": null
+                                }
+                            },
+                            "sysId": "232151e683933210979271d6feaad39e"
+                        },
+                        "operation": null,
+                        "targetId": "cmmhhfqraaaaccweeddjiiddwhhomccjjj",
+                        "type": "EVENT"
+                    }
+                ]
+            }
+        ],
         "extensionPoints": [],
         "isHidden": {
             "type": "JSON_LITERAL",
@@ -1895,7 +2091,7 @@
             },
             "defaultRoute": {
                 "type": "JSON_LITERAL",
-                "value": null
+                "value": "dashboard"
             },
             "dynamicTabData": {
                 "type": "JSON_LITERAL",
@@ -2411,7 +2607,7 @@
 ]</data>
         <description/>
         <disable_auto_reflow>false</disable_auto_reflow>
-        <dispatched_events/>
+        <dispatched_events>232151e683933210979271d6feaad39e</dispatched_events>
         <ext_controller_dep/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
         <extension_point/>
@@ -2493,14 +2689,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-02-23 08:26:04</sys_created_on>
         <sys_id>75deeaec83577210979271d6feaad3e8</sys_id>
-        <sys_mod_count>30</sys_mod_count>
+        <sys_mod_count>42</sys_mod_count>
         <sys_name>Default</sys_name>
         <sys_package display_value="AlmaConnect" source="x_1909965_almaconn">3882be6183763210979271d6feaad3fc</sys_package>
         <sys_policy/>
         <sys_scope display_value="AlmaConnect">3882be6183763210979271d6feaad3fc</sys_scope>
         <sys_update_name>sys_ux_macroponent_75deeaec83577210979271d6feaad3e8</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-02-24 07:23:56</sys_updated_on>
+        <sys_updated_on>2026-03-01 07:36:40</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=75deeaec83577210979271d6feaad3e8"/>
 </record_update>

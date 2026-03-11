@@ -84,6 +84,20 @@
             <sys_user/>
             <type/>
         </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>student_user</element>
+            <position>6</position>
+            <sys_created_by>katakamlakshmi</sys_created_by>
+            <sys_created_on>2026-03-05 15:23:40</sys_created_on>
+            <sys_id>7c5ee3f7839bb610979271d6feaad371</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1909965_almaconn_student" sys_domain="global" view="Default view">6f47cbe983b63210979271d6feaad3ea</sys_ui_section>
+            <sys_updated_by>katakamlakshmi</sys_updated_by>
+            <sys_updated_on>2026-03-05 15:23:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
             <header>false</header>

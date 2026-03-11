@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="DELETE">
+        <associated_types/>
+        <bundles/>
+        <category>page</category>
+        <component_dependencies/>
+        <composition/>
+        <da_relay_models/>
+        <data/>
+        <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
+        <dispatched_events/>
+        <ext_controller_dep/>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <extension_point/>
+        <form_factors>{}</form_factors>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings/>
+        <layout/>
+        <macroponent_dependencies/>
+        <name>Default</name>
+        <output_prop_mapping/>
+        <props>[]</props>
+        <required_translations>[ ]</required_translations>
+        <root_component/>
+        <root_component_config/>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_persistence_config/>
+        <state_properties/>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>katakamlakshmi</sys_created_by>
+        <sys_created_on>2026-02-09 11:27:06</sys_created_on>
+        <sys_id>6502570c83cb3610979271d6feaad36d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Default</sys_name>
+        <sys_package display_value="AlmaConnect" source="x_1909965_almaconn">3882be6183763210979271d6feaad3fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AlmaConnect">3882be6183763210979271d6feaad3fc</sys_scope>
+        <sys_update_name>sys_ux_macroponent_6502570c83cb3610979271d6feaad36d</sys_update_name>
+        <sys_updated_by>katakamlakshmi</sys_updated_by>
+        <sys_updated_on>2026-02-09 11:27:06</sys_updated_on>
+    </sys_ux_macroponent>
+    <sys_translated_text action="DELETE" query="documentkey=6502570c83cb3610979271d6feaad36d"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AlmaConnect">3882be6183763210979271d6feaad3fc</application>
+        <file_path/>
+        <instance_id>196a47e22b8f9ad4e2e6fcd2ce91bf51</instance_id>
+        <instance_name>dev292608</instance_name>
+        <name>sys_ux_macroponent_6502570c83cb3610979271d6feaad36d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent"><sys_ux_macroponent action="INSERT_OR_UPDATE"><associated_types/><bundles/><category>page</category><component_dependencies/><composition/><da_relay_models/><data/><description/><disable_auto_reflow>false</disable_auto_reflow><dispatched_events/><ext_controller_dep/><extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends><extension_point/><form_factors>{}</form_factors><handled_events/><interactions/><interfaces/><internal_event_mappings/><layout/><macroponent_dependencies/><name>Default</name><output_prop_mapping/><props>[]</props><required_translations>[ ]</required_translations><root_component/><root_component_config/><root_component_definition/><schema_version>1.0.0</schema_version><state_persistence_config/><state_properties/><sys_class_name>sys_ux_macroponent</sys_class_name><sys_created_by>katakamlakshmi</sys_created_by><sys_created_on>2026-02-09 11:27:06</sys_created_on><sys_id>6502570c83cb3610979271d6feaad36d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Default</sys_name><sys_package display_value="AlmaConnect" source="x_1909965_almaconn">3882be6183763210979271d6feaad3fc</sys_package><sys_policy/><sys_scope display_value="AlmaConnect">3882be6183763210979271d6feaad3fc</sys_scope><sys_update_name>sys_ux_macroponent_6502570c83cb3610979271d6feaad36d</sys_update_name><sys_updated_by>katakamlakshmi</sys_updated_by><sys_updated_on>2026-02-09 11:27:06</sys_updated_on></sys_ux_macroponent><sys_translated_text action="delete_multiple" query="documentkey=6502570c83cb3610979271d6feaad36d"/></record_update>]]></payload>
+        <payload_hash>-235752743</payload_hash>
+        <record_name>Default</record_name>
+        <reverted_from/>
+        <source>c2d00f8683fab210979271d6feaad318</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>katakamlakshmi</sys_created_by>
+        <sys_created_on>2026-02-09 11:27:06</sys_created_on>
+        <sys_id>2502570c83cb3610979271d6feaad370</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19c4227becd0000001</sys_recorded_at>
+        <sys_updated_by>katakamlakshmi</sys_updated_by>
+        <sys_updated_on>2026-02-09 11:27:06</sys_updated_on>
+        <type>UX Macroponent Definition</type>
+        <update_guid>2902570c83cb3610f173729bef5aa96f</update_guid>
+        <update_guid_history>2902570c83cb3610f173729bef5aa96f:-235752743</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>katakamlakshmi</sys_created_by>
+        <sys_created_on>2026-02-13 16:06:30</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_macroponent">sys_ux_macroponent</sys_db_object>
+        <sys_id>aeb1457a10e44fdabc394e3473f47584</sys_id>
+        <sys_metadata>6502570c83cb3610979271d6feaad36d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Default</sys_name>
+        <sys_package display_value="AlmaConnect" source="x_1909965_almaconn">3882be6183763210979271d6feaad3fc</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="AlmaConnect">3882be6183763210979271d6feaad3fc</sys_scope>
+        <sys_scope_delete display_value="">17c1063288fd4f2089beaa6318683ee4</sys_scope_delete>
+        <sys_update_name>sys_ux_macroponent_6502570c83cb3610979271d6feaad36d</sys_update_name>
+        <sys_update_version display_value="sys_ux_macroponent_6502570c83cb3610979271d6feaad36d">2502570c83cb3610979271d6feaad370</sys_update_version>
+        <sys_updated_by>katakamlakshmi</sys_updated_by>
+        <sys_updated_on>2026-02-13 16:06:30</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

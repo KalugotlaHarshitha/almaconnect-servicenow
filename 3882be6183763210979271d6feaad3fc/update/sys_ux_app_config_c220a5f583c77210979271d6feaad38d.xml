@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_config">
+    <sys_ux_app_config action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <custom_icon/>
+        <default_route_type/>
+        <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
+        <encode_query_string>false</encode_query_string>
+        <icon/>
+        <landing_path>home</landing_path>
+        <name>Admin Portal</name>
+        <prefetch_limits/>
+        <sys_class_name>sys_ux_app_config</sys_class_name>
+        <sys_created_by>katakamlakshmi</sys_created_by>
+        <sys_created_on>2026-02-14 13:38:58</sys_created_on>
+        <sys_id>c220a5f583c77210979271d6feaad38d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Admin Portal</sys_name>
+        <sys_package display_value="AlmaConnect" source="x_1909965_almaconn">3882be6183763210979271d6feaad3fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AlmaConnect">3882be6183763210979271d6feaad3fc</sys_scope>
+        <sys_update_name>sys_ux_app_config_c220a5f583c77210979271d6feaad38d</sys_update_name>
+        <sys_updated_by>katakamlakshmi</sys_updated_by>
+        <sys_updated_on>2026-02-14 13:38:58</sys_updated_on>
+    </sys_ux_app_config>
+    <sys_translated_text action="delete_multiple" query="documentkey=c220a5f583c77210979271d6feaad38d"/>
+</record_update>

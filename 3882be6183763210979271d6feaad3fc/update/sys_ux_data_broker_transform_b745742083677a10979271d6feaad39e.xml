@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_data_broker_transform">
+    <sys_ux_data_broker_transform action="INSERT_OR_UPDATE">
+        <acl_failure_result/>
+        <api_name>x_1909965_almaconn.Student Login</api_name>
+        <batch_exclude>false</batch_exclude>
+        <description/>
+        <mutates_server_data>false</mutates_server_data>
+        <name>Student Login</name>
+        <output_schema/>
+        <private>false</private>
+        <props>[&#13;
+  {&#13;
+    "name": "username",&#13;
+    "label": "Username",&#13;
+    "type": "string"&#13;
+  },&#13;
+  {&#13;
+    "name": "password",&#13;
+    "label": "Password",&#13;
+    "type": "string"&#13;
+  }&#13;
+]</props>
+        <required_translations>[ {
+  "message" : "Password",
+  "comment" : ""
+}, {
+  "message" : "Username",
+  "comment" : ""
+} ]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <script><![CDATA[function transform(input) {
+    var isValid = false;
+    
+    // 1. Get the typed username and password from UI Builder
+    var user = input.username;
+    var pass = input.password;
+    
+    // 2. Query your specific Student table
+    var gr = new GlideRecord('x_1909965_almaconn_student'); 
+    
+    // 3. Check if the number (username) and password match
+    gr.addQuery('number', user); 
+    
+    // Note: If 'password' is a custom field you created, it might actually be 
+    // named something like 'x_1909965_almaconn_password'. If the login always 
+    // fails during testing, check Studio again to see if it has that prefix!
+    gr.addQuery('password', pass); 
+    gr.query();
+    
+    // 4. If a match is found in the student table, set to true
+    if (gr.next()) {
+        isValid = true;
+    }
+    
+    // Return the true/false result back to UI Builder
+    return {
+        success: isValid
+    };
+}]]></script>
+        <sys_class_name>sys_ux_data_broker_transform</sys_class_name>
+        <sys_created_by>katakamlakshmi</sys_created_by>
+        <sys_created_on>2026-03-07 09:59:29</sys_created_on>
+        <sys_id>b745742083677a10979271d6feaad39e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Student Login</sys_name>
+        <sys_package display_value="AlmaConnect" source="x_1909965_almaconn">3882be6183763210979271d6feaad3fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AlmaConnect">3882be6183763210979271d6feaad3fc</sys_scope>
+        <sys_update_name>sys_ux_data_broker_transform_b745742083677a10979271d6feaad39e</sys_update_name>
+        <sys_updated_by>katakamlakshmi</sys_updated_by>
+        <sys_updated_on>2026-03-07 10:08:19</sys_updated_on>
+    </sys_ux_data_broker_transform>
+    <sys_translated_text action="delete_multiple" query="documentkey=b745742083677a10979271d6feaad39e"/>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>b745742083677a10979271d6feaad39e</id>
+        <sys_created_by>katakamlakshmi</sys_created_by>
+        <sys_created_on>2026-03-07 09:59:29</sys_created_on>
+        <sys_id>2f47346083677a10979271d6feaad3ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>katakamlakshmi</sys_updated_by>
+        <sys_updated_on>2026-03-07 09:59:29</sys_updated_on>
+        <table>sys_ux_data_broker_transform</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_1909965_almaconn.StudentLogin</api_name>
+        <caller_access>2</caller_access>
+        <client_callable>true</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>StudentLogin</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var StudentLogin = Class.create();
+StudentLogin.prototype = Object.extendsObject(AbstractAjaxProcessor, {
+
+    validateLogin: function() {
+
+        var username = this.getParameter('sysparm_username');
+        var password = this.getParameter('sysparm_password');
+
+        var gr = new GlideRecord('x_1909965_almaconn_student');
+        gr.addQuery('u_student_user', username);
+        gr.addQuery('u_password', password);
+        gr.query();
+
+        if (gr.next()) {
+            return "true";
+        } else {
+            return "false";
+        }
+    }
+
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>katakamlakshmi</sys_created_by>
+        <sys_created_on>2026-03-06 05:44:18</sys_created_on>
+        <sys_id>03b0f608832bf610979271d6feaad3c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>StudentLogin</sys_name>
+        <sys_package display_value="AlmaConnect" source="x_1909965_almaconn">3882be6183763210979271d6feaad3fc</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="AlmaConnect">3882be6183763210979271d6feaad3fc</sys_scope>
+        <sys_update_name>sys_script_include_03b0f608832bf610979271d6feaad3c7</sys_update_name>
+        <sys_updated_by>katakamlakshmi</sys_updated_by>
+        <sys_updated_on>2026-03-06 05:44:18</sys_updated_on>
+    </sys_script_include>
+    <sys_es_latest_script action="DELETE">
+        <id>03b0f608832bf610979271d6feaad3c7</id>
+        <sys_created_by>katakamlakshmi</sys_created_by>
+        <sys_created_on>2026-03-06 05:44:17</sys_created_on>
+        <sys_id>6b4376c8832bf610979271d6feaad38e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>katakamlakshmi</sys_updated_by>
+        <sys_updated_on>2026-03-06 05:44:17</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AlmaConnect">3882be6183763210979271d6feaad3fc</application>
+        <file_path/>
+        <instance_id>196a47e22b8f9ad4e2e6fcd2ce91bf51</instance_id>
+        <instance_name>dev292608</instance_name>
+        <name>sys_script_include_03b0f608832bf610979271d6feaad3c7</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_1909965_almaconn.StudentLogin&lt;/api_name&gt;&lt;caller_access&gt;2&lt;/caller_access&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description/&gt;&lt;mobile_callable&gt;false&lt;/mobile_callable&gt;&lt;name&gt;StudentLogin&lt;/name&gt;&lt;sandbox_callable&gt;false&lt;/sandbox_callable&gt;&lt;script&gt;&lt;![CDATA[var StudentLogin = Class.create();
+StudentLogin.prototype = Object.extendsObject(AbstractAjaxProcessor, {
+
+    validateLogin: function() {
+
+        var username = this.getParameter('sysparm_username');
+        var password = this.getParameter('sysparm_password');
+
+        var gr = new GlideRecord('x_1909965_almaconn_student');
+        gr.addQuery('u_student_user', username);
+        gr.addQuery('u_password', password);
+        gr.query();
+
+        if (gr.next()) {
+            return "true";
+        } else {
+            return "false";
+        }
+    }
+
+});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;katakamlakshmi&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-03-06 05:44:18&lt;/sys_created_on&gt;&lt;sys_id&gt;03b0f608832bf610979271d6feaad3c7&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;StudentLogin&lt;/sys_name&gt;&lt;sys_package display_value="AlmaConnect" source="x_1909965_almaconn"&gt;3882be6183763210979271d6feaad3fc&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="AlmaConnect"&gt;3882be6183763210979271d6feaad3fc&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_03b0f608832bf610979271d6feaad3c7&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;katakamlakshmi&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-03-06 05:44:18&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;03b0f608832bf610979271d6feaad3c7&lt;/id&gt;&lt;sys_created_by&gt;katakamlakshmi&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-03-06 05:44:17&lt;/sys_created_on&gt;&lt;sys_id&gt;6b4376c8832bf610979271d6feaad38e&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;katakamlakshmi&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-03-06 05:44:17&lt;/sys_updated_on&gt;&lt;table&gt;sys_script_include&lt;/table&gt;&lt;use_es_latest&gt;true&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1754425430</payload_hash>
+        <record_name>StudentLogin</record_name>
+        <reverted_from/>
+        <source>c2d00f8683fab210979271d6feaad318</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>katakamlakshmi</sys_created_by>
+        <sys_created_on>2026-03-06 05:44:18</sys_created_on>
+        <sys_id>ff437ac8832bf610979271d6feaad362</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19cc1ace2f00000001</sys_recorded_at>
+        <sys_updated_by>katakamlakshmi</sys_updated_by>
+        <sys_updated_on>2026-03-06 05:44:18</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>f3437ac8a42bf610055d18c209dfc662</update_guid>
+        <update_guid_history>f3437ac8a42bf610055d18c209dfc662:1754425430</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>katakamlakshmi</sys_created_by>
+        <sys_created_on>2026-03-07 06:13:27</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>077de003b0054c318a52154fec5b1a31</sys_id>
+        <sys_metadata>03b0f608832bf610979271d6feaad3c7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>StudentLogin</sys_name>
+        <sys_package display_value="AlmaConnect" source="x_1909965_almaconn">3882be6183763210979271d6feaad3fc</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="AlmaConnect">3882be6183763210979271d6feaad3fc</sys_scope>
+        <sys_scope_delete display_value="">17c1063288fd4f2089beaa6318683ee4</sys_scope_delete>
+        <sys_update_name>sys_script_include_03b0f608832bf610979271d6feaad3c7</sys_update_name>
+        <sys_update_version display_value="sys_script_include_03b0f608832bf610979271d6feaad3c7">ff437ac8832bf610979271d6feaad362</sys_update_version>
+        <sys_updated_by>katakamlakshmi</sys_updated_by>
+        <sys_updated_on>2026-03-07 06:13:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -7,6 +7,7 @@
         <element label="Skills" max_length="50" name="skills" type="string"/>
         <element label="Email" max_length="50" name="email" type="string"/>
         <element label="Area of Interest" max_length="40" name="area_of_interest" type="string"/>
+        <element label="Student User" max_length="32" name="student_user" reference="sys_user" type="reference"/>
         <element choice="1" label="Year" max_length="10" name="year" type="choice">
             <choice>
                 <element inactive_on_update="false" label="II" value="II"/>
@@ -26,6 +27,7 @@
                 <element inactive_on_update="false" label="ML" value="ML"/>
             </choice>
         </element>
+        <element attributes="edge_encryption_enabled=true" label="Password" max_length="40" name="password" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Status" max_length="40" name="status" type="string">
             <choice>
                 <element inactive_on_update="false" label="Active" sequence="0" value="active"/>
@@ -37,6 +39,9 @@
         <element attributes="edge_encryption_enabled=true" label="Student Name" max_length="40" name="name" type="string"/>
         <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
         <index name="index">
+            <element name="student_user"/>
+        </index>
+        <index name="index2">
             <element name="sys_class_name"/>
         </index>
     </element>

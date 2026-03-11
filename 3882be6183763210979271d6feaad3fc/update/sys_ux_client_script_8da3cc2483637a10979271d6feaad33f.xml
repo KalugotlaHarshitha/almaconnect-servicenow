@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Default">5e5a4b46833eb210979271d6feaad3f8</macroponent>
+        <name>Handle Login</name>
+        <preset/>
+        <required_translations>[]</required_translations>
+        <script><![CDATA[function checkStudentLogin() {
+
+    var number = g_form.getValue('number');
+    var password = g_form.getValue('password');
+
+    // Check empty fields
+    if (number === '' || password === '') {
+        alert("Please enter Username and Password");
+        return false;
+    }
+
+    var ga = new GlideAjax('CheckStudentLogin');
+    ga.addParam('sysparm_name', 'checkLogin');
+    ga.addParam('sysparm_number', number);
+    ga.addParam('sysparm_password', password);
+
+    ga.getXMLAnswer(function(response) {
+
+        if (response === 'true') {
+            alert("Login Successful");
+            g_form.submit(); // continue login
+        }
+        else if (response === 'empty') {
+            alert("Please fill all fields");
+        }
+        else {
+            alert("Invalid Username or Password");
+        }
+
+    });
+
+    return false;
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>katakamlakshmi</sys_created_by>
+        <sys_created_on>2026-03-07 10:14:50</sys_created_on>
+        <sys_id>8da3cc2483637a10979271d6feaad33f</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Handle Login</sys_name>
+        <sys_package display_value="AlmaConnect" source="x_1909965_almaconn">3882be6183763210979271d6feaad3fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AlmaConnect">3882be6183763210979271d6feaad3fc</sys_scope>
+        <sys_update_name>sys_ux_client_script_8da3cc2483637a10979271d6feaad33f</sys_update_name>
+        <sys_updated_by>katakamlakshmi</sys_updated_by>
+        <sys_updated_on>2026-03-10 10:23:20</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>

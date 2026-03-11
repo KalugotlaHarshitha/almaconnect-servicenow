@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_config">
+    <sys_ux_app_config action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <custom_icon/>
+        <default_route_type/>
+        <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
+        <encode_query_string>false</encode_query_string>
+        <icon/>
+        <landing_path>home</landing_path>
+        <name>Alumni</name>
+        <prefetch_limits/>
+        <sys_class_name>sys_ux_app_config</sys_class_name>
+        <sys_created_by>sushmitha</sys_created_by>
+        <sys_created_on>2026-02-03 05:38:15</sys_created_on>
+        <sys_id>24a8c382833eb210979271d6feaad3ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Alumni</sys_name>
+        <sys_package display_value="AlmaConnect" source="x_1909965_almaconn">3882be6183763210979271d6feaad3fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AlmaConnect">3882be6183763210979271d6feaad3fc</sys_scope>
+        <sys_update_name>sys_ux_app_config_24a8c382833eb210979271d6feaad3ef</sys_update_name>
+        <sys_updated_by>sushmitha</sys_updated_by>
+        <sys_updated_on>2026-02-03 05:38:15</sys_updated_on>
+    </sys_ux_app_config>
+    <sys_translated_text action="delete_multiple" query="documentkey=24a8c382833eb210979271d6feaad3ef"/>
+</record_update>

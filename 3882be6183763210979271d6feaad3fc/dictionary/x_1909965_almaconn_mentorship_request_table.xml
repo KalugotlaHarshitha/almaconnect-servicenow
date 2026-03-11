@@ -13,9 +13,10 @@
         <element choice="3" default="pending" label="Status" max_length="40" name="status" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Accepted" sequence="0" value="accepted"/>
-                <element inactive="true" inactive_on_update="true" label="New" sequence="0" value="new"/>
-                <element inactive_on_update="false" label="Rejected" sequence="2" value="rejected"/>
-                <element inactive_on_update="false" label="Pending" sequence="1" value="pending"/>
+                <element inactive="true" inactive_on_update="true" label="New" sequence="1" value="new"/>
+                <element inactive_on_update="false" label="Rejected" sequence="3" value="rejected"/>
+                <element inactive_on_update="false" label="Pending" sequence="2" value="pending"/>
+                <element inactive_on_update="false" label="Completed" sequence="4" value="Completed"/>
             </choice>
         </element>
         <element attributes="hint=Briefly describe what guidance you are looking for (career advice, resume review, higher studies)&#13;&#10;" label="Request Description" max_length="40000" name="request_description" type="string_full_utf8"/>
