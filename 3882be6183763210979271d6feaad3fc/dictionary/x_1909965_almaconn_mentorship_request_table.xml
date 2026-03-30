@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="ce841fe983f63210979271d6feaad3ac" label="Mentorship Request Table" max_length="40" name="x_1909965_almaconn_mentorship_request_table" type="collection">
-        <element label="Requested_On" max_length="40" name="requested_on" type="glide_date"/>
+        <element choice="3" default="Pending" label="Payment Status" max_length="40" name="payment_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Pending" sequence="1" value="Pending"/>
+                <element inactive_on_update="false" label="Paid" sequence="0" value="Paid"/>
+            </choice>
+        </element>
+        <element label="Time" max_length="40" name="time" type="glide_time"/>
+        <element label="Date" max_length="40" name="date" type="glide_date"/>
+        <element label="Payment" max_length="32" name="payment" reference="x_1909965_almaconn_payment" type="reference"/>
+        <element label="Session Date" max_length="40" name="requested_on" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" label="Department" max_length="40" name="department" type="string"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="MentorshipID" max_length="40" name="number" type="string"/>
         <element label="Student Name" max_length="32" name="student_name" reference="x_1909965_almaconn_student" type="reference"/>
@@ -20,6 +29,7 @@
             </choice>
         </element>
         <element attributes="hint=Briefly describe what guidance you are looking for (career advice, resume review, higher studies)&#13;&#10;" label="Request Description" max_length="40000" name="request_description" type="string_full_utf8"/>
+        <element label="Amount" max_length="20" name="amount" type="decimal"/>
         <element choice="1" label="MentorShip Topics" max_length="40" name="mentorship_topics" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Technical Skills" value="technical studies"/>
@@ -32,6 +42,9 @@
             <element name="alumni_name"/>
         </index>
         <index name="index2">
+            <element name="payment"/>
+        </index>
+        <index name="index3">
             <element name="student_name"/>
         </index>
     </element>

@@ -1,0 +1,964 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=953000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>26000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>email_to_alumni_request</internal_name>
+        <label_cache>[{"name":"Created_1.current.alumni_name.department","label":"Trigger - Record Created➛Mentorship Request Table Record➛Alumni Name➛Department","reference":"","reference_display":"Department","type":"string","base_type":"string","parent_table_name":"x_1909965_almaconn_alumni","column_name":"department","usedInstances":{"5b37d05a-0fbd-4297-9eb4-ed793de4a3fe":[null]}},{"name":"Created_1.current.student_name.name","label":"Trigger - Record Created➛Mentorship Request Table Record➛Student Name➛Student Name","reference":"","reference_display":"Student Name","type":"string","base_type":"string","parent_table_name":"x_1909965_almaconn_student","column_name":"name","usedInstances":{"5b37d05a-0fbd-4297-9eb4-ed793de4a3fe":[null]}},{"name":"Created_1.current.alumni_name.alumni_name","label":"Trigger - Record Created➛Mentorship Request Table Record➛Alumni Name➛Alumni Name","reference":"","reference_display":"Alumni Name","type":"string","base_type":"string","parent_table_name":"x_1909965_almaconn_alumni","column_name":"alumni_name","usedInstances":{"5b37d05a-0fbd-4297-9eb4-ed793de4a3fe":[null]}},{"name":"Created_1.current.request_description","label":"Trigger - Record Created➛Mentorship Request Table Record➛Request Description","reference":"","reference_display":"Request Description","type":"string_full_utf8","base_type":"string_full_utf8","parent_table_name":"x_1909965_almaconn_mentorship_request_table","column_name":"request_description","usedInstances":{"5b37d05a-0fbd-4297-9eb4-ed793de4a3fe":[null]}},{"name":"Created_1.current.department","label":"Trigger - Record Created➛Mentorship Request Table Record➛Department","reference":"","reference_display":"Department","type":"string","base_type":"string","parent_table_name":"x_1909965_almaconn_mentorship_request_table","column_name":"department","usedInstances":{"5b37d05a-0fbd-4297-9eb4-ed793de4a3fe":[null]}},{"name":"Created_1.current.student_name","label":"Trigger - Record Created➛Mentorship Request Table Record➛Student Name","reference":"x_1909965_almaconn_student","reference_display":"Student","type":"reference","base_type":"reference","parent_table_name":"x_1909965_almaconn_mentorship_request_table","column_name":"student_name","usedInstances":{"5b37d05a-0fbd-4297-9eb4-ed793de4a3fe":["ah_subject",null]}},{"name":"Created_1.current.alumni_name.email","label":"Trigger - Record Created➛Mentorship Request Table Record➛Alumni Name➛Email","reference":"","reference_display":"Email","type":"string","base_type":"string","parent_table_name":"x_1909965_almaconn_alumni","column_name":"email","usedInstances":{"5b37d05a-0fbd-4297-9eb4-ed793de4a3fe":["ah_to"]}},{"name":"Created_1.current.alumni_name","label":"Trigger - Record Created➛Mentorship Request Table Record➛Alumni Name","reference":"x_1909965_almaconn_alumni","reference_display":"Alumni","type":"reference","base_type":"reference","parent_table_name":"x_1909965_almaconn_mentorship_request_table","column_name":"alumni_name","usedInstances":{"5b37d05a-0fbd-4297-9eb4-ed793de4a3fe":[null]}},{"name":"Created_1.current","label":"Trigger - Record Created➛Mentorship Request Table Record","reference":"x_1909965_almaconn_mentorship_request_table","reference_display":"Mentorship Request Table","type":"reference","base_type":"reference","usedInstances":{"5b37d05a-0fbd-4297-9eb4-ed793de4a3fe":["record"]},"attributes":{}}]</label_cache>
+        <master_snapshot>f7c1c82a832bb250979271d6feaad315</master_snapshot>
+        <master_snapshot_digest/>
+        <name>Email to Alumni request</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>c0d1c82a832bb250979271d6feaad348</remote_trigger_id>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>katakamlakshmi</sys_created_by>
+        <sys_created_on>2026-03-13 11:04:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e5af3b56832bb250979271d6feaad396</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Email to Alumni request</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="AlmaConnect" source="x_1909965_almaconn">3882be6183763210979271d6feaad3fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AlmaConnect">3882be6183763210979271d6feaad3fc</sys_scope>
+        <sys_update_name>sys_hub_flow_e5af3b56832bb250979271d6feaad396</sys_update_name>
+        <sys_updated_by>katakamlakshmi</sys_updated_by>
+        <sys_updated_on>2026-03-13 11:20:04</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=e5af3b56832bb250979271d6feaad396"/>
+    <sys_variable_value action="delete_multiple" query="document_key=e5af3b56832bb250979271d6feaad396"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_1909965_almaconn_mentorship_request_table">status=pending<item display_value="Pending" endquery="false" field="status" goto="false" newquery="false" operator="=" or="false" value="pending"/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>true</on_insert>
+        <on_update>false</on_update>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>katakamlakshmi</sys_created_by>
+        <sys_created_on>2026-03-13 11:13:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c0d1c82a832bb250979271d6feaad348</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="AlmaConnect">3882be6183763210979271d6feaad3fc</sys_scope>
+        <sys_updated_by>katakamlakshmi</sys_updated_by>
+        <sys_updated_on>2026-03-13 11:13:37</sys_updated_on>
+        <table>x_1909965_almaconn_mentorship_request_table</table>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data>{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}</data>
+        <identifier>e5af3b56832bb250979271d6feaad396</identifier>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>katakamlakshmi</sys_created_by>
+        <sys_created_on>2026-03-13 11:20:04</sys_created_on>
+        <sys_id>2a4308aa832bb250979271d6feaad3d3</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>katakamlakshmi</sys_updated_by>
+        <sys_updated_on>2026-03-13 11:20:04</sys_updated_on>
+        <trigger display_value="">c0d1c82a832bb250979271d6feaad348</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=e5af3b56832bb250979271d6feaad396^sys_idNOT IN2a4308aa832bb250979271d6feaad3d3"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=e5af3b56832bb250979271d6feaad396"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=e5af3b56832bb250979271d6feaad396^sys_idNOT IN65af3b56832bb250979271d6feaad397"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>e5af3b56832bb250979271d6feaad396</id>
+        <name>Email to Alumni request</name>
+        <sys_created_by>katakamlakshmi</sys_created_by>
+        <sys_created_on>2026-03-13 11:04:10</sys_created_on>
+        <sys_id>65af3b56832bb250979271d6feaad397</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>katakamlakshmi</sys_updated_by>
+        <sys_updated_on>2026-03-13 11:04:10</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=65af3b56832bb250979271d6feaad397"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=e5af3b56832bb250979271d6feaad396^sys_idNOT IN09c1c0a6832bb250979271d6feaad327,81c1482a832bb250979271d6feaad35c"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Email to Alumni request">e5af3b56832bb250979271d6feaad396</model>
+        <model_id>e5af3b56832bb250979271d6feaad396</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_e5af3b56832bb250979271d6feaad396</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>katakamlakshmi</sys_created_by>
+        <sys_created_on>2026-03-13 11:13:25</sys_created_on>
+        <sys_id>09c1c0a6832bb250979271d6feaad327</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AlmaConnect">3882be6183763210979271d6feaad3fc</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>katakamlakshmi</sys_updated_by>
+        <sys_updated_on>2026-03-13 11:13:25</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=09c1c0a6832bb250979271d6feaad327"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Email to Alumni request">e5af3b56832bb250979271d6feaad396</model>
+        <model_id>e5af3b56832bb250979271d6feaad396</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_e5af3b56832bb250979271d6feaad396</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>katakamlakshmi</sys_created_by>
+        <sys_created_on>2026-03-13 11:13:25</sys_created_on>
+        <sys_id>81c1482a832bb250979271d6feaad35c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AlmaConnect">3882be6183763210979271d6feaad3fc</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>katakamlakshmi</sys_updated_by>
+        <sys_updated_on>2026-03-13 11:13:25</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=81c1482a832bb250979271d6feaad35c"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=e5af3b56832bb250979271d6feaad396"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=e5af3b56832bb250979271d6feaad396"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=e5af3b56832bb250979271d6feaad396^sys_idNOT IN0dc1482a832bb250979271d6feaad393"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Email to Alumni request">e5af3b56832bb250979271d6feaad396</flow>
+        <name>Created</name>
+        <remote_sys_id/>
+        <sys_created_by>katakamlakshmi</sys_created_by>
+        <sys_created_on>2026-03-13 11:13:25</sys_created_on>
+        <sys_id>0dc1482a832bb250979271d6feaad393</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>katakamlakshmi</sys_updated_by>
+        <sys_updated_on>2026-03-13 11:13:36</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/+VaXW/bNhT9K4KeNiADJMtfyluXpFiAthkcd3vIAoKSLm1hNOWKlBK3yH/fpfVhWZYT2U5XO30JYJG6POfy3HMpInffTE494Oa5OaYeB/PMDIWCWFA+XswBHyv9mAg602MzKgKqonhhnqs4gTMzigOIzXP7zEwpT+B2Ia8DfAmnLt/IXzfzYfz9SGzXct1+j1A+o34kBJmBwJByGs5JDF8SkIoUbwWhnHO6+Ct/+WM50xhlM40C9ZzGuKDSYL6Z/jTkQQzCPL+7R0Iakc986nbA8h3b6XQsqzPs2l7f8exO4FCwLAxRT0SNgWrIx4o+PCoQAeBSjHIJDamKgQY3gi/KGVPMdJarGX2U4VeMPrT0PAaI3YdsrPxJ8mRkj/1pFPpwM1dhJLInGc5sMOLJTHzK8Os0AqMJV0Ua8UkiMR7MNWQNIkfEbqfRw6hY8H0oluzyQR75lJe/qFJx6CUKpE44CzmmPts2IqMkXqIfXV3cjC7J3+/GF39cjcjo6nY8ur4YX12aT0te5EuiI2YIcywko/NU7v37ELjeQJHMPERzZko/Dufqna/CFHI4T2crGceJwBik3I8NQWeZK1P4IZSYgDvkUKRnGRLH2Yc85CgRRoQ7h38MP4kxOcooVMGuZ3SSJ5X9WYhwmZRcPymNCZkRuZBkmngE0zaZYK5CMU8UGbhD1+7TLbIc+GupWdYQhr4zzfsnvVvAwVcVzbHPsvrrYyhlKCaVJJUctSQ3KZbsULtGkcGMqjwtrvdrBZhPKqrVsrba1aZ60poqapbUwnpsmzEPWMcaaNa25XjMtgZWj7LAsSy/U7GezeW34lI1NVfJPWdG+ZM2btTd0Y3kso54i6qpJ7UAXy3kVpJM1/Wcx+no/c9N7+IIodXM29nJvUshZo8v1/X4HLVXNn0apBTfCAqObUy9hXk/TEEQCUrpct7dvQWWyfIdmi1SMTmtd0MniEWx8SkSv12v5hm3gAaCOE/K5qqW3oY0BouNN8Xai9S03sg009/x+RpTXaRb9vwn6m214krXs7hHb4PusOcyxx8gZ+xmrAsetbudHnUHfYe5td5WW347sKPvbi29JN3qSk19pW2tpo0lX3aYWqfapxxqwshDOy/01Z83KQd19KL6tjb0fcCeRrNnPHpADezR5z3q/zuJo0QEG/aPMY1QGKsZxi95bn89LaevNjrUADzPd33G6bA8pJ+t9FMUJxWLvTqZw2zPhS5Y+HHmYCfzeq7r+bTD2KA/gI5d62SrhRvRHH3/alEoaVOlbfscahRh2qTdHb7RfjzAg3w9l2KjrWdjx2/SF5EIQpV12LpFF0PS3LOC/UrwYiukoiqR/ySW5QQabHYefKl6+31KA9jmVx6rVG+VUQMO1UDuu1Sv9YPuerPb6L01NosC4JercOZa49DZeqBCSaIiQoOAVPLYUpQZt80LYLP97QEyjg+6QtBQgESs2movIwMHDFzECJmRs4bA8BaGmgL6CkeHwQUNvfqJfVJWDxqbzMsT+JvmnTnyxkUCPl4yOy1iB98R1Ero0NMVBAPa6zmD5nsCt366aoLwAsKjP3Ht7B9pkx09+4W8W9x6zMZv5Ir81zXQ8krgDbP+bmfDBhTHf1Bcr0uum+pG553wMIBi7BX8KY+Urnxod2diQ9fv2YMtzjTsbXWmfPHngKkG2v/LWVI3oFw5TQ71ORs6rv8heC1N3v8HbJmvmdQiAAA=</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=e5af3b56832bb250979271d6feaad396^sys_idNOT IN8dc1482a832bb250979271d6feaad397"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Email to Alumni request">e5af3b56832bb250979271d6feaad396</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>katakamlakshmi</sys_created_by>
+        <sys_created_on>2026-03-13 11:13:25</sys_created_on>
+        <sys_id>8dc1482a832bb250979271d6feaad397</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="AlmaConnect">3882be6183763210979271d6feaad3fc</sys_scope>
+        <sys_updated_by>katakamlakshmi</sys_updated_by>
+        <sys_updated_on>2026-03-13 11:27:53</sys_updated_on>
+        <ui_id>5b37d05a-0fbd-4297-9eb4-ed793de4a3fe</ui_id>
+        <values>H4sIAAAAAAAA/+1bzW7jOBJ+FcLnyJHl//SpJ0FjBujuGXSCWSymBwJFUja3KVEjUvmZIMDc97jHBRb7LPso8yRbFCVLjh1Hjt2ZOK1cYvGnWFWsrz6KFH+57XDaOekM6MQdBeEAj92+13fdiTedBv1p6E7GU7dHaOeoE+OIQcuUEZma50ssMlNwe3uaMqwZ9XtdkqUpi/XdHdRTrhKBb34umkEJmXNBob5z8suvR50EpyBRs7RzcnuvqqlKAgdMQNMLnM6YRp9K1e6rqm8S80wlySJQz+dl4ftCwFlRg344gxroZLRyjzrsWrOYMlAnxEKxo06EY4q1TG8WJWA7/TEWVcGcxxpEvlVKEg5+UUjPGWIR5gJdcT1HGFnFuh0j71rx30G5vmdEhQx8QIyuPCacgkadWrFfuBSqf6iqwzOs8blOM6KzdOFpyQlT1puUhTgT+rReZhv8mGguY9tF40CUvaXIovijdWJnIaA2k5kCZVhifGOMhcHB8PB8Lq8+lcq+43HuxcIrQhIsFk/hOcMpmb/jTJipjrMogLZHHax1yoNMGzUhKAS0qsbxc1XNWNCSCZZPZYSThMczP0nlJc8HBPWj7kzAQzcU8gr6Kz6Lu5gYW7swe7j7DsrP8uKfccqN4R9ADHS+O+qoG3UqsFKV+eB//7fMaG+dsayO6e3nAWc6k5Qn+i0MdckKY++OCoj1ppvimQ6quK3JrGB27fem7nQ6GvpYRJjIOPaNA2Sq5jzxU/ZbxpT27SyugO/DoiWAJG+JLoqW24GygREVKO0A64wqALlS9r7eF320FQUce1vC0QZlgcYLgKC2WcKCD5WeWiBw4i4j8AHkvQzELXDUGHLL0Po68IEgUb7FQGFbPvgTYPUYmNzRKAhGwXDcr+JwSkI6DsIRHpN+FXdXkILTCKdf/DwF1xDVW8VJkVy2w0QDXUpMQNoWGWXob6VSm/QsQBJICXkwvo8Q0PT4Xe7dBUK8nQjLhibSEsFkihugqYVKprAiMT3HGnGFFMxWF11IxAuraj2O0I3MUJRBolGAObwMviXmG7xc3BXhUJSerY2VgwDm/gE43EwEuApsPPe13Lxe7GIzDTxngm4eZHd3aBWdW/TcDsENjFmwmly1rACqgnmMZ/dwel4WFhjtb8aoJa0ViNZIyn25cDkUNBjFBY94HhAWx/sHCN0YU8xdCiNCagDZw7tTg8HLgD49XdVkm4AePI102og+uIjubXwhZ6OlOAr2HdINRi9D+rt7MR1sHdTDNqi/kaAebg4rshRIKgv+wYiuBfZHdoXWvFyHqYzQuuWK0lmum5G5bpdsZ3lbLnwet74E1fnC9nX+2AZco3YJ9Jdja/9AwhtDKfSWM7KkNzUUfc5ct08SZHR2NI9vIsJSKXUAjvmSV9LPnc+2GfueCSHNT28UByp5YzurBMeIGHvK9kaYDwAwFiRciM8dpPSNYIt6Gygn8PoqeMzeQD2RMcQlIIznM162zA2F6lw9IyrXu6y9vQ2pr1Mcq1Cm0QkLyXjCJiOnPxyMnIEbBM6EBRR+eeFgMJ4yz/Xu7kpjNisPQyGECWGJVtUQfpjF+Rwr0AkUNbF0XXZ0X5wZ+VBOoVP+H4O708e6ml6qSSNHQzYpzdJSCs0Th9OySf6SlhdeyOR+s0Krsu1FymczliKnOEpARcJFNtxm+s265Gw3K4seVcu3+Ztpvom5vrSRcUrjVJctH9LPSjg2IhqIxGkqr5rPXE4ADgEg6W07LY3053/+/YCetYJut/vCNNrOt5AxS+n1mX7qKMACWsaoiubVJOCHmGDK/CaANbmhrvKD0lAsa/nG7AdyRh/ztc2jjiUJhwO21vRYn4JjmSfgYlr++Gdjh1kHbefUWsFRUZIU9fFWTPR3maE5vmRmV5MBJVKEUQwLuOpcBhXnMkjPU5nN5vku6lsR4VMZx7ByQmC+Nj7u7qTIuV0FojMGuVWonWQ5D/3tRUODhpMXxtjuhDIymFJnOHAnzoAEIwezCXFYHwfUI9PxqDc4AMbenxnfKmPXg/SB4pazXzVnL031M5B2E8y2pL2+4GlEdMaAYLRh6JdGQ95wMu5NJlMHexAQAzLyHOwS6ngD6gbeNJi6AT4AGtqfGd8qDa1/cawCt+WgV81BtYl+BgZqAteWgfbJQB+YUnjG7J5+seA42UniCyOyMCDBeIIHzmBEmTNwaeBM+8xzPLc3HvUpo5S5B0Bk+zPjWyWysvqMWXDztdBuuev1cNe6GX8GEmsC1ZbE9kliFuS187cnyvlJMKwYEnIGJFR+Zrq0QSpTjYWpSdklZ1cIxxR+qkTC/6J9scm62x7q3iyyCr/n8ZeHWL3uf4zmKQtLIXOtE3VyfEzZpTf1Ru6kq1h6yQlzYnnVJTI6vj4urgEc2y8fHeugY4rVPJA4pTkjmm9tS5l+IHD8pVRvHyNYq/DGMNqvUy/mYEL+STGAEqksMTrxeIaK7x/UYoO92nvfLRy+M2nsE5uBvWq3U4J6NF8wHO0ozExJ4VYzI2/KLasaLf9UHCosj7T6scnSVOXH6v/77yZS2W4t+ThJNVneNaW6r766atCwXbf8xRpt59v2rPag1isPZWH7+Axnsfax2Vmrfdz2LHV5hD2flbb5uM3Hh5KP23O4A0jIG5PYVzlna1NYm8IOJYW1xziHncC2OaZpkpfaPNfmudeY59ot/1eS8Mq9vweqn2OnvpkiL3WDHawTZVksZcIglcJU51fT0vxnKIWocPm8W/GPeHWfO+z2sckOun1suENeNjae+POPf22z8b3drcgGV9kWV43tRbaVm23Ffci5jsS925DfX3x4X92FHO940Xg0HPZH7W3InW8aJ1fUo6lMksK2Pd82/vX/wpr5wWhPAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=8dc1482a832bb250979271d6feaad397"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=e5af3b56832bb250979271d6feaad396"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=e5af3b56832bb250979271d6feaad396"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=e5af3b56832bb250979271d6feaad396^sys_idNOT IN0dc1482a832bb250979271d6feaad39a,1443c4aa832bb250979271d6feaad376,49c1482a832bb250979271d6feaad39b,85c1482a832bb250979271d6feaad39b,9c43c4aa832bb250979271d6feaad376,c1c1482a832bb250979271d6feaad39b,d843c4aa832bb250979271d6feaad376"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>e5af3b56832bb250979271d6feaad396</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.student_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>katakamlakshmi</sys_created_by>
+        <sys_created_on>2026-03-13 11:13:25</sys_created_on>
+        <sys_id>0dc1482a832bb250979271d6feaad39a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="AlmaConnect">3882be6183763210979271d6feaad3fc</sys_scope>
+        <sys_updated_by>katakamlakshmi</sys_updated_by>
+        <sys_updated_on>2026-03-13 11:13:25</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>27ae6576-f44e-4767-8dae-1961e3890c50</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>e5af3b56832bb250979271d6feaad396</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.alumni_name.alumni_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>katakamlakshmi</sys_created_by>
+        <sys_created_on>2026-03-13 11:19:55</sys_created_on>
+        <sys_id>1443c4aa832bb250979271d6feaad376</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="AlmaConnect">3882be6183763210979271d6feaad3fc</sys_scope>
+        <sys_updated_by>katakamlakshmi</sys_updated_by>
+        <sys_updated_on>2026-03-13 11:19:55</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>efc78e86-3546-40bb-8ebd-402f4479e202</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>e5af3b56832bb250979271d6feaad396</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.request_description}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>katakamlakshmi</sys_created_by>
+        <sys_created_on>2026-03-13 11:13:25</sys_created_on>
+        <sys_id>49c1482a832bb250979271d6feaad39b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="AlmaConnect">3882be6183763210979271d6feaad3fc</sys_scope>
+        <sys_updated_by>katakamlakshmi</sys_updated_by>
+        <sys_updated_on>2026-03-13 11:13:25</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>fbcb78a4-46de-40db-93e2-201763dedde0</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>e5af3b56832bb250979271d6feaad396</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.department}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>katakamlakshmi</sys_created_by>
+        <sys_created_on>2026-03-13 11:13:25</sys_created_on>
+        <sys_id>85c1482a832bb250979271d6feaad39b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="AlmaConnect">3882be6183763210979271d6feaad3fc</sys_scope>
+        <sys_updated_by>katakamlakshmi</sys_updated_by>
+        <sys_updated_on>2026-03-13 11:13:25</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>7c9cc029-009e-48fb-9457-f676336843c4</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>e5af3b56832bb250979271d6feaad396</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.alumni_name.department}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>katakamlakshmi</sys_created_by>
+        <sys_created_on>2026-03-13 11:19:55</sys_created_on>
+        <sys_id>9c43c4aa832bb250979271d6feaad376</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="AlmaConnect">3882be6183763210979271d6feaad3fc</sys_scope>
+        <sys_updated_by>katakamlakshmi</sys_updated_by>
+        <sys_updated_on>2026-03-13 11:19:55</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>25871889-a29d-4c62-a0cd-24d0b29b90ba</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>e5af3b56832bb250979271d6feaad396</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.alumni_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>katakamlakshmi</sys_created_by>
+        <sys_created_on>2026-03-13 11:13:25</sys_created_on>
+        <sys_id>c1c1482a832bb250979271d6feaad39b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="AlmaConnect">3882be6183763210979271d6feaad3fc</sys_scope>
+        <sys_updated_by>katakamlakshmi</sys_updated_by>
+        <sys_updated_on>2026-03-13 11:13:25</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>0e90d240-3d8a-48c8-b50e-bb229e6c74be</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>e5af3b56832bb250979271d6feaad396</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.student_name.name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>katakamlakshmi</sys_created_by>
+        <sys_created_on>2026-03-13 11:19:55</sys_created_on>
+        <sys_id>d843c4aa832bb250979271d6feaad376</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="AlmaConnect">3882be6183763210979271d6feaad3fc</sys_scope>
+        <sys_updated_by>katakamlakshmi</sys_updated_by>
+        <sys_updated_on>2026-03-13 11:19:55</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>08dec49d-5408-4cb6-ae8c-e3abd2c97614</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_flow_variable action="delete_multiple" query="model=e5af3b56832bb250979271d6feaad396"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_e5af3b56832bb250979271d6feaad396^sys_idNOT IN45c1482a832bb250979271d6feaad35e,c1c1482a832bb250979271d6feaad35b"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_e5af3b56832bb250979271d6feaad396</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>katakamlakshmi</sys_created_by>
+        <sys_created_on>2026-03-13 11:13:25</sys_created_on>
+        <sys_id>45c1482a832bb250979271d6feaad35e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AlmaConnect" source="x_1909965_almaconn">3882be6183763210979271d6feaad3fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AlmaConnect">3882be6183763210979271d6feaad3fc</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>katakamlakshmi</sys_updated_by>
+        <sys_updated_on>2026-03-13 11:13:25</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_e5af3b56832bb250979271d6feaad396</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>katakamlakshmi</sys_created_by>
+        <sys_created_on>2026-03-13 11:13:25</sys_created_on>
+        <sys_id>c1c1482a832bb250979271d6feaad35b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AlmaConnect" source="x_1909965_almaconn">3882be6183763210979271d6feaad3fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AlmaConnect">3882be6183763210979271d6feaad3fc</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>katakamlakshmi</sys_updated_by>
+        <sys_updated_on>2026-03-13 11:13:25</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_e5af3b56832bb250979271d6feaad396"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_e5af3b56832bb250979271d6feaad396"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_e5af3b56832bb250979271d6feaad396"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>26000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority>MEDIUM</flow_priority>
+        <internal_name>email_to_alumni_request</internal_name>
+        <label_cache>[{"name":"Created_1.current.alumni_name.department","label":"Trigger - Record Created➛Mentorship Request Table Record➛Alumni Name➛Department","reference":"","reference_display":"Department","type":"string","base_type":"string","parent_table_name":"x_1909965_almaconn_alumni","column_name":"department","usedInstances":{"5b37d05a-0fbd-4297-9eb4-ed793de4a3fe":[null]}},{"name":"Created_1.current.student_name.name","label":"Trigger - Record Created➛Mentorship Request Table Record➛Student Name➛Student Name","reference":"","reference_display":"Student Name","type":"string","base_type":"string","parent_table_name":"x_1909965_almaconn_student","column_name":"name","usedInstances":{"5b37d05a-0fbd-4297-9eb4-ed793de4a3fe":[null]}},{"name":"Created_1.current.alumni_name.alumni_name","label":"Trigger - Record Created➛Mentorship Request Table Record➛Alumni Name➛Alumni Name","reference":"","reference_display":"Alumni Name","type":"string","base_type":"string","parent_table_name":"x_1909965_almaconn_alumni","column_name":"alumni_name","usedInstances":{"5b37d05a-0fbd-4297-9eb4-ed793de4a3fe":[null]}},{"name":"Created_1.current.request_description","label":"Trigger - Record Created➛Mentorship Request Table Record➛Request Description","reference":"","reference_display":"Request Description","type":"string_full_utf8","base_type":"string_full_utf8","parent_table_name":"x_1909965_almaconn_mentorship_request_table","column_name":"request_description","usedInstances":{"5b37d05a-0fbd-4297-9eb4-ed793de4a3fe":[null]}},{"name":"Created_1.current.department","label":"Trigger - Record Created➛Mentorship Request Table Record➛Department","reference":"","reference_display":"Department","type":"string","base_type":"string","parent_table_name":"x_1909965_almaconn_mentorship_request_table","column_name":"department","usedInstances":{"5b37d05a-0fbd-4297-9eb4-ed793de4a3fe":[null]}},{"name":"Created_1.current.student_name","label":"Trigger - Record Created➛Mentorship Request Table Record➛Student Name","reference":"x_1909965_almaconn_student","reference_display":"Student","type":"reference","base_type":"reference","parent_table_name":"x_1909965_almaconn_mentorship_request_table","column_name":"student_name","usedInstances":{"5b37d05a-0fbd-4297-9eb4-ed793de4a3fe":["ah_subject",null]}},{"name":"Created_1.current.alumni_name.email","label":"Trigger - Record Created➛Mentorship Request Table Record➛Alumni Name➛Email","reference":"","reference_display":"Email","type":"string","base_type":"string","parent_table_name":"x_1909965_almaconn_alumni","column_name":"email","usedInstances":{"5b37d05a-0fbd-4297-9eb4-ed793de4a3fe":["ah_to"]}},{"name":"Created_1.current.alumni_name","label":"Trigger - Record Created➛Mentorship Request Table Record➛Alumni Name","reference":"x_1909965_almaconn_alumni","reference_display":"Alumni","type":"reference","base_type":"reference","parent_table_name":"x_1909965_almaconn_mentorship_request_table","column_name":"alumni_name","usedInstances":{"5b37d05a-0fbd-4297-9eb4-ed793de4a3fe":[null]}},{"name":"Created_1.current","label":"Trigger - Record Created➛Mentorship Request Table Record","reference":"x_1909965_almaconn_mentorship_request_table","reference_display":"Mentorship Request Table","type":"reference","base_type":"reference","usedInstances":{"5b37d05a-0fbd-4297-9eb4-ed793de4a3fe":["record"]},"attributes":{}}]</label_cache>
+        <master>true</master>
+        <name>Email to Alumni request</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Email to Alumni request">e5af3b56832bb250979271d6feaad396</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>katakamlakshmi</sys_created_by>
+        <sys_created_on>2026-03-13 11:13:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f7c1c82a832bb250979271d6feaad315</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AlmaConnect">3882be6183763210979271d6feaad3fc</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>katakamlakshmi</sys_updated_by>
+        <sys_updated_on>2026-03-13 11:20:04</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=f7c1c82a832bb250979271d6feaad315"/>
+    <sys_variable_value action="delete_multiple" query="document_key=f7c1c82a832bb250979271d6feaad315"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=f7c1c82a832bb250979271d6feaad315"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=f7c1c82a832bb250979271d6feaad315^sys_idNOT INf7c1c82a832bb250979271d6feaad316"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>f7c1c82a832bb250979271d6feaad315</id>
+        <name>Email to Alumni request</name>
+        <sys_created_by>katakamlakshmi</sys_created_by>
+        <sys_created_on>2026-03-13 11:13:36</sys_created_on>
+        <sys_id>f7c1c82a832bb250979271d6feaad316</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>katakamlakshmi</sys_updated_by>
+        <sys_updated_on>2026-03-13 11:13:36</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=f7c1c82a832bb250979271d6feaad316"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=f7c1c82a832bb250979271d6feaad315^sys_idNOT IN7bc1c82a832bb250979271d6feaad322,fbc1c82a832bb250979271d6feaad317"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Email to Alumni request">f7c1c82a832bb250979271d6feaad315</model>
+        <model_id>f7c1c82a832bb250979271d6feaad315</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_f7c1c82a832bb250979271d6feaad315</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>katakamlakshmi</sys_created_by>
+        <sys_created_on>2026-03-13 11:13:36</sys_created_on>
+        <sys_id>7bc1c82a832bb250979271d6feaad322</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AlmaConnect">3882be6183763210979271d6feaad3fc</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>katakamlakshmi</sys_updated_by>
+        <sys_updated_on>2026-03-13 11:20:04</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=7bc1c82a832bb250979271d6feaad322"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Email to Alumni request">f7c1c82a832bb250979271d6feaad315</model>
+        <model_id>f7c1c82a832bb250979271d6feaad315</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_f7c1c82a832bb250979271d6feaad315</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>katakamlakshmi</sys_created_by>
+        <sys_created_on>2026-03-13 11:13:36</sys_created_on>
+        <sys_id>fbc1c82a832bb250979271d6feaad317</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AlmaConnect">3882be6183763210979271d6feaad3fc</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>katakamlakshmi</sys_updated_by>
+        <sys_updated_on>2026-03-13 11:20:04</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=fbc1c82a832bb250979271d6feaad317"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=f7c1c82a832bb250979271d6feaad315"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=f7c1c82a832bb250979271d6feaad315"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=f7c1c82a832bb250979271d6feaad315^sys_idNOT INbbc1c82a832bb250979271d6feaad331"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Email to Alumni request">f7c1c82a832bb250979271d6feaad315</flow>
+        <name>Created</name>
+        <remote_sys_id/>
+        <sys_created_by>katakamlakshmi</sys_created_by>
+        <sys_created_on>2026-03-13 11:13:36</sys_created_on>
+        <sys_id>bbc1c82a832bb250979271d6feaad331</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>katakamlakshmi</sys_updated_by>
+        <sys_updated_on>2026-03-13 11:13:36</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/+VaXW/bNhT9K4KeNiADJMtfyluXpFiAthkcd3vIAoKSLm1hNOWKlBK3yH/fpfVhWZYT2U5XO30JYJG6POfy3HMpInffTE494Oa5OaYeB/PMDIWCWFA+XswBHyv9mAg602MzKgKqonhhnqs4gTMzigOIzXP7zEwpT+B2Ia8DfAmnLt/IXzfzYfz9SGzXct1+j1A+o34kBJmBwJByGs5JDF8SkIoUbwWhnHO6+Ct/+WM50xhlM40C9ZzGuKDSYL6Z/jTkQQzCPL+7R0Iakc986nbA8h3b6XQsqzPs2l7f8exO4FCwLAxRT0SNgWrIx4o+PCoQAeBSjHIJDamKgQY3gi/KGVPMdJarGX2U4VeMPrT0PAaI3YdsrPxJ8mRkj/1pFPpwM1dhJLInGc5sMOLJTHzK8Os0AqMJV0Ua8UkiMR7MNWQNIkfEbqfRw6hY8H0oluzyQR75lJe/qFJx6CUKpE44CzmmPts2IqMkXqIfXV3cjC7J3+/GF39cjcjo6nY8ur4YX12aT0te5EuiI2YIcywko/NU7v37ELjeQJHMPERzZko/Dufqna/CFHI4T2crGceJwBik3I8NQWeZK1P4IZSYgDvkUKRnGRLH2Yc85CgRRoQ7h38MP4kxOcooVMGuZ3SSJ5X9WYhwmZRcPymNCZkRuZBkmngE0zaZYK5CMU8UGbhD1+7TLbIc+GupWdYQhr4zzfsnvVvAwVcVzbHPsvrrYyhlKCaVJJUctSQ3KZbsULtGkcGMqjwtrvdrBZhPKqrVsrba1aZ60poqapbUwnpsmzEPWMcaaNa25XjMtgZWj7LAsSy/U7GezeW34lI1NVfJPWdG+ZM2btTd0Y3kso54i6qpJ7UAXy3kVpJM1/Wcx+no/c9N7+IIodXM29nJvUshZo8v1/X4HLVXNn0apBTfCAqObUy9hXk/TEEQCUrpct7dvQWWyfIdmi1SMTmtd0MniEWx8SkSv12v5hm3gAaCOE/K5qqW3oY0BouNN8Xai9S03sg009/x+RpTXaRb9vwn6m214krXs7hHb4PusOcyxx8gZ+xmrAsetbudHnUHfYe5td5WW347sKPvbi29JN3qSk19pW2tpo0lX3aYWqfapxxqwshDOy/01Z83KQd19KL6tjb0fcCeRrNnPHpADezR5z3q/zuJo0QEG/aPMY1QGKsZxi95bn89LaevNjrUADzPd33G6bA8pJ+t9FMUJxWLvTqZw2zPhS5Y+HHmYCfzeq7r+bTD2KA/gI5d62SrhRvRHH3/alEoaVOlbfscahRh2qTdHb7RfjzAg3w9l2KjrWdjx2/SF5EIQpV12LpFF0PS3LOC/UrwYiukoiqR/ySW5QQabHYefKl6+31KA9jmVx6rVG+VUQMO1UDuu1Sv9YPuerPb6L01NosC4JercOZa49DZeqBCSaIiQoOAVPLYUpQZt80LYLP97QEyjg+6QtBQgESs2movIwMHDFzECJmRs4bA8BaGmgL6CkeHwQUNvfqJfVJWDxqbzMsT+JvmnTnyxkUCPl4yOy1iB98R1Ero0NMVBAPa6zmD5nsCt366aoLwAsKjP3Ht7B9pkx09+4W8W9x6zMZv5Ir81zXQ8krgDbP+bmfDBhTHf1Bcr0uum+pG553wMIBi7BX8KY+Urnxod2diQ9fv2YMtzjTsbXWmfPHngKkG2v/LWVI3oFw5TQ71ORs6rv8heC1N3v8HbJmvmdQiAAA=</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=f7c1c82a832bb250979271d6feaad315^sys_idNOT IN37c1c82a832bb250979271d6feaad330"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Email to Alumni request">f7c1c82a832bb250979271d6feaad315</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>katakamlakshmi</sys_created_by>
+        <sys_created_on>2026-03-13 11:13:36</sys_created_on>
+        <sys_id>37c1c82a832bb250979271d6feaad330</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="AlmaConnect">3882be6183763210979271d6feaad3fc</sys_scope>
+        <sys_updated_by>katakamlakshmi</sys_updated_by>
+        <sys_updated_on>2026-03-13 11:20:04</sys_updated_on>
+        <ui_id>5b37d05a-0fbd-4297-9eb4-ed793de4a3fe</ui_id>
+        <values>H4sIAAAAAAAA/+1bzW7jOBJ+FcLnyJHl//SpJ0FjBujuGXSCWSymBwJFUja3KVEjUvmZIMDc97jHBRb7LPso8yRbFCVLjh1Hjt2ZOK1cYvGnWFWsrz6KFH+57XDaOekM6MQdBeEAj92+13fdiTedBv1p6E7GU7dHaOeoE+OIQcuUEZma50ssMlNwe3uaMqwZ9XtdkqUpi/XdHdRTrhKBb34umkEJmXNBob5z8suvR50EpyBRs7RzcnuvqqlKAgdMQNMLnM6YRp9K1e6rqm8S80wlySJQz+dl4ftCwFlRg344gxroZLRyjzrsWrOYMlAnxEKxo06EY4q1TG8WJWA7/TEWVcGcxxpEvlVKEg5+UUjPGWIR5gJdcT1HGFnFuh0j71rx30G5vmdEhQx8QIyuPCacgkadWrFfuBSqf6iqwzOs8blOM6KzdOFpyQlT1puUhTgT+rReZhv8mGguY9tF40CUvaXIovijdWJnIaA2k5kCZVhifGOMhcHB8PB8Lq8+lcq+43HuxcIrQhIsFk/hOcMpmb/jTJipjrMogLZHHax1yoNMGzUhKAS0qsbxc1XNWNCSCZZPZYSThMczP0nlJc8HBPWj7kzAQzcU8gr6Kz6Lu5gYW7swe7j7DsrP8uKfccqN4R9ADHS+O+qoG3UqsFKV+eB//7fMaG+dsayO6e3nAWc6k5Qn+i0MdckKY++OCoj1ppvimQ6quK3JrGB27fem7nQ6GvpYRJjIOPaNA2Sq5jzxU/ZbxpT27SyugO/DoiWAJG+JLoqW24GygREVKO0A64wqALlS9r7eF320FQUce1vC0QZlgcYLgKC2WcKCD5WeWiBw4i4j8AHkvQzELXDUGHLL0Po68IEgUb7FQGFbPvgTYPUYmNzRKAhGwXDcr+JwSkI6DsIRHpN+FXdXkILTCKdf/DwF1xDVW8VJkVy2w0QDXUpMQNoWGWXob6VSm/QsQBJICXkwvo8Q0PT4Xe7dBUK8nQjLhibSEsFkihugqYVKprAiMT3HGnGFFMxWF11IxAuraj2O0I3MUJRBolGAObwMviXmG7xc3BXhUJSerY2VgwDm/gE43EwEuApsPPe13Lxe7GIzDTxngm4eZHd3aBWdW/TcDsENjFmwmly1rACqgnmMZ/dwel4WFhjtb8aoJa0ViNZIyn25cDkUNBjFBY94HhAWx/sHCN0YU8xdCiNCagDZw7tTg8HLgD49XdVkm4AePI102og+uIjubXwhZ6OlOAr2HdINRi9D+rt7MR1sHdTDNqi/kaAebg4rshRIKgv+wYiuBfZHdoXWvFyHqYzQuuWK0lmum5G5bpdsZ3lbLnwet74E1fnC9nX+2AZco3YJ9Jdja/9AwhtDKfSWM7KkNzUUfc5ct08SZHR2NI9vIsJSKXUAjvmSV9LPnc+2GfueCSHNT28UByp5YzurBMeIGHvK9kaYDwAwFiRciM8dpPSNYIt6Gygn8PoqeMzeQD2RMcQlIIznM162zA2F6lw9IyrXu6y9vQ2pr1Mcq1Cm0QkLyXjCJiOnPxyMnIEbBM6EBRR+eeFgMJ4yz/Xu7kpjNisPQyGECWGJVtUQfpjF+Rwr0AkUNbF0XXZ0X5wZ+VBOoVP+H4O708e6ml6qSSNHQzYpzdJSCs0Th9OySf6SlhdeyOR+s0Krsu1FymczliKnOEpARcJFNtxm+s265Gw3K4seVcu3+Ztpvom5vrSRcUrjVJctH9LPSjg2IhqIxGkqr5rPXE4ADgEg6W07LY3053/+/YCetYJut/vCNNrOt5AxS+n1mX7qKMACWsaoiubVJOCHmGDK/CaANbmhrvKD0lAsa/nG7AdyRh/ztc2jjiUJhwO21vRYn4JjmSfgYlr++Gdjh1kHbefUWsFRUZIU9fFWTPR3maE5vmRmV5MBJVKEUQwLuOpcBhXnMkjPU5nN5vku6lsR4VMZx7ByQmC+Nj7u7qTIuV0FojMGuVWonWQ5D/3tRUODhpMXxtjuhDIymFJnOHAnzoAEIwezCXFYHwfUI9PxqDc4AMbenxnfKmPXg/SB4pazXzVnL031M5B2E8y2pL2+4GlEdMaAYLRh6JdGQ95wMu5NJlMHexAQAzLyHOwS6ngD6gbeNJi6AT4AGtqfGd8qDa1/cawCt+WgV81BtYl+BgZqAteWgfbJQB+YUnjG7J5+seA42UniCyOyMCDBeIIHzmBEmTNwaeBM+8xzPLc3HvUpo5S5B0Bk+zPjWyWysvqMWXDztdBuuev1cNe6GX8GEmsC1ZbE9kliFuS187cnyvlJMKwYEnIGJFR+Zrq0QSpTjYWpSdklZ1cIxxR+qkTC/6J9scm62x7q3iyyCr/n8ZeHWL3uf4zmKQtLIXOtE3VyfEzZpTf1Ru6kq1h6yQlzYnnVJTI6vj4urgEc2y8fHeugY4rVPJA4pTkjmm9tS5l+IHD8pVRvHyNYq/DGMNqvUy/mYEL+STGAEqksMTrxeIaK7x/UYoO92nvfLRy+M2nsE5uBvWq3U4J6NF8wHO0ozExJ4VYzI2/KLasaLf9UHCosj7T6scnSVOXH6v/77yZS2W4t+ThJNVneNaW6r766atCwXbf8xRpt59v2rPag1isPZWH7+Axnsfax2Vmrfdz2LHV5hD2flbb5uM3Hh5KP23O4A0jIG5PYVzlna1NYm8IOJYW1xziHncC2OaZpkpfaPNfmudeY59ot/1eS8Mq9vweqn2OnvpkiL3WDHawTZVksZcIglcJU51fT0vxnKIWocPm8W/GPeHWfO+z2sckOun1suENeNjae+POPf22z8b3drcgGV9kWV43tRbaVm23Ffci5jsS925DfX3x4X92FHO940Xg0HPZH7W3InW8aJ1fUo6lMksK2Pd82/vX/wpr5wWhPAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=37c1c82a832bb250979271d6feaad330"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=f7c1c82a832bb250979271d6feaad315"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=f7c1c82a832bb250979271d6feaad315"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=f7c1c82a832bb250979271d6feaad315^sys_idNOT IN33c1c82a832bb250979271d6feaad332,3fc1c82a832bb250979271d6feaad331,ae4308aa832bb250979271d6feaad3c2,b3c1c82a832bb250979271d6feaad332,bfc1c82a832bb250979271d6feaad331,e64308aa832bb250979271d6feaad3c2,ea4308aa832bb250979271d6feaad3c2"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>f7c1c82a832bb250979271d6feaad315</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.alumni_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>katakamlakshmi</sys_created_by>
+        <sys_created_on>2026-03-13 11:13:36</sys_created_on>
+        <sys_id>33c1c82a832bb250979271d6feaad332</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="AlmaConnect">3882be6183763210979271d6feaad3fc</sys_scope>
+        <sys_updated_by>katakamlakshmi</sys_updated_by>
+        <sys_updated_on>2026-03-13 11:13:36</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>0e90d240-3d8a-48c8-b50e-bb229e6c74be</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>f7c1c82a832bb250979271d6feaad315</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.department}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>katakamlakshmi</sys_created_by>
+        <sys_created_on>2026-03-13 11:13:36</sys_created_on>
+        <sys_id>3fc1c82a832bb250979271d6feaad331</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="AlmaConnect">3882be6183763210979271d6feaad3fc</sys_scope>
+        <sys_updated_by>katakamlakshmi</sys_updated_by>
+        <sys_updated_on>2026-03-13 11:13:36</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>7c9cc029-009e-48fb-9457-f676336843c4</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>f7c1c82a832bb250979271d6feaad315</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.alumni_name.department}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>katakamlakshmi</sys_created_by>
+        <sys_created_on>2026-03-13 11:20:04</sys_created_on>
+        <sys_id>ae4308aa832bb250979271d6feaad3c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="AlmaConnect">3882be6183763210979271d6feaad3fc</sys_scope>
+        <sys_updated_by>katakamlakshmi</sys_updated_by>
+        <sys_updated_on>2026-03-13 11:20:04</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>25871889-a29d-4c62-a0cd-24d0b29b90ba</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>f7c1c82a832bb250979271d6feaad315</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.student_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>katakamlakshmi</sys_created_by>
+        <sys_created_on>2026-03-13 11:13:36</sys_created_on>
+        <sys_id>b3c1c82a832bb250979271d6feaad332</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="AlmaConnect">3882be6183763210979271d6feaad3fc</sys_scope>
+        <sys_updated_by>katakamlakshmi</sys_updated_by>
+        <sys_updated_on>2026-03-13 11:13:36</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>27ae6576-f44e-4767-8dae-1961e3890c50</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>f7c1c82a832bb250979271d6feaad315</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.request_description}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>katakamlakshmi</sys_created_by>
+        <sys_created_on>2026-03-13 11:13:36</sys_created_on>
+        <sys_id>bfc1c82a832bb250979271d6feaad331</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="AlmaConnect">3882be6183763210979271d6feaad3fc</sys_scope>
+        <sys_updated_by>katakamlakshmi</sys_updated_by>
+        <sys_updated_on>2026-03-13 11:13:36</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>fbcb78a4-46de-40db-93e2-201763dedde0</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>f7c1c82a832bb250979271d6feaad315</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.student_name.name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>katakamlakshmi</sys_created_by>
+        <sys_created_on>2026-03-13 11:20:04</sys_created_on>
+        <sys_id>e64308aa832bb250979271d6feaad3c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="AlmaConnect">3882be6183763210979271d6feaad3fc</sys_scope>
+        <sys_updated_by>katakamlakshmi</sys_updated_by>
+        <sys_updated_on>2026-03-13 11:20:04</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>08dec49d-5408-4cb6-ae8c-e3abd2c97614</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>f7c1c82a832bb250979271d6feaad315</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.alumni_name.alumni_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>katakamlakshmi</sys_created_by>
+        <sys_created_on>2026-03-13 11:20:04</sys_created_on>
+        <sys_id>ea4308aa832bb250979271d6feaad3c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="AlmaConnect">3882be6183763210979271d6feaad3fc</sys_scope>
+        <sys_updated_by>katakamlakshmi</sys_updated_by>
+        <sys_updated_on>2026-03-13 11:20:04</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>efc78e86-3546-40bb-8ebd-402f4479e202</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_flow_variable action="delete_multiple" query="model=f7c1c82a832bb250979271d6feaad315"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_f7c1c82a832bb250979271d6feaad315^sys_idNOT IN33c1c82a832bb250979271d6feaad320,7fc1c82a832bb250979271d6feaad326"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_f7c1c82a832bb250979271d6feaad315</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>katakamlakshmi</sys_created_by>
+        <sys_created_on>2026-03-13 11:13:36</sys_created_on>
+        <sys_id>33c1c82a832bb250979271d6feaad320</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AlmaConnect" source="x_1909965_almaconn">3882be6183763210979271d6feaad3fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AlmaConnect">3882be6183763210979271d6feaad3fc</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>katakamlakshmi</sys_updated_by>
+        <sys_updated_on>2026-03-13 11:13:36</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_f7c1c82a832bb250979271d6feaad315</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>katakamlakshmi</sys_created_by>
+        <sys_created_on>2026-03-13 11:13:36</sys_created_on>
+        <sys_id>7fc1c82a832bb250979271d6feaad326</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AlmaConnect" source="x_1909965_almaconn">3882be6183763210979271d6feaad3fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AlmaConnect">3882be6183763210979271d6feaad3fc</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>katakamlakshmi</sys_updated_by>
+        <sys_updated_on>2026-03-13 11:13:36</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_f7c1c82a832bb250979271d6feaad315"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_f7c1c82a832bb250979271d6feaad315"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_f7c1c82a832bb250979271d6feaad315"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>e5af3b56832bb250979271d6feaad396</sys_id>
+        <latest_snapshot>f7c1c82a832bb250979271d6feaad315</latest_snapshot>
+        <compiler_build>glide-xanadu-07-02-2024__patch11-11-27-2025_12-07-2025_2348.zip</compiler_build>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=e5af3b56832bb250979271d6feaad396^sys_idNOT IN80d1c82a832bb250979271d6feaad34a"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"80d1c82a832bb250979271d6feaad34a","name":"plan","plan_signature":null}}</plan>
+        <plan_id>e5af3b56832bb250979271d6feaad396</plan_id>
+        <snapshot>4515c82e832bb250979271d6feaad369</snapshot>
+        <sys_created_by>katakamlakshmi</sys_created_by>
+        <sys_created_on>2026-03-13 11:13:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>80d1c82a832bb250979271d6feaad34a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>katakamlakshmi</sys_updated_by>
+        <sys_updated_on>2026-03-13 11:20:04</sys_updated_on>
+        <trigger display_value="">c0d1c82a832bb250979271d6feaad348</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=e5af3b56832bb250979271d6feaad396"/>
+</record_update>

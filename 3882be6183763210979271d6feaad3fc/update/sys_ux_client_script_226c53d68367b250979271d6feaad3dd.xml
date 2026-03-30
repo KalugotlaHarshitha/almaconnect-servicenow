@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Default">0e294fc2833eb210979271d6feaad3bb</macroponent>
+        <name>New client script 1</name>
+        <preset/>
+        <required_translations>[]</required_translations>
+        <script><![CDATA[function handler({api}) {
+
+  const user = api.context.session.user;
+
+  // wait until login is complete
+  if (!user || !user.roles) {
+    setTimeout(() => handler({api}), 1000);
+    return;
+  }
+
+  const roles = user.roles;
+
+  if (roles.includes('x_1909965_almaconn.admin')) {
+    window.location.replace('/x/1909965/admin-portal/dashboard');
+    return;
+  }
+
+  if (roles.includes('x_1909965_almaconn.alumni_user')) {
+    window.location.replace('/x/1909965/alumni-portal/dashboard');
+    return;
+  }
+
+  if (roles.includes('x_1909965_almaconn.Student')) {
+    window.location.replace('/x/1909965/almaconnect/student-dashboard');
+    return;
+  }
+
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-13 08:32:18</sys_created_on>
+        <sys_id>226c53d68367b250979271d6feaad3dd</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>New client script 1</sys_name>
+        <sys_package display_value="AlmaConnect" source="x_1909965_almaconn">3882be6183763210979271d6feaad3fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AlmaConnect">3882be6183763210979271d6feaad3fc</sys_scope>
+        <sys_update_name>sys_ux_client_script_226c53d68367b250979271d6feaad3dd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-13 08:54:41</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>

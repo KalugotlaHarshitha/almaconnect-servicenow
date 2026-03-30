@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="ecc_agent_script_file">
+    <ecc_agent_script_file action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <checksum/>
+        <description/>
+        <directory>false</directory>
+        <name>StudentLoginDr</name>
+        <parent/>
+        <script>(function() {&#13;
+    // Expect email and password as inputs&#13;
+    var result = {&#13;
+        success: false,&#13;
+        message: '',&#13;
+        student: null&#13;
+    };&#13;
+&#13;
+    if (!input || !input.email || !input.password) {&#13;
+        result.success = false;&#13;
+        result.message = 'Please enter email and password';&#13;
+        return result;&#13;
+    }&#13;
+&#13;
+    var gr = new GlideRecord('x_1909965_almaconn_student');&#13;
+    gr.addQuery('u_email', input.email);      // adjust field name: u_email or email&#13;
+    gr.addQuery('u_password', input.password); // plain comparison for demo; not secure&#13;
+    gr.query();&#13;
+&#13;
+    if (gr.next()) {&#13;
+        result.success = true;&#13;
+        result.message = 'Login successful';&#13;
+        result.student = {&#13;
+            sys_id: gr.getUniqueValue(),&#13;
+            name: gr.u_student_name + '' // adjust field name&#13;
+        };&#13;
+    } else {&#13;
+        result.success = false;&#13;
+        result.message = 'Incorrect email or password';&#13;
+    }&#13;
+&#13;
+    return result;&#13;
+})();</script>
+        <script_attachment/>
+        <source/>
+        <sys_class_name>ecc_agent_script_file</sys_class_name>
+        <sys_created_by>katakamlakshmi</sys_created_by>
+        <sys_created_on>2026-03-21 08:27:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e978e80183733210979271d6feaad304</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>StudentLoginDr</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="AlmaConnect" source="x_1909965_almaconn">3882be6183763210979271d6feaad3fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AlmaConnect">3882be6183763210979271d6feaad3fc</sys_scope>
+        <sys_update_name>ecc_agent_script_file_e978e80183733210979271d6feaad304</sys_update_name>
+        <sys_updated_by>katakamlakshmi</sys_updated_by>
+        <sys_updated_on>2026-03-21 08:27:57</sys_updated_on>
+        <use_attachment>false</use_attachment>
+        <version/>
+    </ecc_agent_script_file>
+</record_update>

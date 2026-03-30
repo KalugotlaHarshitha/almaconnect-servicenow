@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Default">4ca86b5a83a7b250979271d6feaad355</macroponent>
+        <name>New client script 1</name>
+        <preset/>
+        <required_translations>[]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ */
+function handler({api, event, helpers, imports}) {
+    // Get roles from the session context
+    
+    const userRoles = api.context.session.user.roles || [];
+    
+    // IMPORTANT: Replace these with the EXACT 'Name' from the Roles table
+    const adminRole = 'admin';
+    const studentRole = 'student'; // Change to full name if it has a prefix
+    const alumniRole = 'alumni';   // Change to full name if it has a prefix
+
+    console.log('User Roles found:', userRoles); // This helps you debug in F12 console
+
+    if (userRoles.includes(adminRole)) {
+        helpers.navigate.to('/x/1909965/admin-portal/admin-dashboard');
+    } else if (userRoles.includes(studentRole)) {
+        helpers.navigate.to('/x/1909965/almaconnect/student-dashboard');
+    } else if (userRoles.includes(alumniRole)) {
+        helpers.navigate.to('/x/1909965/alumni-portal/dashboard');
+    } else {
+        // If roles aren't loading fast enough, we can force a redirect to a general landing
+        helpers.navigate.to('/x/1909965/almaconnect/home');
+    }
+    
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-16 13:36:25</sys_created_on>
+        <sys_id>befbfb1383e3f650979271d6feaad333</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>New client script 1</sys_name>
+        <sys_package display_value="AlmaConnect" source="x_1909965_almaconn">3882be6183763210979271d6feaad3fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AlmaConnect">3882be6183763210979271d6feaad3fc</sys_scope>
+        <sys_update_name>sys_ux_client_script_befbfb1383e3f650979271d6feaad333</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-17 09:55:05</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>

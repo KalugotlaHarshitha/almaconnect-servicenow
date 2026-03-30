@@ -7,21 +7,21 @@
         <disable_auto_reflow>false</disable_auto_reflow>
         <encode_query_string>false</encode_query_string>
         <icon/>
-        <landing_path>home</landing_path>
+        <landing_path>login-page</landing_path>
         <name>Alma connect login</name>
         <prefetch_limits/>
         <sys_class_name>sys_ux_app_config</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-02-03 05:40:19</sys_created_on>
         <sys_id>8b1943c2833eb210979271d6feaad3df</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Alma connect login</sys_name>
         <sys_package display_value="AlmaConnect" source="x_1909965_almaconn">3882be6183763210979271d6feaad3fc</sys_package>
         <sys_policy/>
         <sys_scope display_value="AlmaConnect">3882be6183763210979271d6feaad3fc</sys_scope>
         <sys_update_name>sys_ux_app_config_8b1943c2833eb210979271d6feaad3df</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-02-03 05:40:19</sys_updated_on>
+        <sys_updated_on>2026-03-13 08:14:46</sys_updated_on>
     </sys_ux_app_config>
     <sys_translated_text action="delete_multiple" query="documentkey=8b1943c2833eb210979271d6feaad3df"/>
 </record_update>

@@ -4,9 +4,9 @@
         <active>true</active>
         <api_name>x_1909965_almaconn.CheckstudentLogin</api_name>
         <caller_access/>
-        <client_callable>false</client_callable>
+        <client_callable>true</client_callable>
         <description>Student Login</description>
-        <mobile_callable>true</mobile_callable>
+        <mobile_callable>false</mobile_callable>
         <name>CheckstudentLogin</name>
         <sandbox_callable>false</sandbox_callable>
         <script><![CDATA[var CheckCheckstudentLogin = Class.create();
@@ -17,7 +17,6 @@ CheckCheckstudentLogin.prototype = Object.extendsObject(AbstractAjaxProcessor, {
         var number = this.getParameter('sysparm_number');
         var password = this.getParameter('sysparm_password');
 
-        // Check if fields are empty
         if (!number || !password) {
             return 'empty';
         }
@@ -32,21 +31,21 @@ CheckCheckstudentLogin.prototype = Object.extendsObject(AbstractAjaxProcessor, {
         } else {
             return 'false';
         }
-    }
-
+    },
+	type:'checkcheckstudentLogin'
 });]]></script>
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-02-22 10:58:49</sys_created_on>
         <sys_id>e727425883133210979271d6feaad358</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name>CheckstudentLogin</sys_name>
         <sys_package display_value="AlmaConnect" source="x_1909965_almaconn">3882be6183763210979271d6feaad3fc</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="AlmaConnect">3882be6183763210979271d6feaad3fc</sys_scope>
         <sys_update_name>sys_script_include_e727425883133210979271d6feaad358</sys_update_name>
         <sys_updated_by>katakamlakshmi</sys_updated_by>
-        <sys_updated_on>2026-03-10 10:23:15</sys_updated_on>
+        <sys_updated_on>2026-03-14 06:36:19</sys_updated_on>
     </sys_script_include>
     <sys_es_latest_script action="INSERT_OR_UPDATE">
         <id>e727425883133210979271d6feaad358</id>

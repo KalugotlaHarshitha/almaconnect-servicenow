@@ -45,6 +45,32 @@
     },
     {
         "definition": {
+            "id": "16896fa0f6eed87cc23b4c1a4752a35f",
+            "type": "MACROPONENT"
+        },
+        "elementId": "card_base_divider_2",
+        "elementLabel": "Card Base Divider 2",
+        "eventMappings": [],
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "preset": null,
+        "propertyValues": {
+            "blockSpacing": {
+                "type": "JSON_LITERAL",
+                "value": "lg"
+            },
+            "fullWidth": {
+                "type": "JSON_LITERAL",
+                "value": false
+            }
+        },
+        "slot": null,
+        "styles": null
+    },
+    {
+        "definition": {
             "id": "d356d14b6e293a3020a244b63d278d8f",
             "type": "MACROPONENT"
         },
@@ -136,7 +162,7 @@
                                         "value": {
                                             "code": null,
                                             "comment": "",
-                                            "message": "Browse and connect with available mentors "
+                                            "message": "Browse and connect with available mentors ."
                                         }
                                     },
                                     "level": {
@@ -370,14 +396,18 @@
                                     {
                                         "element_id": "heading_1",
                                         "styles": {
-                                            "margin-left": "var(--now-scalable-space--sm)"
+                                            "margin-left": "var(--now-scalable-space--md)",
+                                            "margin-top": "0",
+                                            "padding-left": "var(--now-scalable-space--md)"
                                         }
                                     },
                                     {
                                         "element_id": "heading_2",
                                         "styles": {
-                                            "margin-bottom": "var(--now-scalable-space--lg)",
-                                            "margin-left": "var(--now-scalable-space--sm)"
+                                            "margin-bottom": "0",
+                                            "margin-left": "var(--now-scalable-space--md)",
+                                            "margin-top": "0",
+                                            "padding-left": "var(--now-scalable-space--md)"
                                         }
                                     },
                                     {
@@ -389,10 +419,19 @@
                                     {
                                         "element_id": "list___simple_1",
                                         "styles": {
-                                            "align-self": "stretch",
-                                            "background": "#8FD3F4",
-                                            "flex": "none",
-                                            "margin-left": "var(--now-scalable-space--sm)"
+                                            "background": "#FFFFFF",
+                                            "background-color": "#8fd3f4",
+                                            "border-bottom": "2px solid #F3F4F6",
+                                            "font-size": "13px",
+                                            "font-weight": "600",
+                                            "letter-spacing": "-0.5px",
+                                            "margin-bottom": "8px",
+                                            "margin-left": "var(--now-scalable-space--md)",
+                                            "margin-right": "var(--now-scalable-space--md)",
+                                            "padding-left": "0",
+                                            "padding-right": "var(--now-scalable-space--sm)",
+                                            "text-align": "center",
+                                            "text-transform": "uppercase"
                                         }
                                     }
                                 ],
@@ -583,11 +622,19 @@
             {
                 "element_id": "stylized_text_1",
                 "styles": {
-                    "background": "#8FD3F4",
-                    "margin-bottom": "var(--now-scalable-space--lg)",
-                    "margin-left": "var(--now-scalable-space--sm)",
+                    "background": "#182C41",
+                    "border-style": "round",
+                    "color": "#ffffff",
+                    "margin-bottom": "0",
+                    "margin-left": "var(--now-scalable-space--md)",
+                    "margin-right": "var(--now-scalable-space--md)",
+                    "margin-top": "var(--now-scalable-space--sm)",
                     "padding-left": "var(--now-scalable-space--md)"
                 }
+            },
+            {
+                "element_id": "card_base_divider_2",
+                "styles": {}
             },
             {
                 "element_id": "column_layout_1",
@@ -621,7 +668,7 @@
   "message" : "Alumni's List",
   "comment" : ""
 }, {
-  "message" : "Browse and connect with available mentors ",
+  "message" : "Browse and connect with available mentors .",
   "comment" : ""
 } ]</required_translations>
         <root_component/>
@@ -634,14 +681,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-02-13 16:39:03</sys_created_on>
         <sys_id>4ecf70a583833210979271d6feaad391</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Default</sys_name>
         <sys_package display_value="AlmaConnect" source="x_1909965_almaconn">3882be6183763210979271d6feaad3fc</sys_package>
         <sys_policy/>
         <sys_scope display_value="AlmaConnect">3882be6183763210979271d6feaad3fc</sys_scope>
         <sys_update_name>sys_ux_macroponent_4ecf70a583833210979271d6feaad391</sys_update_name>
         <sys_updated_by>katakamlakshmi</sys_updated_by>
-        <sys_updated_on>2026-03-02 04:01:32</sys_updated_on>
+        <sys_updated_on>2026-03-23 11:37:39</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=4ecf70a583833210979271d6feaad391"/>
 </record_update>

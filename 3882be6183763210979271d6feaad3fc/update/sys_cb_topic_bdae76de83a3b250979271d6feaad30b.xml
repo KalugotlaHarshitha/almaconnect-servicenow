@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <applicability_mode>query</applicability_mode>
+        <autopilot_topic>false</autopilot_topic>
+        <category/>
+        <channels/>
+        <connect_queue/>
+        <context_profiles/>
+        <description>Web Development is the process of building websites or web applications that run in a browser.
+
+It has three main parts:
+
+1️⃣ Frontend – The user interface users see and interact with.
+Technologies: HTML, CSS, JavaScript
+
+2️⃣ Backend – Handles logic, data processing, and server operations.
+Technologies: Java, Node.js, Python, etc.
+
+3️⃣ Database – Stores application data.
+Examples: MySQL, MongoDB</description>
+        <dialog_acts_enabled>false</dialog_acts_enabled>
+        <expose_on_palette>false</expose_on_palette>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <foundational>false</foundational>
+        <graph>{"graph_api_version":"1.0.78","variables":{},"goals":{"primary":{"id":"primary","trigger":{"type":"primary"},"name":"primary","applicability":"","description":"","nodes":{"878c81c110dd4ced9c7e31c7c7abbb42":{"id":"878c81c110dd4ced9c7e31c7c7abbb42","stepType":"Start","name":"Start","greetingResponse":{"mode":"simple","value":""}},"53d5e368861645f9988b84d9bf2af4fe":{"id":"53d5e368861645f9988b84d9bf2af4fe","stepType":"TerminateGoal","name":"End","confirmationMessage":{"mode":"simple","value":""}}},"edges":[{"id":"dab84af5367f4009b4cec032ecf25c70","edgeType":"Edge","source":"878c81c110dd4ced9c7e31c7c7abbb42","target":"53d5e368861645f9988b84d9bf2af4fe","sourcePort":"","targetPort":""}]}}}</graph>
+        <key_phrases>Web Development</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <model_type>nlu_keyword</model_type>
+        <modify_confirmation_enabled>false</modify_confirmation_enabled>
+        <name>Web Development</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <roles/>
+        <root_topic_id/>
+        <secure_custom_input_control>false</secure_custom_input_control>
+        <source_topic_id/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-13 06:20:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>bdae76de83a3b250979271d6feaad30b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Web Development</sys_name>
+        <sys_package display_value="AlmaConnect" source="x_1909965_almaconn">3882be6183763210979271d6feaad3fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AlmaConnect">3882be6183763210979271d6feaad3fc</sys_scope>
+        <sys_update_name>sys_cb_topic_bdae76de83a3b250979271d6feaad30b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-13 06:20:12</sys_updated_on>
+        <title>web development</title>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>STANDARD</type>
+    </sys_cb_topic>
+    <sys_translated_text action="delete_multiple" query="documentkey=bdae76de83a3b250979271d6feaad30b"/>
+</record_update>

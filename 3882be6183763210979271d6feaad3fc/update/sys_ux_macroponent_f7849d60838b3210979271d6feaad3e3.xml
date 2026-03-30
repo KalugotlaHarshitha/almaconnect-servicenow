@@ -702,11 +702,11 @@
                         "composition": [
                             {
                                 "definition": {
-                                    "id": "1f6e0643eca7a637e36bd7833549ec9e",
+                                    "id": "4335ba6dca80378f7ba7a67cd6667bec",
                                     "type": "MACROPONENT"
                                 },
-                                "elementId": "heading_2",
-                                "elementLabel": "Heading 2",
+                                "elementId": "stylized_text_4",
+                                "elementLabel": "Stylized text 4",
                                 "eventMappings": [],
                                 "isHidden": {
                                     "type": "JSON_LITERAL",
@@ -714,29 +714,25 @@
                                 },
                                 "preset": null,
                                 "propertyValues": {
-                                    "hasNoMargin": {
+                                    "configAria": {
                                         "type": "JSON_LITERAL",
-                                        "value": false
+                                        "value": {}
                                     },
-                                    "label": {
+                                    "css": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "* { }"
+                                    },
+                                    "tag": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "h1"
+                                    },
+                                    "text": {
                                         "type": "TRANSLATION_LITERAL",
                                         "value": {
                                             "code": null,
                                             "comment": "",
                                             "message": "Dashboard"
                                         }
-                                    },
-                                    "level": {
-                                        "type": "JSON_LITERAL",
-                                        "value": "1"
-                                    },
-                                    "variant": {
-                                        "type": "JSON_LITERAL",
-                                        "value": "header-hero"
-                                    },
-                                    "wontWrap": {
-                                        "type": "JSON_LITERAL",
-                                        "value": false
                                     }
                                 },
                                 "slot": null,
@@ -765,7 +761,7 @@
                                         "value": {
                                             "code": null,
                                             "comment": "",
-                                            "message": "Overview of Mentorship activities"
+                                            "message": "Overview of Mentorship activities. "
                                         }
                                     },
                                     "level": {
@@ -942,8 +938,13 @@
                                                                     "styles": {
                                                                         "align-items": "stretch",
                                                                         "background": "#9BD6BE",
+                                                                        "border-color": "RGB(var(--now-color--neutral-5))",
+                                                                        "border-style": "id",
+                                                                        "border-width": "var(--now-static-space--xxs)",
+                                                                        "box-shadow": "var(--now-static-drop-shadow--lg)",
                                                                         "box-sizing": "border-box",
                                                                         "flex-direction": "column",
+                                                                        "gap": "var(--now-scalable-space--xs)",
                                                                         "height": "100%",
                                                                         "justify-content": "flex-start",
                                                                         "overflow": "auto"
@@ -978,8 +979,13 @@
                                                                             "internal": {
                                                                                 "align-items": "stretch",
                                                                                 "background": "#9BD6BE",
+                                                                                "border-color": "RGB(var(--now-color--neutral-5))",
+                                                                                "border-style": "id",
+                                                                                "border-width": "var(--now-static-space--xxs)",
+                                                                                "box-shadow": "var(--now-static-drop-shadow--lg)",
                                                                                 "box-sizing": "border-box",
                                                                                 "flex-direction": "column",
+                                                                                "gap": "var(--now-scalable-space--xs)",
                                                                                 "height": "100%",
                                                                                 "justify-content": "flex-start",
                                                                                 "overflow": "auto"
@@ -1124,8 +1130,10 @@
                                                                     "styles": {
                                                                         "align-items": "stretch",
                                                                         "background": "#EDD2AB",
+                                                                        "box-shadow": "var(--now-static-drop-shadow--lg)",
                                                                         "box-sizing": "border-box",
                                                                         "flex-direction": "column",
+                                                                        "gap": "var(--now-scalable-space--xs)",
                                                                         "height": "100%",
                                                                         "justify-content": "flex-start",
                                                                         "overflow": "auto"
@@ -1160,8 +1168,10 @@
                                                                             "internal": {
                                                                                 "align-items": "stretch",
                                                                                 "background": "#EDD2AB",
+                                                                                "box-shadow": "var(--now-static-drop-shadow--lg)",
                                                                                 "box-sizing": "border-box",
                                                                                 "flex-direction": "column",
+                                                                                "gap": "var(--now-scalable-space--xs)",
                                                                                 "height": "100%",
                                                                                 "justify-content": "flex-start",
                                                                                 "overflow": "auto"
@@ -1306,8 +1316,10 @@
                                                                     "styles": {
                                                                         "align-items": "stretch",
                                                                         "background": "#9EA0F1",
+                                                                        "box-shadow": "var(--now-static-drop-shadow--lg)",
                                                                         "box-sizing": "border-box",
                                                                         "flex-direction": "column",
+                                                                        "gap": "var(--now-scalable-space--xs)",
                                                                         "height": "100%",
                                                                         "justify-content": "flex-start",
                                                                         "overflow": "auto"
@@ -1342,8 +1354,10 @@
                                                                             "internal": {
                                                                                 "align-items": "stretch",
                                                                                 "background": "#9EA0F1",
+                                                                                "box-shadow": "var(--now-static-drop-shadow--lg)",
                                                                                 "box-sizing": "border-box",
                                                                                 "flex-direction": "column",
+                                                                                "gap": "var(--now-scalable-space--xs)",
                                                                                 "height": "100%",
                                                                                 "justify-content": "flex-start",
                                                                                 "overflow": "auto"
@@ -1488,8 +1502,10 @@
                                                                     "styles": {
                                                                         "align-items": "stretch",
                                                                         "background": "#C5E6E6",
+                                                                        "box-shadow": "var(--now-static-drop-shadow--lg)",
                                                                         "box-sizing": "border-box",
                                                                         "flex-direction": "column",
+                                                                        "gap": "var(--now-scalable-space--xs)",
                                                                         "height": "100%",
                                                                         "justify-content": "flex-start",
                                                                         "overflow": "auto"
@@ -1524,8 +1540,10 @@
                                                                             "internal": {
                                                                                 "align-items": "stretch",
                                                                                 "background": "#C5E6E6",
+                                                                                "box-shadow": "var(--now-static-drop-shadow--lg)",
                                                                                 "box-sizing": "border-box",
                                                                                 "flex-direction": "column",
+                                                                                "gap": "var(--now-scalable-space--xs)",
                                                                                 "height": "100%",
                                                                                 "justify-content": "flex-start",
                                                                                 "overflow": "auto"
@@ -2257,7 +2275,7 @@
                                                         "rules": null,
                                                         "styles": {
                                                             "box-sizing": "border-box",
-                                                            "grid-template-columns": "10.999999999999986fr 21.000097352024905fr 67.9999026479751fr",
+                                                            "grid-template-columns": "13.000000474562064fr 24.000627746997555fr 62.999371778440384fr",
                                                             "grid-template-rows": "1fr",
                                                             "width": "auto"
                                                         },
@@ -2324,17 +2342,17 @@
                                                                 {
                                                                     "columnNumber": 1,
                                                                     "unit": "%",
-                                                                    "width": 10.999999999999986
+                                                                    "width": 13.000000474562064
                                                                 },
                                                                 {
                                                                     "columnNumber": 2,
                                                                     "unit": "%",
-                                                                    "width": 21.000097352024905
+                                                                    "width": 24.000627746997555
                                                                 },
                                                                 {
                                                                     "columnNumber": 3,
                                                                     "unit": "%",
-                                                                    "width": 67.9999026479751
+                                                                    "width": 62.999371778440384
                                                                 }
                                                             ],
                                                             "id": "UIB_COLUMN_SECTION_SINGLE_COLUMN_SECTION",
@@ -2428,12 +2446,10 @@
                                 "children": null,
                                 "items": [
                                     {
-                                        "element_id": "heading_2",
+                                        "element_id": "stylized_text_4",
                                         "styles": {
-                                            "background": "rgb(var(--now-color--neutral-1))",
                                             "margin-left": "var(--now-scalable-space--md)",
-                                            "margin-top": "var(--now-scalable-space--md)",
-                                            "padding-top": "var(--now-scalable-space--sm)"
+                                            "padding-left": "0"
                                         }
                                     },
                                     {
@@ -3372,7 +3388,7 @@
                                                                                 "rules": null,
                                                                                 "styles": {
                                                                                     "box-sizing": "border-box",
-                                                                                    "grid-template-columns": "17.000352830761194fr 82.99964716923881fr",
+                                                                                    "grid-template-columns": "24.000889961751625fr 75.99911003824838fr",
                                                                                     "grid-template-rows": "1fr",
                                                                                     "width": "auto"
                                                                                 },
@@ -3439,12 +3455,12 @@
                                                                                         {
                                                                                             "columnNumber": 1,
                                                                                             "unit": "%",
-                                                                                            "width": 17.000352830761194
+                                                                                            "width": 24.000889961751625
                                                                                         },
                                                                                         {
                                                                                             "columnNumber": 2,
                                                                                             "unit": "%",
-                                                                                            "width": 82.99964716923881
+                                                                                            "width": 75.99911003824838
                                                                                         }
                                                                                     ],
                                                                                     "id": "UIB_COLUMN_SECTION_SINGLE_COLUMN_SECTION",
@@ -3563,7 +3579,7 @@
                                                         "rules": null,
                                                         "styles": {
                                                             "box-sizing": "border-box",
-                                                            "grid-template-columns": "16.000545333839156fr 83.99945466616084fr",
+                                                            "grid-template-columns": "18.000816236408575fr 81.99918376359143fr",
                                                             "grid-template-rows": "1fr",
                                                             "width": "auto"
                                                         },
@@ -3630,12 +3646,12 @@
                                                                 {
                                                                     "columnNumber": 1,
                                                                     "unit": "%",
-                                                                    "width": 16.000545333839156
+                                                                    "width": 18.000816236408575
                                                                 },
                                                                 {
                                                                     "columnNumber": 2,
                                                                     "unit": "%",
-                                                                    "width": 83.99945466616084
+                                                                    "width": 81.99918376359143
                                                                 }
                                                             ],
                                                             "id": "UIB_COLUMN_SECTION_SINGLE_COLUMN_SECTION",
@@ -3654,6 +3670,32 @@
                                                         "type": "columnSection"
                                                     },
                                                     "version": "1.0.0"
+                                                }
+                                            },
+                                            "slot": null,
+                                            "styles": null
+                                        },
+                                        {
+                                            "definition": {
+                                                "id": "16896fa0f6eed87cc23b4c1a4752a35f",
+                                                "type": "MACROPONENT"
+                                            },
+                                            "elementId": "card_base_divider_4",
+                                            "elementLabel": "Card Base Divider 4",
+                                            "eventMappings": [],
+                                            "isHidden": {
+                                                "type": "JSON_LITERAL",
+                                                "value": null
+                                            },
+                                            "preset": null,
+                                            "propertyValues": {
+                                                "blockSpacing": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": "lg"
+                                                },
+                                                "fullWidth": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
                                                 }
                                             },
                                             "slot": null,
@@ -3934,7 +3976,7 @@
                                                     "value": {
                                                         "code": null,
                                                         "comment": "",
-                                                        "message": "Edit your profile : "
+                                                        "message": "Your profile : "
                                                     }
                                                 },
                                                 "maxCharLimit": {
@@ -4026,8 +4068,30 @@
                                                     }
                                                 },
                                                 {
-                                                    "element_id": "list_1",
+                                                    "element_id": "card_base_divider_4",
                                                     "styles": {}
+                                                },
+                                                {
+                                                    "element_id": "list_1",
+                                                    "styles": {
+                                                        "background": "#FFFFFF",
+                                                        "background-color": "#8fd3f4",
+                                                        "border-bottom": "2px solid #F3F4F6",
+                                                        "border-color": "RGB(var(--now-color--neutral-5))",
+                                                        "border-style": "round",
+                                                        "border-width": "var(--now-static-space--xxs)",
+                                                        "box-shadow": "var(--now-static-drop-shadow--md)",
+                                                        "font-size": "13px",
+                                                        "font-weight": "600",
+                                                        "letter-spacing": "-0.5px",
+                                                        "margin-bottom": "8px",
+                                                        "margin-left": "0",
+                                                        "margin-right": "var(--now-scalable-space--lg)",
+                                                        "margin-top": "var(--now-scalable-space--sm)",
+                                                        "padding-right": "var(--now-scalable-space--sm)",
+                                                        "text-align": "center",
+                                                        "text-transform": "uppercase"
+                                                    }
                                                 }
                                             ],
                                             "root": null,
@@ -4415,6 +4479,32 @@
                             },
                             {
                                 "definition": {
+                                    "id": "16896fa0f6eed87cc23b4c1a4752a35f",
+                                    "type": "MACROPONENT"
+                                },
+                                "elementId": "card_base_divider_2",
+                                "elementLabel": "Card Base Divider 2",
+                                "eventMappings": [],
+                                "isHidden": {
+                                    "type": "JSON_LITERAL",
+                                    "value": null
+                                },
+                                "preset": null,
+                                "propertyValues": {
+                                    "blockSpacing": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "lg"
+                                    },
+                                    "fullWidth": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    }
+                                },
+                                "slot": null,
+                                "styles": null
+                            },
+                            {
+                                "definition": {
                                     "id": "1f6e0643eca7a637e36bd7833549ec9e",
                                     "type": "MACROPONENT"
                                 },
@@ -4457,6 +4547,140 @@
                             },
                             {
                                 "definition": {
+                                    "id": "d37ce8abca89d02905fed903c8e34d8e",
+                                    "type": "MACROPONENT"
+                                },
+                                "elementId": "button_1",
+                                "elementLabel": "Button 1",
+                                "eventMappings": [
+                                    {
+                                        "eventMappingId": "cmnfflchhrddaaaaxfddjiidddgbcchngb",
+                                        "isConfiguration": false,
+                                        "offRowStorageId": null,
+                                        "sourceEventApiName": "sn_button.NOW_BUTTON#CLICKED",
+                                        "sourceEventCorrelationId": null,
+                                        "sourceEventDefinition": {
+                                            "apiName": "sn_button.NOW_BUTTON#CLICKED",
+                                            "id": null,
+                                            "type": "UXEVENT"
+                                        },
+                                        "sourceEventSysId": null,
+                                        "targets": [
+                                            {
+                                                "broker": null,
+                                                "clientScript": null,
+                                                "conditional": null,
+                                                "declarativeAction": null,
+                                                "event": {
+                                                    "apiName": "x_1909965_almaconn.NAV_ITEM_SELECTED_RELAY_f7849d60838b3210979271d6feaad3e3",
+                                                    "payload": {
+                                                        "type": "JSON_LITERAL",
+                                                        "value": {
+                                                            "external": {
+                                                                "url": "https://dev292608.service-now.com/now/nav/ui/classic/params/target/x_1909965_almaconn_mentorship_request_table_list.do"
+                                                            },
+                                                            "fields": null,
+                                                            "multiInstField": null,
+                                                            "navigationOptions": null,
+                                                            "params": null,
+                                                            "passiveNavigation": null,
+                                                            "redirect": null,
+                                                            "route": null,
+                                                            "targetRoute": null,
+                                                            "title": null
+                                                        }
+                                                    },
+                                                    "sysId": "2a063c9483a33a10979271d6feaad34b"
+                                                },
+                                                "operation": null,
+                                                "targetId": "cmnfflchhrddaaaaxgddjiidcoueeuicff",
+                                                "type": "EVENT"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "isHidden": {
+                                    "type": "JSON_LITERAL",
+                                    "value": null
+                                },
+                                "preset": null,
+                                "propertyValues": {
+                                    "animatedIcon": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "configAria": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "disabled": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "icon": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "label": {
+                                        "type": "TRANSLATION_LITERAL",
+                                        "value": {
+                                            "code": null,
+                                            "comment": "",
+                                            "message": "Request a Mentor"
+                                        }
+                                    },
+                                    "landmark": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "size": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "md"
+                                    },
+                                    "tooltipContent": {
+                                        "type": "TRANSLATION_LITERAL",
+                                        "value": {
+                                            "code": null,
+                                            "comment": "",
+                                            "message": "Enter a label"
+                                        }
+                                    },
+                                    "variant": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "primary-positive"
+                                    }
+                                },
+                                "slot": null,
+                                "styles": null
+                            },
+                            {
+                                "definition": {
+                                    "id": "16896fa0f6eed87cc23b4c1a4752a35f",
+                                    "type": "MACROPONENT"
+                                },
+                                "elementId": "card_base_divider_3",
+                                "elementLabel": "Card Base Divider 3",
+                                "eventMappings": [],
+                                "isHidden": {
+                                    "type": "JSON_LITERAL",
+                                    "value": null
+                                },
+                                "preset": null,
+                                "propertyValues": {
+                                    "blockSpacing": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "lg"
+                                    },
+                                    "fullWidth": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    }
+                                },
+                                "slot": null,
+                                "styles": null
+                            },
+                            {
+                                "definition": {
                                     "id": "2b1c080881e05dc63b917044290b233f",
                                     "type": "MACROPONENT"
                                 },
@@ -4479,7 +4703,7 @@
                                     },
                                     "columns": {
                                         "type": "JSON_LITERAL",
-                                        "value": "alumni_name.alumni_name,alumni_name.availability,alumni_name.email,requested_on"
+                                        "value": "alumni_name.alumni_name,requested_on,mentorship_topics,preferred_mode,status"
                                     },
                                     "fixedQuery": {
                                         "transform": {
@@ -4669,22 +4893,51 @@
                                     {
                                         "element_id": "stylized_text_2",
                                         "styles": {
-                                            "margin-bottom": "var(--now-scalable-space--md)",
+                                            "margin-bottom": "0",
                                             "margin-left": "var(--now-scalable-space--md)",
                                             "margin-top": "var(--now-scalable-space--md)"
                                         }
                                     },
                                     {
+                                        "element_id": "card_base_divider_2",
+                                        "styles": {
+                                            "margin-top": "0"
+                                        }
+                                    },
+                                    {
                                         "element_id": "heading_16",
                                         "styles": {
-                                            "margin-bottom": "var(--now-scalable-space--md)",
-                                            "margin-left": "var(--now-scalable-space--md)"
+                                            "margin-bottom": "0",
+                                            "margin-left": "var(--now-scalable-space--md)",
+                                            "margin-top": "var(--now-scalable-space--md)"
                                         }
+                                    },
+                                    {
+                                        "element_id": "button_1",
+                                        "styles": {}
+                                    },
+                                    {
+                                        "element_id": "card_base_divider_3",
+                                        "styles": {}
                                     },
                                     {
                                         "element_id": "list___simple_1",
                                         "styles": {
-                                            "margin-top": "0"
+                                            "background": "#FFFFFF",
+                                            "background-color": "#8fd3f4",
+                                            "border-bottom": "2px solid #F3F4F6",
+                                            "flex": "none",
+                                            "font-size": "13px",
+                                            "font-weight": "600",
+                                            "height": "400px",
+                                            "letter-spacing": "-0.5px",
+                                            "margin-bottom": "8px",
+                                            "margin-left": "0",
+                                            "margin-right": "var(--now-scalable-space--lg)",
+                                            "margin-top": "0",
+                                            "padding-right": "var(--now-scalable-space--sm)",
+                                            "text-align": "center",
+                                            "text-transform": "uppercase"
                                         }
                                     }
                                 ],
@@ -5447,7 +5700,7 @@
 ]</data>
         <description/>
         <disable_auto_reflow>false</disable_auto_reflow>
-        <dispatched_events>2a063c9483a33a10979271d6feaad34b</dispatched_events>
+        <dispatched_events>2a063c9483a33a10979271d6feaad34b,35f26c6e83abb250979271d6feaad3cf</dispatched_events>
         <ext_controller_dep/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
         <extension_point/>
@@ -5463,14 +5716,21 @@
             {
                 "element_id": "stylized_text_1",
                 "styles": {
-                    "background": "#8FD3F4",
-                    "margin-bottom": "var(--now-scalable-space--md)",
+                    "background": "#182C41",
+                    "border-style": "round",
+                    "color": "#ffffff",
+                    "margin-bottom": "0",
+                    "margin-left": "var(--now-scalable-space--md)",
+                    "margin-right": "var(--now-scalable-space--md)",
+                    "margin-top": "var(--now-scalable-space--sm)",
                     "padding-left": "var(--now-scalable-space--md)"
                 }
             },
             {
                 "element_id": "tabs_1",
                 "styles": {
+                    "margin-left": "var(--now-scalable-space--md)",
+                    "margin-right": "var(--now-scalable-space--md)",
                     "margin-top": "var(--now-scalable-space--xl)"
                 }
             }
@@ -5479,6 +5739,7 @@
         "rules": null,
         "styles": {
             "flex-direction": "column",
+            "justify-content": "space-evenly",
             "padding-bottom": "var(--now-scalable-space--xl)",
             "padding-left": "var(--now-scalable-space--xl)",
             "padding-right": "var(--now-scalable-space--xl)",
@@ -5518,9 +5779,6 @@
   "message" : "E-Mail :",
   "comment" : ""
 }, {
-  "message" : "Edit your profile : ",
-  "comment" : ""
-}, {
   "message" : "Enter a label",
   "comment" : ""
 }, {
@@ -5539,10 +5797,13 @@
   "message" : "Mobile No  :",
   "comment" : ""
 }, {
-  "message" : "Overview of Mentorship activities",
+  "message" : "Overview of Mentorship activities. ",
   "comment" : ""
 }, {
   "message" : "Recent Activity ",
+  "comment" : ""
+}, {
+  "message" : "Request a Mentor",
   "comment" : ""
 }, {
   "message" : "Request for Mentorship with Alumni's",
@@ -5566,6 +5827,9 @@
   "message" : "Upcoming",
   "comment" : ""
 }, {
+  "message" : "Your profile : ",
+  "comment" : ""
+}, {
   "message" : "has accepted your request on",
   "comment" : ""
 } ]</required_translations>
@@ -5587,14 +5851,14 @@
         <sys_created_by>katakamlakshmi</sys_created_by>
         <sys_created_on>2026-02-10 15:35:54</sys_created_on>
         <sys_id>f7849d60838b3210979271d6feaad3e3</sys_id>
-        <sys_mod_count>42</sys_mod_count>
+        <sys_mod_count>66</sys_mod_count>
         <sys_name>Default</sys_name>
         <sys_package display_value="AlmaConnect" source="x_1909965_almaconn">3882be6183763210979271d6feaad3fc</sys_package>
         <sys_policy/>
         <sys_scope display_value="AlmaConnect">3882be6183763210979271d6feaad3fc</sys_scope>
         <sys_update_name>sys_ux_macroponent_f7849d60838b3210979271d6feaad3e3</sys_update_name>
         <sys_updated_by>katakamlakshmi</sys_updated_by>
-        <sys_updated_on>2026-03-07 04:19:15</sys_updated_on>
+        <sys_updated_on>2026-03-25 05:16:29</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=f7849d60838b3210979271d6feaad3e3"/>
 </record_update>

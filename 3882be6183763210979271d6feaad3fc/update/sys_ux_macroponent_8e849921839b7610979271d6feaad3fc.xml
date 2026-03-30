@@ -7,11 +7,11 @@
         <composition>[
     {
         "definition": {
-            "id": "1f6e0643eca7a637e36bd7833549ec9e",
+            "id": "4335ba6dca80378f7ba7a67cd6667bec",
             "type": "MACROPONENT"
         },
-        "elementId": "heading_1",
-        "elementLabel": "Heading 1",
+        "elementId": "stylized_text_1",
+        "elementLabel": "Stylized text 1",
         "eventMappings": [],
         "isHidden": {
             "type": "JSON_LITERAL",
@@ -19,29 +19,89 @@
         },
         "preset": null,
         "propertyValues": {
-            "hasNoMargin": {
+            "configAria": {
+                "type": "JSON_LITERAL",
+                "value": {}
+            },
+            "css": {
+                "type": "JSON_LITERAL",
+                "value": "* { }"
+            },
+            "tag": {
+                "type": "JSON_LITERAL",
+                "value": "h1"
+            },
+            "text": {
+                "type": "TRANSLATION_LITERAL",
+                "value": {
+                    "code": null,
+                    "comment": "",
+                    "message": "Alumni - Student Mentorship Platform"
+                }
+            }
+        },
+        "slot": null,
+        "styles": null
+    },
+    {
+        "definition": {
+            "id": "16896fa0f6eed87cc23b4c1a4752a35f",
+            "type": "MACROPONENT"
+        },
+        "elementId": "card_base_divider_1",
+        "elementLabel": "Card Base Divider 1",
+        "eventMappings": [],
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "preset": null,
+        "propertyValues": {
+            "blockSpacing": {
+                "type": "JSON_LITERAL",
+                "value": "lg"
+            },
+            "fullWidth": {
                 "type": "JSON_LITERAL",
                 "value": false
+            }
+        },
+        "slot": null,
+        "styles": null
+    },
+    {
+        "definition": {
+            "id": "4335ba6dca80378f7ba7a67cd6667bec",
+            "type": "MACROPONENT"
+        },
+        "elementId": "stylized_text_2",
+        "elementLabel": "Stylized text 2",
+        "eventMappings": [],
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "preset": null,
+        "propertyValues": {
+            "configAria": {
+                "type": "JSON_LITERAL",
+                "value": {}
             },
-            "label": {
+            "css": {
+                "type": "JSON_LITERAL",
+                "value": "* { }"
+            },
+            "tag": {
+                "type": "JSON_LITERAL",
+                "value": "h2"
+            },
+            "text": {
                 "type": "TRANSLATION_LITERAL",
                 "value": {
                     "code": null,
                     "comment": "",
                     "message": "Mentorship Requests"
                 }
-            },
-            "level": {
-                "type": "JSON_LITERAL",
-                "value": "1"
-            },
-            "variant": {
-                "type": "JSON_LITERAL",
-                "value": "header-primary"
-            },
-            "wontWrap": {
-                "type": "JSON_LITERAL",
-                "value": false
             }
         },
         "slot": null,
@@ -75,7 +135,7 @@
             },
             "level": {
                 "type": "JSON_LITERAL",
-                "value": "1"
+                "value": "2"
             },
             "variant": {
                 "type": "JSON_LITERAL",
@@ -565,21 +625,56 @@
         "children": null,
         "items": [
             {
-                "element_id": "heading_1",
+                "element_id": "stylized_text_1",
                 "styles": {
-                    "align-self": "stretch",
-                    "margin-left": "var(--now-scalable-space--lg)"
+                    "background": "#182C41",
+                    "border-style": "round",
+                    "color": "#ffffff",
+                    "margin-bottom": "0",
+                    "margin-left": "var(--now-scalable-space--md)",
+                    "margin-right": "var(--now-scalable-space--md)",
+                    "margin-top": "var(--now-scalable-space--sm)",
+                    "padding-left": "var(--now-scalable-space--md)"
+                }
+            },
+            {
+                "element_id": "card_base_divider_1",
+                "styles": {
+                    "margin-left": "var(--now-scalable-space--md)",
+                    "margin-right": "var(--now-scalable-space--md)"
+                }
+            },
+            {
+                "element_id": "stylized_text_2",
+                "styles": {
+                    "margin-left": "var(--now-scalable-space--md)",
+                    "padding-left": "var(--now-scalable-space--sm)"
                 }
             },
             {
                 "element_id": "heading_2",
                 "styles": {
-                    "margin-left": "var(--now-scalable-space--lg)"
+                    "margin-left": "var(--now-scalable-space--md)",
+                    "margin-right": "var(--now-scalable-space--lg)",
+                    "padding-left": "var(--now-scalable-space--sm)"
                 }
             },
             {
                 "element_id": "list_1",
-                "styles": {}
+                "styles": {
+                    "background": "#FFFFFF",
+                    "background-color": "#118a25",
+                    "border-bottom": "2px solid #F3F4F6",
+                    "font-size": "13px",
+                    "font-weight": "600",
+                    "letter-spacing": "-0.5px",
+                    "margin-bottom": "8px",
+                    "margin-left": "0",
+                    "margin-right": "var(--now-scalable-space--lg)",
+                    "padding-right": "var(--now-scalable-space--xs)",
+                    "text-align": "center",
+                    "text-transform": "uppercase"
+                }
             }
         ],
         "root": null,
@@ -597,6 +692,9 @@
         <output_prop_mapping/>
         <props>[]</props>
         <required_translations>[ {
+  "message" : "Alumni - Student Mentorship Platform",
+  "comment" : ""
+}, {
   "message" : "Mentorship Requests",
   "comment" : ""
 }, {
@@ -616,14 +714,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-02-26 04:25:25</sys_created_on>
         <sys_id>8e849921839b7610979271d6feaad3fc</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>Default</sys_name>
         <sys_package display_value="AlmaConnect" source="x_1909965_almaconn">3882be6183763210979271d6feaad3fc</sys_package>
         <sys_policy/>
         <sys_scope display_value="AlmaConnect">3882be6183763210979271d6feaad3fc</sys_scope>
         <sys_update_name>sys_ux_macroponent_8e849921839b7610979271d6feaad3fc</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-02-26 06:57:00</sys_updated_on>
+        <sys_updated_on>2026-03-24 18:07:21</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=8e849921839b7610979271d6feaad3fc"/>
 </record_update>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="DELETE">
+        <app_config display_value="Alma connect login">8b1943c2833eb210979271d6feaad3df</app_config>
+        <description/>
+        <extension_point/>
+        <fields/>
+        <icon/>
+        <name>Login</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>login</route_type>
+        <screen_type display_value="Login">099bdb1a8367b250979271d6feaad3ea</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>katakamlakshmi</sys_created_by>
+        <sys_created_on>2026-03-13 08:26:35</sys_created_on>
+        <sys_id>999bdb1a8367b250979271d6feaad3ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Login</sys_name>
+        <sys_package display_value="AlmaConnect" source="x_1909965_almaconn">3882be6183763210979271d6feaad3fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AlmaConnect">3882be6183763210979271d6feaad3fc</sys_scope>
+        <sys_update_name>sys_ux_app_route_999bdb1a8367b250979271d6feaad3ed</sys_update_name>
+        <sys_updated_by>katakamlakshmi</sys_updated_by>
+        <sys_updated_on>2026-03-13 08:26:35</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="DELETE" query="documentkey=999bdb1a8367b250979271d6feaad3ed"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AlmaConnect">3882be6183763210979271d6feaad3fc</application>
+        <file_path/>
+        <instance_id>196a47e22b8f9ad4e2e6fcd2ce91bf51</instance_id>
+        <instance_name>dev292608</instance_name>
+        <name>sys_ux_app_route_999bdb1a8367b250979271d6feaad3ed</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route"><sys_ux_app_route action="INSERT_OR_UPDATE"><app_config display_value="Alma connect login">8b1943c2833eb210979271d6feaad3df</app_config><description/><extension_point/><fields/><icon/><name>Login</name><optional_parameters/><order>0</order><parent_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</parent_macroponent><parent_macroponent_composition_element_id/><route_type>login</route_type><screen_type display_value="Login">099bdb1a8367b250979271d6feaad3ea</screen_type><sys_class_name>sys_ux_app_route</sys_class_name><sys_created_by>katakamlakshmi</sys_created_by><sys_created_on>2026-03-13 08:26:35</sys_created_on><sys_id>999bdb1a8367b250979271d6feaad3ed</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Login</sys_name><sys_package display_value="AlmaConnect" source="x_1909965_almaconn">3882be6183763210979271d6feaad3fc</sys_package><sys_policy/><sys_scope display_value="AlmaConnect">3882be6183763210979271d6feaad3fc</sys_scope><sys_update_name>sys_ux_app_route_999bdb1a8367b250979271d6feaad3ed</sys_update_name><sys_updated_by>katakamlakshmi</sys_updated_by><sys_updated_on>2026-03-13 08:26:35</sys_updated_on></sys_ux_app_route><sys_translated_text action="delete_multiple" query="documentkey=999bdb1a8367b250979271d6feaad3ed"/></record_update>]]></payload>
+        <payload_hash>-364339182</payload_hash>
+        <record_name>Login</record_name>
+        <reverted_from/>
+        <source>0a3d7aed83763210979271d6feaad316</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>katakamlakshmi</sys_created_by>
+        <sys_created_on>2026-03-13 08:26:35</sys_created_on>
+        <sys_id>959bdb1a8367b250979271d6feaad3f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19ce64df8510000001</sys_recorded_at>
+        <sys_updated_by>katakamlakshmi</sys_updated_by>
+        <sys_updated_on>2026-03-13 08:26:35</sys_updated_on>
+        <type>UX App Route</type>
+        <update_guid>599bdb1aea67b2504e7303f53fd948ef</update_guid>
+        <update_guid_history>599bdb1aea67b2504e7303f53fd948ef:-364339182</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>katakamlakshmi</sys_created_by>
+        <sys_created_on>2026-03-13 08:30:02</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_app_route">sys_ux_app_route</sys_db_object>
+        <sys_id>038ecf6f522044e09f1590b045c1e100</sys_id>
+        <sys_metadata>999bdb1a8367b250979271d6feaad3ed</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Login</sys_name>
+        <sys_package display_value="AlmaConnect" source="x_1909965_almaconn">3882be6183763210979271d6feaad3fc</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="AlmaConnect">3882be6183763210979271d6feaad3fc</sys_scope>
+        <sys_scope_delete display_value="">17c1063288fd4f2089beaa6318683ee4</sys_scope_delete>
+        <sys_update_name>sys_ux_app_route_999bdb1a8367b250979271d6feaad3ed</sys_update_name>
+        <sys_update_version display_value="sys_ux_app_route_999bdb1a8367b250979271d6feaad3ed">959bdb1a8367b250979271d6feaad3f0</sys_update_version>
+        <sys_updated_by>katakamlakshmi</sys_updated_by>
+        <sys_updated_on>2026-03-13 08:30:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

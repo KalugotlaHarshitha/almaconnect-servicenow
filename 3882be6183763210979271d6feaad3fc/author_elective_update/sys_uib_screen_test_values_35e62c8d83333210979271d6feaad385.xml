@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values">
+    <sys_uib_screen_test_values action="DELETE">
+        <macroponent_config/>
+        <screen display_value="Default">7de62c8d83333210979271d6feaad373</screen>
+        <sys_class_name>sys_uib_screen_test_values</sys_class_name>
+        <sys_created_by>katakamlakshmi</sys_created_by>
+        <sys_created_on>2026-03-21 08:20:30</sys_created_on>
+        <sys_id>35e62c8d83333210979271d6feaad385</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AlmaConnect" source="x_1909965_almaconn">3882be6183763210979271d6feaad3fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AlmaConnect">3882be6183763210979271d6feaad3fc</sys_scope>
+        <sys_update_name>sys_uib_screen_test_values_35e62c8d83333210979271d6feaad385</sys_update_name>
+        <sys_updated_by>katakamlakshmi</sys_updated_by>
+        <sys_updated_on>2026-03-21 08:20:30</sys_updated_on>
+    </sys_uib_screen_test_values>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AlmaConnect">3882be6183763210979271d6feaad3fc</application>
+        <file_path/>
+        <instance_id>196a47e22b8f9ad4e2e6fcd2ce91bf51</instance_id>
+        <instance_name>dev292608</instance_name>
+        <name>sys_uib_screen_test_values_35e62c8d83333210979271d6feaad385</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values"><sys_uib_screen_test_values action="INSERT_OR_UPDATE"><macroponent_config/><screen display_value="Default">7de62c8d83333210979271d6feaad373</screen><sys_class_name>sys_uib_screen_test_values</sys_class_name><sys_created_by>katakamlakshmi</sys_created_by><sys_created_on>2026-03-21 08:20:30</sys_created_on><sys_id>35e62c8d83333210979271d6feaad385</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="AlmaConnect" source="x_1909965_almaconn">3882be6183763210979271d6feaad3fc</sys_package><sys_policy/><sys_scope display_value="AlmaConnect">3882be6183763210979271d6feaad3fc</sys_scope><sys_update_name>sys_uib_screen_test_values_35e62c8d83333210979271d6feaad385</sys_update_name><sys_updated_by>katakamlakshmi</sys_updated_by><sys_updated_on>2026-03-21 08:20:30</sys_updated_on></sys_uib_screen_test_values></record_update>]]></payload>
+        <payload_hash>-232609996</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>4103cb3d83ebfe10979271d6feaad30d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>katakamlakshmi</sys_created_by>
+        <sys_created_on>2026-03-21 08:20:30</sys_created_on>
+        <sys_id>79e62c8d83333210979271d6feaad387</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19d0f7b45400000001</sys_recorded_at>
+        <sys_updated_by>katakamlakshmi</sys_updated_by>
+        <sys_updated_on>2026-03-21 08:20:30</sys_updated_on>
+        <type>UIB Screen Test Values</type>
+        <update_guid>3de62c8d12333210d15e40b78c8dda86</update_guid>
+        <update_guid_history>3de62c8d12333210d15e40b78c8dda86:-232609996</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>katakamlakshmi</sys_created_by>
+        <sys_created_on>2026-03-23 09:37:35</sys_created_on>
+        <sys_db_object display_value="" name="sys_uib_screen_test_values">sys_uib_screen_test_values</sys_db_object>
+        <sys_id>93079cf3c5eb42b8953a1d69157d86d1</sys_id>
+        <sys_metadata>35e62c8d83333210979271d6feaad385</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AlmaConnect" source="x_1909965_almaconn">3882be6183763210979271d6feaad3fc</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="AlmaConnect">3882be6183763210979271d6feaad3fc</sys_scope>
+        <sys_scope_delete display_value="">17c1063288fd4f2089beaa6318683ee4</sys_scope_delete>
+        <sys_update_name>sys_uib_screen_test_values_35e62c8d83333210979271d6feaad385</sys_update_name>
+        <sys_update_version display_value="sys_uib_screen_test_values_35e62c8d83333210979271d6feaad385">79e62c8d83333210979271d6feaad387</sys_update_version>
+        <sys_updated_by>katakamlakshmi</sys_updated_by>
+        <sys_updated_on>2026-03-23 09:37:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

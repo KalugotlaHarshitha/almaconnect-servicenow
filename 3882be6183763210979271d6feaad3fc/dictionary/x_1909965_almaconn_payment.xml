@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="1d7ebc4083733210979271d6feaad325" label="Payment" max_length="40" name="x_1909965_almaconn_payment" type="collection">
+        <element choice="1" label="Payment Recieved" max_length="40" name="payment_recieved" type="choice">
+            <choice/>
+        </element>
+        <element choice="1" label="Payment Method" max_length="40" name="payment_metho0" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Phone Pay" sequence="0" value="Phone Pay"/>
+                <element inactive_on_update="false" label="Google Pay" sequence="1" value="Google Pay"/>
+            </choice>
+        </element>
+        <element active="false" choice="1" default="None" label="Payment Method" max_length="40" name="payment_method" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Phone Pay" sequence="0" value="Phone Pay"/>
+                <element inactive_on_update="false" label="Google Pay" sequence="1" value="Google Pay"/>
+            </choice>
+        </element>
+        <element label="College" max_length="40" name="college" type="string"/>
+        <element default="0" label="College Share" max_length="20" name="college_share" type="decimal"/>
+        <element label="Alumni" max_length="32" name="alumni" reference="x_1909965_almaconn_mentorship_request_table" type="reference"/>
+        <element default="0" label="Platform Share" max_length="20" name="platform_share" type="decimal"/>
+        <element label="Student" max_length="32" name="student" reference="x_1909965_almaconn_mentorship_request_table" type="reference"/>
+        <element label="Alumni" max_length="32" name="alumn0" reference="x_1909965_almaconn_alumni" type="reference"/>
+        <element label="Student" max_length="32" name="studen0" reference="x_1909965_almaconn_student" type="reference"/>
+        <element default="0" label="Amount paid" max_length="20" name="amount_paid" type="decimal"/>
+        <element default="o" label="Alumni Share" max_length="20" name="alumni_share" type="decimal"/>
+        <element choice="1" label="Payment Status" max_length="40" name="payment_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Pending" sequence="0" value="Pending"/>
+                <element inactive_on_update="false" label="Paid" sequence="1" value="Paid"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="alumn0"/>
+        </index>
+        <index name="index2">
+            <element name="alumni"/>
+        </index>
+        <index name="index3">
+            <element name="studen0"/>
+        </index>
+        <index name="index4">
+            <element name="student"/>
+        </index>
+    </element>
+</database>

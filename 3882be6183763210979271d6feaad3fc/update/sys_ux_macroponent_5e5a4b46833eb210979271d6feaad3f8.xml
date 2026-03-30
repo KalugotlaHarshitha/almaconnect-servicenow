@@ -385,39 +385,7 @@
                                             },
                                             "elementId": "input_1",
                                             "elementLabel": "Input 1",
-                                            "eventMappings": [
-                                                {
-                                                    "eventMappingId": "cmmkfbbccbbjjaaaaxgddffiiaeeuvghhrffii",
-                                                    "isConfiguration": false,
-                                                    "offRowStorageId": null,
-                                                    "sourceEventApiName": "sn_input.NOW_INPUT#SELECTION_CHANGED",
-                                                    "sourceEventCorrelationId": null,
-                                                    "sourceEventDefinition": {
-                                                        "apiName": "sn_input.NOW_INPUT#SELECTION_CHANGED",
-                                                        "id": null,
-                                                        "type": "UXEVENT"
-                                                    },
-                                                    "sourceEventSysId": null,
-                                                    "targets": [
-                                                        {
-                                                            "broker": null,
-                                                            "clientScript": {
-                                                                "payload": {
-                                                                    "type": "JSON_LITERAL",
-                                                                    "value": {}
-                                                                },
-                                                                "sysId": "8da3cc2483637a10979271d6feaad33f"
-                                                            },
-                                                            "conditional": null,
-                                                            "declarativeAction": null,
-                                                            "event": null,
-                                                            "operation": null,
-                                                            "targetId": "cmmkfbbccbbjjaaaaxhddffiiagqgdaaabgg",
-                                                            "type": "CLIENT_SCRIPT"
-                                                        }
-                                                    ]
-                                                }
-                                            ],
+                                            "eventMappings": [],
                                             "isHidden": {
                                                 "type": "JSON_LITERAL",
                                                 "value": null
@@ -564,39 +532,7 @@
                                             },
                                             "elementId": "input_password_1",
                                             "elementLabel": "Input password 1",
-                                            "eventMappings": [
-                                                {
-                                                    "eventMappingId": "cmmkfccnytaaaaxoddffiiaicctnaariiv",
-                                                    "isConfiguration": false,
-                                                    "offRowStorageId": null,
-                                                    "sourceEventApiName": "sn_input.NOW_INPUT_PASSWORD#INPUT",
-                                                    "sourceEventCorrelationId": null,
-                                                    "sourceEventDefinition": {
-                                                        "apiName": "sn_input.NOW_INPUT_PASSWORD#INPUT",
-                                                        "id": null,
-                                                        "type": "UXEVENT"
-                                                    },
-                                                    "sourceEventSysId": null,
-                                                    "targets": [
-                                                        {
-                                                            "broker": null,
-                                                            "clientScript": {
-                                                                "payload": {
-                                                                    "type": "JSON_LITERAL",
-                                                                    "value": {}
-                                                                },
-                                                                "sysId": "8da3cc2483637a10979271d6feaad33f"
-                                                            },
-                                                            "conditional": null,
-                                                            "declarativeAction": null,
-                                                            "event": null,
-                                                            "operation": null,
-                                                            "targetId": "cmmkfccnytaaaaxpddffiiaggddlgjjrjff",
-                                                            "type": "CLIENT_SCRIPT"
-                                                        }
-                                                    ]
-                                                }
-                                            ],
+                                            "eventMappings": [],
                                             "isHidden": {
                                                 "type": "JSON_LITERAL",
                                                 "value": null
@@ -714,349 +650,6 @@
                                         },
                                         {
                                             "definition": {
-                                                "id": "1f6e0643eca7a637e36bd7833549ec9e",
-                                                "type": "MACROPONENT"
-                                            },
-                                            "elementId": "heading_5",
-                                            "elementLabel": "Heading 5",
-                                            "eventMappings": [],
-                                            "isHidden": {
-                                                "type": "JSON_LITERAL",
-                                                "value": null
-                                            },
-                                            "preset": null,
-                                            "propertyValues": {
-                                                "hasNoMargin": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": false
-                                                },
-                                                "label": {
-                                                    "type": "TRANSLATION_LITERAL",
-                                                    "value": {
-                                                        "code": null,
-                                                        "comment": "",
-                                                        "message": "Login as :"
-                                                    }
-                                                },
-                                                "level": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": "1"
-                                                },
-                                                "variant": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": "header-secondary"
-                                                },
-                                                "wontWrap": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": false
-                                                }
-                                            },
-                                            "slot": "label-inline",
-                                            "styles": null
-                                        },
-                                        {
-                                            "definition": {
-                                                "id": "e772e788e32ce32b8daa2ac7b092d2c6",
-                                                "type": "MACROPONENT"
-                                            },
-                                            "elementId": "card_base_container_3",
-                                            "elementLabel": "Card Base Container 3",
-                                            "eventMappings": [],
-                                            "isHidden": {
-                                                "type": "JSON_LITERAL",
-                                                "value": null
-                                            },
-                                            "overrides": {
-                                                "composition": [
-                                                    {
-                                                        "definition": {
-                                                            "id": "d37ce8abca89d02905fed903c8e34d8e",
-                                                            "type": "MACROPONENT"
-                                                        },
-                                                        "elementId": "button_1",
-                                                        "elementLabel": "Button 1",
-                                                        "eventMappings": [
-                                                            {
-                                                                "eventMappingId": "cmmgggddbmtaaccyiiddbiiggaiibntcwq",
-                                                                "isConfiguration": false,
-                                                                "offRowStorageId": null,
-                                                                "sourceEventApiName": "sn_button.NOW_BUTTON#CLICKED",
-                                                                "sourceEventCorrelationId": null,
-                                                                "sourceEventDefinition": {
-                                                                    "apiName": "sn_button.NOW_BUTTON#CLICKED",
-                                                                    "id": null,
-                                                                    "type": "UXEVENT"
-                                                                },
-                                                                "sourceEventSysId": null,
-                                                                "targets": [
-                                                                    {
-                                                                        "broker": null,
-                                                                        "clientScript": {
-                                                                            "payload": {
-                                                                                "type": "JSON_LITERAL",
-                                                                                "value": {}
-                                                                            },
-                                                                            "sysId": "8da3cc2483637a10979271d6feaad33f"
-                                                                        },
-                                                                        "conditional": null,
-                                                                        "declarativeAction": null,
-                                                                        "event": null,
-                                                                        "operation": null,
-                                                                        "targetId": "cmmgggddbmtaaccyjjddbiiggtaalxjjggqjj",
-                                                                        "type": "CLIENT_SCRIPT"
-                                                                    }
-                                                                ]
-                                                            }
-                                                        ],
-                                                        "isHidden": {
-                                                            "type": "JSON_LITERAL",
-                                                            "value": null
-                                                        },
-                                                        "preset": null,
-                                                        "propertyValues": {
-                                                            "animatedIcon": {
-                                                                "type": "JSON_LITERAL",
-                                                                "value": null
-                                                            },
-                                                            "configAria": {
-                                                                "type": "JSON_LITERAL",
-                                                                "value": null
-                                                            },
-                                                            "disabled": {
-                                                                "type": "JSON_LITERAL",
-                                                                "value": false
-                                                            },
-                                                            "icon": {
-                                                                "type": "JSON_LITERAL",
-                                                                "value": null
-                                                            },
-                                                            "label": {
-                                                                "type": "TRANSLATION_LITERAL",
-                                                                "value": {
-                                                                    "code": null,
-                                                                    "comment": "",
-                                                                    "message": "Student"
-                                                                }
-                                                            },
-                                                            "landmark": {
-                                                                "type": "JSON_LITERAL",
-                                                                "value": null
-                                                            },
-                                                            "size": {
-                                                                "type": "JSON_LITERAL",
-                                                                "value": "md"
-                                                            },
-                                                            "tooltipContent": {
-                                                                "type": "TRANSLATION_LITERAL",
-                                                                "value": {
-                                                                    "code": null,
-                                                                    "comment": "",
-                                                                    "message": "Login as Student "
-                                                                }
-                                                            },
-                                                            "variant": {
-                                                                "type": "JSON_LITERAL",
-                                                                "value": "secondary"
-                                                            }
-                                                        },
-                                                        "slot": null,
-                                                        "styles": null
-                                                    },
-                                                    {
-                                                        "definition": {
-                                                            "id": "d37ce8abca89d02905fed903c8e34d8e",
-                                                            "type": "MACROPONENT"
-                                                        },
-                                                        "elementId": "button_2",
-                                                        "elementLabel": "Button 2",
-                                                        "eventMappings": [],
-                                                        "isHidden": {
-                                                            "type": "JSON_LITERAL",
-                                                            "value": null
-                                                        },
-                                                        "preset": null,
-                                                        "propertyValues": {
-                                                            "animatedIcon": {
-                                                                "type": "JSON_LITERAL",
-                                                                "value": null
-                                                            },
-                                                            "configAria": {
-                                                                "type": "JSON_LITERAL",
-                                                                "value": null
-                                                            },
-                                                            "disabled": {
-                                                                "type": "JSON_LITERAL",
-                                                                "value": false
-                                                            },
-                                                            "icon": {
-                                                                "type": "JSON_LITERAL",
-                                                                "value": null
-                                                            },
-                                                            "label": {
-                                                                "type": "TRANSLATION_LITERAL",
-                                                                "value": {
-                                                                    "code": null,
-                                                                    "comment": "",
-                                                                    "message": "Alumni"
-                                                                }
-                                                            },
-                                                            "landmark": {
-                                                                "type": "JSON_LITERAL",
-                                                                "value": null
-                                                            },
-                                                            "size": {
-                                                                "type": "JSON_LITERAL",
-                                                                "value": "md"
-                                                            },
-                                                            "tooltipContent": {
-                                                                "type": "TRANSLATION_LITERAL",
-                                                                "value": {
-                                                                    "code": null,
-                                                                    "comment": "",
-                                                                    "message": "Login as Alumni"
-                                                                }
-                                                            },
-                                                            "variant": {
-                                                                "type": "JSON_LITERAL",
-                                                                "value": "secondary"
-                                                            }
-                                                        },
-                                                        "slot": null,
-                                                        "styles": null
-                                                    },
-                                                    {
-                                                        "definition": {
-                                                            "id": "d37ce8abca89d02905fed903c8e34d8e",
-                                                            "type": "MACROPONENT"
-                                                        },
-                                                        "elementId": "button_3",
-                                                        "elementLabel": "Button 3",
-                                                        "eventMappings": [],
-                                                        "isHidden": {
-                                                            "type": "JSON_LITERAL",
-                                                            "value": null
-                                                        },
-                                                        "preset": null,
-                                                        "propertyValues": {
-                                                            "animatedIcon": {
-                                                                "type": "JSON_LITERAL",
-                                                                "value": null
-                                                            },
-                                                            "configAria": {
-                                                                "type": "JSON_LITERAL",
-                                                                "value": null
-                                                            },
-                                                            "disabled": {
-                                                                "type": "JSON_LITERAL",
-                                                                "value": false
-                                                            },
-                                                            "icon": {
-                                                                "type": "JSON_LITERAL",
-                                                                "value": null
-                                                            },
-                                                            "label": {
-                                                                "type": "TRANSLATION_LITERAL",
-                                                                "value": {
-                                                                    "code": null,
-                                                                    "comment": "",
-                                                                    "message": "Admin"
-                                                                }
-                                                            },
-                                                            "landmark": {
-                                                                "type": "JSON_LITERAL",
-                                                                "value": null
-                                                            },
-                                                            "size": {
-                                                                "type": "JSON_LITERAL",
-                                                                "value": "md"
-                                                            },
-                                                            "tooltipContent": {
-                                                                "type": "TRANSLATION_LITERAL",
-                                                                "value": {
-                                                                    "code": null,
-                                                                    "comment": "",
-                                                                    "message": "Login as Admin"
-                                                                }
-                                                            },
-                                                            "variant": {
-                                                                "type": "JSON_LITERAL",
-                                                                "value": "secondary"
-                                                            }
-                                                        },
-                                                        "slot": null,
-                                                        "styles": null
-                                                    }
-                                                ],
-                                                "layout": {
-                                                    "default": {
-                                                        "children": null,
-                                                        "items": [
-                                                            {
-                                                                "element_id": "button_1",
-                                                                "styles": {
-                                                                    "align-self": "center",
-                                                                    "flex": "none"
-                                                                }
-                                                            },
-                                                            {
-                                                                "element_id": "button_2",
-                                                                "styles": {
-                                                                    "align-self": "center",
-                                                                    "flex": "none"
-                                                                }
-                                                            },
-                                                            {
-                                                                "element_id": "button_3",
-                                                                "styles": {}
-                                                            }
-                                                        ],
-                                                        "root": null,
-                                                        "rules": null,
-                                                        "styles": {
-                                                            "flex-direction": "row"
-                                                        },
-                                                        "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
-                                                        "type": "flex"
-                                                    },
-                                                    "version": "3.0.0"
-                                                }
-                                            },
-                                            "preset": null,
-                                            "propertyValues": {
-                                                "configAria": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": null
-                                                },
-                                                "hideShadow": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": false
-                                                },
-                                                "interaction": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": "select"
-                                                },
-                                                "manageSelected": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": false
-                                                },
-                                                "selected": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": false
-                                                },
-                                                "sidebar": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": {}
-                                                },
-                                                "size": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": "lg"
-                                                }
-                                            },
-                                            "slot": "label-inline",
-                                            "styles": null
-                                        },
-                                        {
-                                            "definition": {
                                                 "id": "d37ce8abca89d02905fed903c8e34d8e",
                                                 "type": "MACROPONENT"
                                             },
@@ -1064,7 +657,7 @@
                                             "elementLabel": "Button 4",
                                             "eventMappings": [
                                                 {
-                                                    "eventMappingId": "cmmfxuetaaaccsjddbiiggcupgraagn",
+                                                    "eventMappingId": "cmnaakjjvauaaddgtddjiidjzoxvseez",
                                                     "isConfiguration": false,
                                                     "offRowStorageId": null,
                                                     "sourceEventApiName": "sn_button.NOW_BUTTON#CLICKED",
@@ -1084,24 +677,19 @@
                                                             "event": {
                                                                 "apiName": "x_1909965_almaconn.NAV_ITEM_SELECTED_RELAY_5e5a4b46833eb210979271d6feaad3f8",
                                                                 "payload": {
-                                                                    "type": "JSON_LITERAL",
-                                                                    "value": {
-                                                                        "external": null,
-                                                                        "fields": null,
-                                                                        "multiInstField": null,
-                                                                        "navigationOptions": null,
-                                                                        "params": null,
-                                                                        "passiveNavigation": null,
-                                                                        "redirect": null,
-                                                                        "route": "student-dashboard",
-                                                                        "targetRoute": null,
-                                                                        "title": null
-                                                                    }
+                                                                    "script": {
+                                                                        "apiVersion": "1.0.0",
+                                                                        "controllerElementId": null,
+                                                                        "inlineScript": "function handler({api, event, helpers, imports}) {\n    // Get roles from the session context\n    \n    const userRoles = api.context.session.user.roles || [];\n    \n    // IMPORTANT: Replace these with the EXACT 'Name' from the Roles table\n    const adminRole = 'admin';\n    const studentRole = 'student'; // Change to full name if it has a prefix\n    const alumniRole = 'alumni';   // Change to full name if it has a prefix\n\n    console.log('User Roles found:', userRoles); // This helps you debug in F12 console\n\n    if (userRoles.includes(adminRole)) {\n        helpers.navigate.to('/x/1909965/admin-portal/admin-dashboard');\n    } else if (userRoles.includes(studentRole)) {\n        helpers.navigate.to('/x/1909965/almaconnect/student-dashboard');\n    } else if (userRoles.includes(alumniRole)) {\n        helpers.navigate.to('/x/1909965/alumni-portal/dashboard');\n    } else {\n        // If roles aren't loading fast enough, we can force a redirect to a general landing\n        helpers.navigate.to('/x/1909965/almaconnect/home');\n    }\n    \n}",
+                                                                        "scriptSysId": null,
+                                                                        "target": null
+                                                                    },
+                                                                    "type": "CLIENT_TRANSFORM_SCRIPT"
                                                                 },
                                                                 "sysId": "0da3cc2483637a10979271d6feaad33f"
                                                             },
                                                             "operation": null,
-                                                            "targetId": "cmmfxuetaaaccskddbiiggsgggjjmraau",
+                                                            "targetId": "cmnaakjjvauaaddguddjiidpccaahhddyuw",
                                                             "type": "EVENT"
                                                         }
                                                     ]
@@ -1150,7 +738,7 @@
                                                     "value": {
                                                         "code": null,
                                                         "comment": "",
-                                                        "message": "Login"
+                                                        "message": ""
                                                     }
                                                 },
                                                 "variant": {
@@ -1183,16 +771,6 @@
                                                     "styles": {
                                                         "align-self": "center"
                                                     }
-                                                },
-                                                {
-                                                    "element_id": "heading_5",
-                                                    "styles": {
-                                                        "padding-top": "var(--now-scalable-space--md)"
-                                                    }
-                                                },
-                                                {
-                                                    "element_id": "card_base_container_3",
-                                                    "styles": {}
                                                 },
                                                 {
                                                     "element_id": "button_4",
@@ -1698,6 +1276,122 @@
             }
         },
         "readEvaluationMode": "EAGER"
+    },
+    {
+        "definition": {
+            "id": "b997a84053021010cbc2ddeeff7b1228",
+            "type": "COMPOSITE"
+        },
+        "elementId": "look_up_multiple_records_4",
+        "elementLabel": "Look up multiple records 4",
+        "eventMappings": [],
+        "inputValues": {
+            "encodedQuery": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "limit": {
+                "type": "JSON_LITERAL",
+                "value": "1000"
+            },
+            "offset": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "orderBy": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "queryCategory": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "returnFieldMetadata": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "returnFields": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "sortType": {
+                "type": "JSON_LITERAL",
+                "value": "asc"
+            },
+            "table": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            }
+        },
+        "readEvaluationMode": "EAGER"
+    },
+    {
+        "definition": {
+            "id": "b997a84053021010cbc2ddeeff7b1228",
+            "type": "COMPOSITE"
+        },
+        "elementId": "look_up_multiple_records_5",
+        "elementLabel": "Look up multiple records 5",
+        "eventMappings": [],
+        "inputValues": {
+            "encodedQuery": {
+                "transform": {
+                    "operands": {
+                        "container": [
+                            {
+                                "type": "JSON_LITERAL",
+                                "value": "sys_id="
+                            },
+                            {
+                                "binding": {
+                                    "address": [
+                                        "user",
+                                        "sys_id"
+                                    ],
+                                    "category": "session"
+                                },
+                                "type": "CONTEXT_BINDING"
+                            }
+                        ],
+                        "type": "LIST_CONTAINER"
+                    },
+                    "operator": "CONCAT"
+                },
+                "type": "CLIENT_TRANSFORM"
+            },
+            "limit": {
+                "type": "JSON_LITERAL",
+                "value": "1000"
+            },
+            "offset": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "orderBy": {
+                "type": "JSON_LITERAL"
+            },
+            "queryCategory": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "returnFieldMetadata": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "returnFields": {
+                "type": "JSON_LITERAL",
+                "value": "sys_id"
+            },
+            "sortType": {
+                "type": "JSON_LITERAL",
+                "value": "asc"
+            },
+            "table": {
+                "type": "JSON_LITERAL",
+                "value": "sys_user"
+            }
+        },
+        "readEvaluationMode": "EAGER"
     }
 ]</data>
         <description/>
@@ -1748,13 +1442,7 @@
   "message" : "Access your mentorship dashboard",
   "comment" : ""
 }, {
-  "message" : "Admin",
-  "comment" : ""
-}, {
   "message" : "Alumini - Student Mentorship Platform",
-  "comment" : ""
-}, {
-  "message" : "Alumni",
   "comment" : ""
 }, {
   "message" : "Connecting students with alumni for guidance, growth, and career success.",
@@ -1763,22 +1451,7 @@
   "message" : "Login",
   "comment" : ""
 }, {
-  "message" : "Login as :",
-  "comment" : ""
-}, {
-  "message" : "Login as Admin",
-  "comment" : ""
-}, {
-  "message" : "Login as Alumni",
-  "comment" : ""
-}, {
-  "message" : "Login as Student ",
-  "comment" : ""
-}, {
   "message" : "Password",
-  "comment" : ""
-}, {
-  "message" : "Student",
   "comment" : ""
 } ]</required_translations>
         <root_component/>
@@ -1807,14 +1480,14 @@
         <sys_created_by>katakamlakshmi</sys_created_by>
         <sys_created_on>2026-02-03 05:45:44</sys_created_on>
         <sys_id>5e5a4b46833eb210979271d6feaad3f8</sys_id>
-        <sys_mod_count>61</sys_mod_count>
+        <sys_mod_count>69</sys_mod_count>
         <sys_name>Default</sys_name>
         <sys_package display_value="AlmaConnect" source="x_1909965_almaconn">3882be6183763210979271d6feaad3fc</sys_package>
         <sys_policy/>
         <sys_scope display_value="AlmaConnect">3882be6183763210979271d6feaad3fc</sys_scope>
         <sys_update_name>sys_ux_macroponent_5e5a4b46833eb210979271d6feaad3f8</sys_update_name>
-        <sys_updated_by>katakamlakshmi</sys_updated_by>
-        <sys_updated_on>2026-03-10 10:23:20</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-21 16:48:11</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=5e5a4b46833eb210979271d6feaad3f8"/>
 </record_update>

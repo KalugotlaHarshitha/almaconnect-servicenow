@@ -157,6 +157,32 @@
                             },
                             {
                                 "definition": {
+                                    "id": "16896fa0f6eed87cc23b4c1a4752a35f",
+                                    "type": "MACROPONENT"
+                                },
+                                "elementId": "card_base_divider_1",
+                                "elementLabel": "Card Base Divider 1",
+                                "eventMappings": [],
+                                "isHidden": {
+                                    "type": "JSON_LITERAL",
+                                    "value": null
+                                },
+                                "preset": null,
+                                "propertyValues": {
+                                    "blockSpacing": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "lg"
+                                    },
+                                    "fullWidth": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    }
+                                },
+                                "slot": null,
+                                "styles": null
+                            },
+                            {
+                                "definition": {
                                     "id": "e772e788e32ce32b8daa2ac7b092d2c6",
                                     "type": "MACROPONENT"
                                 },
@@ -169,6 +195,114 @@
                                 },
                                 "overrides": {
                                     "composition": [
+                                        {
+                                            "definition": {
+                                                "id": "d37ce8abca89d02905fed903c8e34d8e",
+                                                "type": "MACROPONENT"
+                                            },
+                                            "elementId": "button_1",
+                                            "elementLabel": "Button 1",
+                                            "eventMappings": [
+                                                {
+                                                    "eventMappingId": "cmnffmoatsaaaaxddddjiidrxjjeccnddl",
+                                                    "isConfiguration": false,
+                                                    "offRowStorageId": null,
+                                                    "sourceEventApiName": "sn_button.NOW_BUTTON#CLICKED",
+                                                    "sourceEventCorrelationId": null,
+                                                    "sourceEventDefinition": {
+                                                        "apiName": "sn_button.NOW_BUTTON#CLICKED",
+                                                        "id": null,
+                                                        "type": "UXEVENT"
+                                                    },
+                                                    "sourceEventSysId": null,
+                                                    "targets": [
+                                                        {
+                                                            "broker": null,
+                                                            "clientScript": null,
+                                                            "conditional": null,
+                                                            "declarativeAction": null,
+                                                            "event": {
+                                                                "apiName": "x_1909965_almaconn.NAV_ITEM_SELECTED_RELAY_e7b507f7833af210979271d6feaad347",
+                                                                "payload": {
+                                                                    "type": "JSON_LITERAL",
+                                                                    "value": {
+                                                                        "external": {
+                                                                            "url": "https://dev292608.service-now.com/now/nav/ui/classic/params/target/x_1909965_almaconn_feedback_list.do%3Fsysparm_userpref_module%3D63e59b6d83f63210979271d6feaad302%26sysparm_clear_stack%3Dtrue"
+                                                                        },
+                                                                        "fields": null,
+                                                                        "multiInstField": null,
+                                                                        "navigationOptions": null,
+                                                                        "params": null,
+                                                                        "passiveNavigation": null,
+                                                                        "redirect": null,
+                                                                        "route": null,
+                                                                        "targetRoute": null,
+                                                                        "title": null
+                                                                    }
+                                                                },
+                                                                "sysId": "656be4de83ff7610979271d6feaad34d"
+                                                            },
+                                                            "operation": null,
+                                                            "targetId": "cmnffmoattaaaaxeeddjiidjjtibbbsabb",
+                                                            "type": "EVENT"
+                                                        }
+                                                    ]
+                                                }
+                                            ],
+                                            "isHidden": {
+                                                "type": "JSON_LITERAL",
+                                                "value": null
+                                            },
+                                            "preset": null,
+                                            "propertyValues": {
+                                                "animatedIcon": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": null
+                                                },
+                                                "configAria": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": null
+                                                },
+                                                "disabled": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "icon": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": null
+                                                },
+                                                "label": {
+                                                    "type": "TRANSLATION_LITERAL",
+                                                    "value": {
+                                                        "code": null,
+                                                        "comment": "",
+                                                        "message": "Give Feedback"
+                                                    }
+                                                },
+                                                "landmark": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": null
+                                                },
+                                                "size": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": "md"
+                                                },
+                                                "tooltipContent": {
+                                                    "type": "TRANSLATION_LITERAL",
+                                                    "value": {
+                                                        "code": null,
+                                                        "comment": "",
+                                                        "message": "Enter a label"
+                                                    }
+                                                },
+                                                "variant": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": "primary-positive"
+                                                }
+                                            },
+                                            "slot": null,
+                                            "styles": null
+                                        },
                                         {
                                             "definition": {
                                                 "id": "2212a6f3be369cc1d00636f94f2c287a",
@@ -256,7 +390,7 @@
                                                 },
                                                 "columns": {
                                                     "type": "JSON_LITERAL",
-                                                    "value": "alumni.alumni_name,session.completed_on,session.mentorship.request_description,session.mentorship.preferred_mode,rating,comments"
+                                                    "value": "alumni.alumni_name,rating,comments"
                                                 },
                                                 "daClientActionContract": {
                                                     "type": "JSON_LITERAL",
@@ -588,6 +722,10 @@
                                             "children": null,
                                             "items": [
                                                 {
+                                                    "element_id": "button_1",
+                                                    "styles": {}
+                                                },
+                                                {
                                                     "element_id": "card_base_header_1",
                                                     "styles": {
                                                         "padding-bottom": "var(--now-scalable-space--md)"
@@ -603,6 +741,7 @@
                                             "styles": {
                                                 "flex": "none",
                                                 "flex-direction": "column",
+                                                "margin-top": "var(--now-scalable-space--lg)",
                                                 "width": "100%"
                                             },
                                             "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
@@ -664,8 +803,24 @@
                                         }
                                     },
                                     {
-                                        "element_id": "card_base_container_2",
+                                        "element_id": "card_base_divider_1",
                                         "styles": {}
+                                    },
+                                    {
+                                        "element_id": "card_base_container_2",
+                                        "styles": {
+                                            "background": "#FFFFFF",
+                                            "background-color": "#8fd3f4",
+                                            "border-bottom": "2px solid #F3F4F6",
+                                            "font-size": "13px",
+                                            "font-weight": "600",
+                                            "letter-spacing": "-0.5px",
+                                            "margin-bottom": "8px",
+                                            "margin-left": "0",
+                                            "margin-right": "var(--now-scalable-space--lg)",
+                                            "padding-right": "var(--now-scalable-space--sm)",
+                                            "text-transform": "uppercase"
+                                        }
                                     }
                                 ],
                                 "root": null,
@@ -842,7 +997,7 @@
         <data>[]</data>
         <description/>
         <disable_auto_reflow>false</disable_auto_reflow>
-        <dispatched_events/>
+        <dispatched_events>656be4de83ff7610979271d6feaad34d</dispatched_events>
         <ext_controller_dep/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
         <extension_point/>
@@ -858,11 +1013,14 @@
             {
                 "element_id": "stylized_text_1",
                 "styles": {
-                    "background": "#8FD3F4",
-                    "margin-bottom": "var(--now-scalable-space--md)",
-                    "padding-bottom": "0",
-                    "padding-left": "var(--now-scalable-space--lg)",
-                    "padding-top": "var(--now-scalable-space--sm)"
+                    "background": "#182C41",
+                    "border-style": "round",
+                    "color": "#ffffff",
+                    "margin-bottom": "0",
+                    "margin-left": "var(--now-scalable-space--md)",
+                    "margin-right": "var(--now-scalable-space--md)",
+                    "margin-top": "var(--now-scalable-space--sm)",
+                    "padding-left": "var(--now-scalable-space--md)"
                 }
             },
             {
@@ -898,6 +1056,12 @@
   "message" : "Card actions",
   "comment" : ""
 }, {
+  "message" : "Enter a label",
+  "comment" : ""
+}, {
+  "message" : "Give Feedback",
+  "comment" : ""
+}, {
   "message" : "Session Feedback",
   "comment" : ""
 }, {
@@ -917,14 +1081,14 @@
         <sys_created_by>katakamlakshmi</sys_created_by>
         <sys_created_on>2026-02-08 15:54:58</sys_created_on>
         <sys_id>e7b507f7833af210979271d6feaad347</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_name>Default</sys_name>
         <sys_package display_value="AlmaConnect" source="x_1909965_almaconn">3882be6183763210979271d6feaad3fc</sys_package>
         <sys_policy/>
         <sys_scope display_value="AlmaConnect">3882be6183763210979271d6feaad3fc</sys_scope>
         <sys_update_name>sys_ux_macroponent_e7b507f7833af210979271d6feaad347</sys_update_name>
         <sys_updated_by>katakamlakshmi</sys_updated_by>
-        <sys_updated_on>2026-03-07 04:26:24</sys_updated_on>
+        <sys_updated_on>2026-03-25 05:54:20</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=e7b507f7833af210979271d6feaad347"/>
 </record_update>
