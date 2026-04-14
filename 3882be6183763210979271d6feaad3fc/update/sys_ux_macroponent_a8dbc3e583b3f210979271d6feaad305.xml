@@ -387,7 +387,51 @@
                                             },
                                             "elementId": "login_1",
                                             "elementLabel": "Login 1",
-                                            "eventMappings": [],
+                                            "eventMappings": [
+                                                {
+                                                    "eventMappingId": "cmnywpjjffccaaaawxddjiidzjfurtaahh",
+                                                    "isConfiguration": false,
+                                                    "offRowStorageId": null,
+                                                    "sourceEventApiName": "now_login.NOW_LOGIN#SUCCEEDED",
+                                                    "sourceEventCorrelationId": null,
+                                                    "sourceEventDefinition": {
+                                                        "apiName": "now_login.NOW_LOGIN#SUCCEEDED",
+                                                        "id": null,
+                                                        "type": "UXEVENT"
+                                                    },
+                                                    "sourceEventSysId": null,
+                                                    "targets": [
+                                                        {
+                                                            "broker": null,
+                                                            "clientScript": null,
+                                                            "conditional": null,
+                                                            "declarativeAction": null,
+                                                            "event": {
+                                                                "apiName": "x_1909965_almaconn.NAV_ITEM_SELECTED_RELAY_a8dbc3e583b3f210979271d6feaad305",
+                                                                "payload": {
+                                                                    "type": "JSON_LITERAL",
+                                                                    "value": {
+                                                                        "external": null,
+                                                                        "fields": null,
+                                                                        "multiInstField": null,
+                                                                        "navigationOptions": null,
+                                                                        "params": null,
+                                                                        "passiveNavigation": null,
+                                                                        "redirect": null,
+                                                                        "route": "student-dashboard",
+                                                                        "targetRoute": null,
+                                                                        "title": null
+                                                                    }
+                                                                },
+                                                                "sysId": "6ceebbf1837b3610979271d6feaad3b7"
+                                                            },
+                                                            "operation": null,
+                                                            "targetId": "cmnywpjjffddaaaawyddjiidzzuyaaphe",
+                                                            "type": "EVENT"
+                                                        }
+                                                    ]
+                                                }
+                                            ],
                                             "isHidden": {
                                                 "type": "JSON_LITERAL",
                                                 "value": null
@@ -746,14 +790,14 @@
         <sys_created_by>katakamlakshmi</sys_created_by>
         <sys_created_on>2026-03-23 09:37:59</sys_created_on>
         <sys_id>a8dbc3e583b3f210979271d6feaad305</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>Default</sys_name>
         <sys_package display_value="AlmaConnect" source="x_1909965_almaconn">3882be6183763210979271d6feaad3fc</sys_package>
         <sys_policy/>
         <sys_scope display_value="AlmaConnect">3882be6183763210979271d6feaad3fc</sys_scope>
         <sys_update_name>sys_ux_macroponent_a8dbc3e583b3f210979271d6feaad305</sys_update_name>
-        <sys_updated_by>katakamlakshmi</sys_updated_by>
-        <sys_updated_on>2026-03-24 08:01:10</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-14 17:40:11</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=a8dbc3e583b3f210979271d6feaad305"/>
 </record_update>

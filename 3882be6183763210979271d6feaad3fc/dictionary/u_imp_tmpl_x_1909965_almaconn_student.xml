@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="980ff9f43b1c03100fc88e0f23e45ae6" extends="sys_import_set_row" label="Imp Tmpl X 1909965 Almaconn Student" max_length="40" name="u_imp_tmpl_x_1909965_almaconn_student" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Student Name" label="Student Name" max_length="40" name="u_student_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Status" label="Status" max_length="40" name="u_status" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Year" label="Year" max_length="10" name="u_year" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Phone Number" label="Phone Number" max_length="10" name="u_phone_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Student User" label="Student User" max_length="32" name="u_student_user" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Department" label="Department" max_length="50" name="u_department" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Email" label="Email" max_length="50" name="u_email" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=College" label="College" max_length="60" name="u_college" type="string"/>
+        <element attributes="import_attribute_name=Cgpa" label="Cgpa" max_length="20" name="u_cgpa" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Number" label="Number" max_length="40" name="u_number" type="string"/>
+    </element>
+</database>

@@ -15,7 +15,7 @@
         <flow_priority>MEDIUM</flow_priority>
         <generation_source/>
         <internal_name>email_to_student_regarding_session</internal_name>
-        <label_cache>[{"name":"Created_1.current","label":"Trigger - Record Created➛Session Record","reference":"x_1909965_almaconn_session","reference_display":"Session","type":"reference","base_type":"reference","usedInstances":{"2b3376ca-e761-41fd-b75b-65510eb97ffd":["record"]},"attributes":{}},{"name":"Created_1.current.student_name.name","label":"Trigger - Record Created➛Session Record➛Student Name➛Student Name","reference":"","reference_display":"Student Name","type":"string","base_type":"string","parent_table_name":"x_1909965_almaconn_student","column_name":"name","usedInstances":{"2b3376ca-e761-41fd-b75b-65510eb97ffd":[null]}},{"name":"Created_1.current.student_name.email","label":"Trigger - Record Created➛Session Record➛Student Name➛Email","reference":"","reference_display":"Email","type":"string","base_type":"string","parent_table_name":"x_1909965_almaconn_student","column_name":"email","usedInstances":{"2b3376ca-e761-41fd-b75b-65510eb97ffd":["ah_cc"]}},{"name":"Created_1.current.alumni_name.alumni_name","label":"Trigger - Record Created➛Session Record➛Alumni Name➛Alumni Name","reference":"","reference_display":"Alumni Name","type":"string","base_type":"string","parent_table_name":"x_1909965_almaconn_alumni","column_name":"alumni_name","usedInstances":{"2b3376ca-e761-41fd-b75b-65510eb97ffd":[null]}},{"name":"Created_1.current.scheduled_on","label":"Trigger - Record Created➛Session Record➛Scheduled On","reference":"","reference_display":"Scheduled On","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_1909965_almaconn_session","column_name":"scheduled_on","usedInstances":{"2b3376ca-e761-41fd-b75b-65510eb97ffd":[null]}},{"name":"Created_1.current.session_mode","label":"Trigger - Record Created➛Session Record➛Session_Mode","reference":"","reference_display":"Session_Mode","type":"choice","base_type":"choice","parent_table_name":"x_1909965_almaconn_session","column_name":"session_mode","choices":[{"label":"-- None --","image":"","used":false,"reference":false,"rawLabel":"-- None --","selected":false,"missing":false,"value":""},{"image":"","used":false,"label":"Offline","reference":false,"rawLabel":"Offline","selected":false,"missing":false,"value":"offline","parameters":{"name":"x_1909965_almaconn_session","dependent_values":[""]}},{"image":"","used":false,"label":"Online","reference":false,"rawLabel":"Online","selected":false,"missing":false,"value":"online","parameters":{"name":"x_1909965_almaconn_session","dependent_values":[""]}}],"usedInstances":{"2b3376ca-e761-41fd-b75b-65510eb97ffd":[null]}},{"name":"Created_1.current.meeting_link","label":"Trigger - Record Created➛Session Record➛Meeting Link","reference":"","reference_display":"Meeting Link","type":"url","base_type":"url","parent_table_name":"x_1909965_almaconn_session","column_name":"meeting_link","usedInstances":{"2b3376ca-e761-41fd-b75b-65510eb97ffd":[null]}},{"name":"Created_1.current.student_name.student_user.email","label":"Trigger - Record Created➛Session Record➛Student Name➛Student User➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email","usedInstances":{"2b3376ca-e761-41fd-b75b-65510eb97ffd":["ah_to"]}}]</label_cache>
+        <label_cache>[{"name":"Created_1.current.student_name.student_user.email","label":"Trigger - Record Created➛Session Record➛Student Name➛Student User➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email","usedInstances":{"2b3376ca-e761-41fd-b75b-65510eb97ffd":["ah_to"]}},{"name":"Created_1.current.meeting_link","label":"Trigger - Record Created➛Session Record➛Meeting Link","reference":"","reference_display":"Meeting Link","type":"url","base_type":"url","parent_table_name":"x_1909965_almaconn_session","column_name":"meeting_link","usedInstances":{"2b3376ca-e761-41fd-b75b-65510eb97ffd":[null]}},{"name":"Created_1.current.session_mode","label":"Trigger - Record Created➛Session Record➛Session_Mode","reference":"","reference_display":"Session_Mode","type":"choice","base_type":"choice","parent_table_name":"x_1909965_almaconn_session","column_name":"session_mode","choices":[{"label":"-- None --","image":"","used":false,"reference":false,"selected":false,"missing":false,"rawLabel":"-- None --","value":""},{"label":"Offline","image":"","used":false,"reference":false,"selected":false,"missing":false,"rawLabel":"Offline","value":"offline","parameters":{"name":"x_1909965_almaconn_session","dependent_values":[""]}},{"label":"Online","image":"","used":false,"reference":false,"selected":false,"missing":false,"rawLabel":"Online","value":"online","parameters":{"name":"x_1909965_almaconn_session","dependent_values":[""]}}],"usedInstances":{"2b3376ca-e761-41fd-b75b-65510eb97ffd":[null]}},{"name":"Created_1.current.scheduled_on","label":"Trigger - Record Created➛Session Record➛Scheduled On","reference":"","reference_display":"Scheduled On","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_1909965_almaconn_session","column_name":"scheduled_on","usedInstances":{"2b3376ca-e761-41fd-b75b-65510eb97ffd":[null]}},{"name":"Created_1.current.alumni_name.alumni_name","label":"Trigger - Record Created➛Session Record➛Alumni Name➛Alumni Name","reference":"","reference_display":"Alumni Name","type":"string","base_type":"string","parent_table_name":"x_1909965_almaconn_alumni","column_name":"alumni_name","usedInstances":{"2b3376ca-e761-41fd-b75b-65510eb97ffd":[null]}},{"name":"Created_1.current.student_name.email","label":"Trigger - Record Created➛Session Record➛Student Name➛Email","reference":"","reference_display":"Email","type":"string","base_type":"string","parent_table_name":"x_1909965_almaconn_student","column_name":"email","usedInstances":{"2b3376ca-e761-41fd-b75b-65510eb97ffd":["ah_cc"]}},{"name":"Created_1.current.student_name.name","label":"Trigger - Record Created➛Session Record➛Student Name➛Student Name","reference":"","reference_display":"Student Name","type":"string","base_type":"string","parent_table_name":"x_1909965_almaconn_student","column_name":"name","usedInstances":{"2b3376ca-e761-41fd-b75b-65510eb97ffd":[null]}},{"name":"Created_1.current","label":"Trigger - Record Created➛Session Record","reference":"x_1909965_almaconn_session","reference_display":"Session","type":"reference","base_type":"reference","usedInstances":{"2b3376ca-e761-41fd-b75b-65510eb97ffd":["record"]},"attributes":{}},{"name":"Created_1.current.session_date","label":"Trigger - Record Created➛Session Record➛Session Date","reference":"","reference_display":"Session Date","type":"glide_date","base_type":"glide_date","parent_table_name":"x_1909965_almaconn_session","column_name":"session_date","usedInstances":{"2b3376ca-e761-41fd-b75b-65510eb97ffd":[null]}}]</label_cache>
         <master_snapshot>a868c822836bb250979271d6feaad3e8</master_snapshot>
         <master_snapshot_digest/>
         <name>Email to student regarding session</name>
@@ -28,7 +28,7 @@
         <sc_callable>false</sc_callable>
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
-        <status>published</status>
+        <status>draft</status>
         <substatus/>
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>katakamlakshmi</sys_created_by>
@@ -36,15 +36,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>75b5c82e832bb250979271d6feaad397</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Email to student regarding session</sys_name>
         <sys_overrides/>
         <sys_package display_value="AlmaConnect" source="x_1909965_almaconn">3882be6183763210979271d6feaad3fc</sys_package>
         <sys_policy/>
         <sys_scope display_value="AlmaConnect">3882be6183763210979271d6feaad3fc</sys_scope>
         <sys_update_name>sys_hub_flow_75b5c82e832bb250979271d6feaad397</sys_update_name>
-        <sys_updated_by>katakamlakshmi</sys_updated_by>
-        <sys_updated_on>2026-03-13 11:49:50</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-14 18:45:36</sys_updated_on>
         <type>flow</type>
         <version>2</version>
     </sys_hub_flow>
@@ -310,17 +310,34 @@
         <sys_created_by>katakamlakshmi</sys_created_by>
         <sys_created_on>2026-03-13 11:41:03</sys_created_on>
         <sys_id>b9184422836bb250979271d6feaad3eb</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="AlmaConnect">3882be6183763210979271d6feaad3fc</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-03-23 11:30:27</sys_updated_on>
+        <sys_updated_on>2026-04-14 18:45:36</sys_updated_on>
         <ui_id>2b3376ca-e761-41fd-b75b-65510eb97ffd</ui_id>
-        <values>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</values>
+        <values>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</values>
     </sys_hub_action_instance_v2>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=b9184422836bb250979271d6feaad3eb"/>
     <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=75b5c82e832bb250979271d6feaad397"/>
     <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=75b5c82e832bb250979271d6feaad397"/>
-    <sys_hub_pill_compound action="delete_multiple" query="attached_to=75b5c82e832bb250979271d6feaad397^sys_idNOT IN31184422836bb250979271d6feaad3ef,7d184422836bb250979271d6feaad3ee,b5184422836bb250979271d6feaad3ee,b5184422836bb250979271d6feaad3ef,f1184422836bb250979271d6feaad3ef"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=75b5c82e832bb250979271d6feaad397^sys_idNOT IN242c563c3b9c03100fc88e0f23e45aff,31184422836bb250979271d6feaad3ef,6c2c563c3b9c03100fc88e0f23e45afe,7d184422836bb250979271d6feaad3ee,b5184422836bb250979271d6feaad3ee,b5184422836bb250979271d6feaad3ef,f1184422836bb250979271d6feaad3ef"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>75b5c82e832bb250979271d6feaad397</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.session_date}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-14 18:45:36</sys_created_on>
+        <sys_id>242c563c3b9c03100fc88e0f23e45aff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="AlmaConnect">3882be6183763210979271d6feaad3fc</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-14 18:45:36</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>d605848c-53a8-4a9f-8880-834769d56dd2</ui_id>
+    </sys_hub_pill_compound>
     <sys_hub_pill_compound action="INSERT_OR_UPDATE">
         <attached_to>75b5c82e832bb250979271d6feaad397</attached_to>
         <extra_info/>
@@ -337,6 +354,23 @@
         <transform_compositions>[]</transform_compositions>
         <transform_definition_id/>
         <ui_id>6f7678af-8cf6-441f-9e4a-71229a9cc4ad</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>75b5c82e832bb250979271d6feaad397</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.meeting_link}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-14 18:45:36</sys_created_on>
+        <sys_id>6c2c563c3b9c03100fc88e0f23e45afe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="AlmaConnect">3882be6183763210979271d6feaad3fc</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-14 18:45:36</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>8cb1c9f6-0320-4ae1-b820-d571e018639f</ui_id>
     </sys_hub_pill_compound>
     <sys_hub_pill_compound action="INSERT_OR_UPDATE">
         <attached_to>75b5c82e832bb250979271d6feaad397</attached_to>
@@ -833,11 +867,11 @@
         <sys_created_on>2026-03-13 11:42:20</sys_created_on>
         <sys_id>3468c822836bb250979271d6feaad3f8</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Table Name</sys_name>
         <sys_package display_value="AlmaConnect" source="x_1909965_almaconn">3882be6183763210979271d6feaad3fc</sys_package>
         <sys_policy/>
         <sys_scope display_value="AlmaConnect">3882be6183763210979271d6feaad3fc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_a868c822836bb250979271d6feaad3e8_table_name_en</sys_update_name>
         <sys_updated_by>katakamlakshmi</sys_updated_by>
         <sys_updated_on>2026-03-13 11:42:20</sys_updated_on>
         <url/>
@@ -856,11 +890,11 @@
         <sys_created_on>2026-03-13 11:42:20</sys_created_on>
         <sys_id>fc68c822836bb250979271d6feaad3f1</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Record</sys_name>
         <sys_package display_value="AlmaConnect" source="x_1909965_almaconn">3882be6183763210979271d6feaad3fc</sys_package>
         <sys_policy/>
         <sys_scope display_value="AlmaConnect">3882be6183763210979271d6feaad3fc</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_a868c822836bb250979271d6feaad3e8_current_en</sys_update_name>
         <sys_updated_by>katakamlakshmi</sys_updated_by>
         <sys_updated_on>2026-03-13 11:42:20</sys_updated_on>
         <url/>
@@ -879,7 +913,7 @@
         <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
         <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"3c680c22836bb250979271d6feaad31a","name":"plan","plan_signature":null}}</plan>
         <plan_id>75b5c82e832bb250979271d6feaad397</plan_id>
-        <snapshot>849523e58337f210979271d6feaad387</snapshot>
+        <snapshot>b283c27c3b1c03100fc88e0f23e45a98</snapshot>
         <sys_created_by>katakamlakshmi</sys_created_by>
         <sys_created_on>2026-03-13 11:42:21</sys_created_on>
         <sys_domain>global</sys_domain>

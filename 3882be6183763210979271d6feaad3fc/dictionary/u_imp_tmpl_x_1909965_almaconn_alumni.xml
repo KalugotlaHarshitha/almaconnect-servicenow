@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="8ee9b9703b1c03100fc88e0f23e45afd" extends="sys_import_set_row" label="Imp Tmpl X 1909965 Almaconn Alumni" max_length="40" name="u_imp_tmpl_x_1909965_almaconn_alumni" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Availability" label="Availability" max_length="40" name="u_availability" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Company" label="Company" max_length="30" name="u_company" type="string"/>
+        <element attributes="import_attribute_name=Graduation year" label="Graduation year" max_length="40" name="u_graduation_year" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Alumni Name" label="Alumni Name" max_length="40" name="u_alumni_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Skills" label="Skills" max_length="40" name="u_skills" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Email" label="Email" max_length="40" name="u_email" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=User" label="User" max_length="32" name="u_user" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Department" label="Department" max_length="40" name="u_department" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=AlumniID" label="AlumniID" max_length="40" name="u_alumniid" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Status" label="Status" max_length="40" name="u_status" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Job Title" label="Job Title" max_length="20" name="u_job_title" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Phone" label="Phone" max_length="10" name="u_phone" type="string"/>
+    </element>
+</database>

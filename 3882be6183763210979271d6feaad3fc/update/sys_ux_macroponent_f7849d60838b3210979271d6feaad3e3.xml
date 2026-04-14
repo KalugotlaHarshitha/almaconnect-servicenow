@@ -4547,20 +4547,20 @@
                             },
                             {
                                 "definition": {
-                                    "id": "d37ce8abca89d02905fed903c8e34d8e",
+                                    "id": "66ee7d86e81f696c9f9be19d8424cc0d",
                                     "type": "MACROPONENT"
                                 },
-                                "elementId": "button_1",
-                                "elementLabel": "Button 1",
+                                "elementId": "list_2",
+                                "elementLabel": "List 2",
                                 "eventMappings": [
                                     {
-                                        "eventMappingId": "cmnfflchhrddaaaaxfddjiidddgbcchngb",
+                                        "eventMappingId": "cmnyydsvfaaccrjddjiidzhhccbhhccnb",
                                         "isConfiguration": false,
                                         "offRowStorageId": null,
-                                        "sourceEventApiName": "sn_button.NOW_BUTTON#CLICKED",
+                                        "sourceEventApiName": "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#CREATE_NEW_RECORD",
                                         "sourceEventCorrelationId": null,
                                         "sourceEventDefinition": {
-                                            "apiName": "sn_button.NOW_BUTTON#CLICKED",
+                                            "apiName": "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#CREATE_NEW_RECORD",
                                             "id": null,
                                             "type": "UXEVENT"
                                         },
@@ -4576,16 +4576,14 @@
                                                     "payload": {
                                                         "type": "JSON_LITERAL",
                                                         "value": {
-                                                            "external": {
-                                                                "url": "https://dev292608.service-now.com/now/nav/ui/classic/params/target/x_1909965_almaconn_mentorship_request_table_list.do"
-                                                            },
+                                                            "external": null,
                                                             "fields": null,
                                                             "multiInstField": null,
                                                             "navigationOptions": null,
                                                             "params": null,
                                                             "passiveNavigation": null,
                                                             "redirect": null,
-                                                            "route": null,
+                                                            "route": "student-form1",
                                                             "targetRoute": null,
                                                             "title": null
                                                         }
@@ -4593,7 +4591,7 @@
                                                     "sysId": "2a063c9483a33a10979271d6feaad34b"
                                                 },
                                                 "operation": null,
-                                                "targetId": "cmnfflchhrddaaaaxgddjiidcoueeuicff",
+                                                "targetId": "cmnyydsvfaaccrkddjiidddyiieehhjbaa",
                                                 "type": "EVENT"
                                             }
                                         ]
@@ -4605,49 +4603,320 @@
                                 },
                                 "preset": null,
                                 "propertyValues": {
-                                    "animatedIcon": {
+                                    "actionConfigId": {
                                         "type": "JSON_LITERAL",
-                                        "value": null
+                                        "value": ""
                                     },
-                                    "configAria": {
-                                        "type": "JSON_LITERAL",
-                                        "value": null
-                                    },
-                                    "disabled": {
+                                    "allRecordsSelected": {
                                         "type": "JSON_LITERAL",
                                         "value": false
                                     },
-                                    "icon": {
+                                    "columnPreferenceKey": {
+                                        "type": "JSON_LITERAL",
+                                        "value": ""
+                                    },
+                                    "columns": {
+                                        "type": "JSON_LITERAL",
+                                        "value": ""
+                                    },
+                                    "daClientActionContract": {
                                         "type": "JSON_LITERAL",
                                         "value": null
                                     },
-                                    "label": {
-                                        "type": "TRANSLATION_LITERAL",
-                                        "value": {
-                                            "code": null,
-                                            "comment": "",
-                                            "message": "Request a Mentor"
-                                        }
-                                    },
-                                    "landmark": {
+                                    "error": {
                                         "type": "JSON_LITERAL",
-                                        "value": null
+                                        "value": {}
                                     },
-                                    "size": {
+                                    "exceptedRecords": {
+                                        "type": "JSON_LITERAL",
+                                        "value": []
+                                    },
+                                    "fixedQuery": {
+                                        "type": "JSON_LITERAL",
+                                        "value": ""
+                                    },
+                                    "groupByField": {
+                                        "type": "JSON_LITERAL",
+                                        "value": ""
+                                    },
+                                    "headerSize": {
                                         "type": "JSON_LITERAL",
                                         "value": "md"
                                     },
-                                    "tooltipContent": {
+                                    "headingLevel": {
+                                        "type": "JSON_LITERAL",
+                                        "value": 1
+                                    },
+                                    "hideCellFilter": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideCheckboxHover": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideColumnFiltering": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideColumnGrouping": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideColumnReorder": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideColumnResizing": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideColumnSorting": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideDeclarativeActions": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideDotwalk": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideDragDrop": {
+                                        "type": "JSON_LITERAL",
+                                        "value": true
+                                    },
+                                    "hideEmptyStateImage": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideFilterPanel": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideFirstPage": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideHeader": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideHighlightContent": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideHighlightedValues": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideInlineEditing": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideLastPage": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideLastRefreshedText": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideLimitSelector": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideLinks": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideListSharing": {
+                                        "type": "JSON_LITERAL",
+                                        "value": true
+                                    },
+                                    "hideMenuButton": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideNextPage": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideOptionToSaveAs": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hidePages": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hidePagination": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hidePanelAdvanced": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hidePanelConditionDelete": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hidePanelFooter": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hidePanelRestore": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hidePersonalization": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hidePreviousPage": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideQuickEdit": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideRange": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideRefreshButton": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideRowCount": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideRowSelector": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideSelectAll": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideTitle": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideTitleRowCount": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hideUnnecessaryRowSelectors": {
+                                        "type": "JSON_LITERAL",
+                                        "value": true
+                                    },
+                                    "highlightContent": {
+                                        "type": "JSON_LITERAL",
+                                        "value": {
+                                            "color": "",
+                                            "patterns": []
+                                        }
+                                    },
+                                    "highlightedValueConfigId": {
+                                        "type": "JSON_LITERAL",
+                                        "value": ""
+                                    },
+                                    "isRefList": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "limit": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "listMenuOpen": {
+                                        "type": "JSON_LITERAL",
+                                        "value": true
+                                    },
+                                    "listTitle": {
                                         "type": "TRANSLATION_LITERAL",
                                         "value": {
                                             "code": null,
                                             "comment": "",
-                                            "message": "Enter a label"
+                                            "message": "All Active Tasks"
                                         }
                                     },
-                                    "variant": {
+                                    "maxCharLimit": {
                                         "type": "JSON_LITERAL",
-                                        "value": "primary-positive"
+                                        "value": 4000
+                                    },
+                                    "maxColumns": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "menuSelection": {
+                                        "type": "JSON_LITERAL",
+                                        "value": ""
+                                    },
+                                    "nrlLandmark": {
+                                        "type": "JSON_LITERAL",
+                                        "value": true
+                                    },
+                                    "overrideWordWrapUserPref": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "page": {
+                                        "type": "JSON_LITERAL",
+                                        "value": 1
+                                    },
+                                    "query": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "active=true"
+                                    },
+                                    "recordSelectedQuery": {
+                                        "type": "JSON_LITERAL",
+                                        "value": ""
+                                    },
+                                    "recordSelectedSysId": {
+                                        "type": "JSON_LITERAL",
+                                        "value": ""
+                                    },
+                                    "recordSelectedTable": {
+                                        "type": "JSON_LITERAL",
+                                        "value": ""
+                                    },
+                                    "recordSelectedView": {
+                                        "type": "JSON_LITERAL",
+                                        "value": ""
+                                    },
+                                    "refreshRequested": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "selectedListId": {
+                                        "type": "JSON_LITERAL",
+                                        "value": ""
+                                    },
+                                    "selectedRecords": {
+                                        "type": "JSON_LITERAL",
+                                        "value": []
+                                    },
+                                    "table": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "x_1909965_almaconn_mentorship_request_table"
+                                    },
+                                    "tiny": {
+                                        "type": "JSON_LITERAL",
+                                        "value": ""
+                                    },
+                                    "view": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "Default"
+                                    },
+                                    "wordWrap": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
                                     }
                                 },
                                 "slot": null,
@@ -4672,212 +4941,6 @@
                                         "value": "lg"
                                     },
                                     "fullWidth": {
-                                        "type": "JSON_LITERAL",
-                                        "value": false
-                                    }
-                                },
-                                "slot": null,
-                                "styles": null
-                            },
-                            {
-                                "definition": {
-                                    "id": "2b1c080881e05dc63b917044290b233f",
-                                    "type": "MACROPONENT"
-                                },
-                                "elementId": "list___simple_1",
-                                "elementLabel": "List - Simple 1",
-                                "eventMappings": [],
-                                "isHidden": {
-                                    "type": "JSON_LITERAL",
-                                    "value": null
-                                },
-                                "preset": null,
-                                "propertyValues": {
-                                    "bare": {
-                                        "type": "JSON_LITERAL",
-                                        "value": true
-                                    },
-                                    "columnPreferenceKey": {
-                                        "type": "JSON_LITERAL",
-                                        "value": ""
-                                    },
-                                    "columns": {
-                                        "type": "JSON_LITERAL",
-                                        "value": "alumni_name.alumni_name,requested_on,mentorship_topics,preferred_mode,status"
-                                    },
-                                    "fixedQuery": {
-                                        "transform": {
-                                            "operands": {
-                                                "container": [
-                                                    {
-                                                        "type": "JSON_LITERAL",
-                                                        "value": "student_name.student_user.user_name="
-                                                    },
-                                                    {
-                                                        "binding": {
-                                                            "address": [
-                                                                "user",
-                                                                "userName"
-                                                            ],
-                                                            "category": "session"
-                                                        },
-                                                        "type": "CONTEXT_BINDING"
-                                                    },
-                                                    {
-                                                        "type": "JSON_LITERAL",
-                                                        "value": "^status=pending"
-                                                    }
-                                                ],
-                                                "type": "LIST_CONTAINER"
-                                            },
-                                            "operator": "CONCAT"
-                                        },
-                                        "type": "CLIENT_TRANSFORM"
-                                    },
-                                    "followFilters": {
-                                        "type": "JSON_LITERAL",
-                                        "value": true
-                                    },
-                                    "groupByField": {
-                                        "type": "JSON_LITERAL",
-                                        "value": null
-                                    },
-                                    "hideColumnFiltering": {
-                                        "type": "JSON_LITERAL",
-                                        "value": false
-                                    },
-                                    "hideColumnGrouping": {
-                                        "type": "JSON_LITERAL",
-                                        "value": false
-                                    },
-                                    "hideColumnReorder": {
-                                        "type": "JSON_LITERAL",
-                                        "value": false
-                                    },
-                                    "hideColumnResizing": {
-                                        "type": "JSON_LITERAL",
-                                        "value": false
-                                    },
-                                    "hideColumnSorting": {
-                                        "type": "JSON_LITERAL",
-                                        "value": false
-                                    },
-                                    "hideDotwalk": {
-                                        "type": "JSON_LITERAL",
-                                        "value": false
-                                    },
-                                    "hideEmptyStateImage": {
-                                        "type": "JSON_LITERAL",
-                                        "value": false
-                                    },
-                                    "hideHeader": {
-                                        "type": "JSON_LITERAL",
-                                        "value": false
-                                    },
-                                    "hideHighlightContent": {
-                                        "type": "JSON_LITERAL",
-                                        "value": false
-                                    },
-                                    "hideHighlightedValues": {
-                                        "type": "JSON_LITERAL",
-                                        "value": false
-                                    },
-                                    "hideInlineEditing": {
-                                        "type": "JSON_LITERAL",
-                                        "value": false
-                                    },
-                                    "hideLastRefreshedText": {
-                                        "type": "JSON_LITERAL",
-                                        "value": false
-                                    },
-                                    "hideLinks": {
-                                        "type": "JSON_LITERAL",
-                                        "value": false
-                                    },
-                                    "hidePersonalization": {
-                                        "type": "JSON_LITERAL",
-                                        "value": false
-                                    },
-                                    "hideRefreshButton": {
-                                        "type": "JSON_LITERAL",
-                                        "value": false
-                                    },
-                                    "hideRowSelector": {
-                                        "type": "JSON_LITERAL",
-                                        "value": false
-                                    },
-                                    "hideTitle": {
-                                        "type": "JSON_LITERAL",
-                                        "value": false
-                                    },
-                                    "hideTitleRowCount": {
-                                        "type": "JSON_LITERAL",
-                                        "value": false
-                                    },
-                                    "hideViewAll": {
-                                        "type": "JSON_LITERAL",
-                                        "value": false
-                                    },
-                                    "highlightContent": {
-                                        "type": "JSON_LITERAL",
-                                        "value": {
-                                            "color": "",
-                                            "patterns": []
-                                        }
-                                    },
-                                    "highlightedValueConfigId": {
-                                        "type": "JSON_LITERAL",
-                                        "value": ""
-                                    },
-                                    "isDashboard": {
-                                        "type": "JSON_LITERAL",
-                                        "value": false
-                                    },
-                                    "limit": {
-                                        "type": "JSON_LITERAL",
-                                        "value": null
-                                    },
-                                    "listTitle": {
-                                        "type": "TRANSLATION_LITERAL",
-                                        "value": {
-                                            "code": null,
-                                            "comment": "",
-                                            "message": "Requests"
-                                        }
-                                    },
-                                    "maxCharLimit": {
-                                        "type": "JSON_LITERAL",
-                                        "value": 4000
-                                    },
-                                    "maxColumns": {
-                                        "type": "JSON_LITERAL",
-                                        "value": 5
-                                    },
-                                    "nrlLandmark": {
-                                        "type": "JSON_LITERAL",
-                                        "value": true
-                                    },
-                                    "overrideWordWrapUserPref": {
-                                        "type": "JSON_LITERAL",
-                                        "value": false
-                                    },
-                                    "query": {
-                                        "type": "JSON_LITERAL",
-                                        "value": "active=true"
-                                    },
-                                    "refreshRequested": {
-                                        "type": "JSON_LITERAL",
-                                        "value": null
-                                    },
-                                    "showBorder": {
-                                        "type": "JSON_LITERAL",
-                                        "value": false
-                                    },
-                                    "table": {
-                                        "type": "JSON_LITERAL",
-                                        "value": "x_1909965_almaconn_mentorship_request_table"
-                                    },
-                                    "wordWrap": {
                                         "type": "JSON_LITERAL",
                                         "value": false
                                     }
@@ -4913,32 +4976,12 @@
                                         }
                                     },
                                     {
-                                        "element_id": "button_1",
+                                        "element_id": "list_2",
                                         "styles": {}
                                     },
                                     {
                                         "element_id": "card_base_divider_3",
                                         "styles": {}
-                                    },
-                                    {
-                                        "element_id": "list___simple_1",
-                                        "styles": {
-                                            "background": "#FFFFFF",
-                                            "background-color": "#8fd3f4",
-                                            "border-bottom": "2px solid #F3F4F6",
-                                            "flex": "none",
-                                            "font-size": "13px",
-                                            "font-weight": "600",
-                                            "height": "400px",
-                                            "letter-spacing": "-0.5px",
-                                            "margin-bottom": "8px",
-                                            "margin-left": "0",
-                                            "margin-right": "var(--now-scalable-space--lg)",
-                                            "margin-top": "0",
-                                            "padding-right": "var(--now-scalable-space--sm)",
-                                            "text-align": "center",
-                                            "text-transform": "uppercase"
-                                        }
                                     }
                                 ],
                                 "root": null,
@@ -5755,6 +5798,9 @@
         <output_prop_mapping/>
         <props>[]</props>
         <required_translations>[ {
+  "message" : "All Active Tasks",
+  "comment" : ""
+}, {
   "message" : "Alumni - Student Mentorship Platform",
   "comment" : ""
 }, {
@@ -5803,13 +5849,7 @@
   "message" : "Recent Activity ",
   "comment" : ""
 }, {
-  "message" : "Request a Mentor",
-  "comment" : ""
-}, {
   "message" : "Request for Mentorship with Alumni's",
-  "comment" : ""
-}, {
-  "message" : "Requests",
   "comment" : ""
 }, {
   "message" : "Requests Sent",
@@ -5851,14 +5891,14 @@
         <sys_created_by>katakamlakshmi</sys_created_by>
         <sys_created_on>2026-02-10 15:35:54</sys_created_on>
         <sys_id>f7849d60838b3210979271d6feaad3e3</sys_id>
-        <sys_mod_count>66</sys_mod_count>
+        <sys_mod_count>69</sys_mod_count>
         <sys_name>Default</sys_name>
         <sys_package display_value="AlmaConnect" source="x_1909965_almaconn">3882be6183763210979271d6feaad3fc</sys_package>
         <sys_policy/>
         <sys_scope display_value="AlmaConnect">3882be6183763210979271d6feaad3fc</sys_scope>
         <sys_update_name>sys_ux_macroponent_f7849d60838b3210979271d6feaad3e3</sys_update_name>
-        <sys_updated_by>katakamlakshmi</sys_updated_by>
-        <sys_updated_on>2026-03-25 05:16:29</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-14 18:28:02</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=f7849d60838b3210979271d6feaad3e3"/>
 </record_update>
